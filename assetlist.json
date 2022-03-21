@@ -9,7 +9,7 @@
     "rpcURL": "https://rpc.testnet.bitsong.network",
     "explorerURL": "https://www.mintscan.io/bitsong/",
     "minBlockHeight": 1,
-    "stakingDenom": "BTSG",
+    "symbol": "BTSG",
     "ibcDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
     "coinLookup": [
       {
@@ -21,8 +21,11 @@
     "addressPrefix": "bitsong",
     "coinGeckoId": "bitsong",
     "coinType": 639,
-    "sourceChannelId": "channel-194",
-    "destChannelId": "channel-2",
+    "ibc": {
+      "sourceChannelId": "channel-194",
+      "destChannelId": "channel-2",
+      "sourceDenom": "ubtsg"
+    },
     "ibcEnabled": true
   },
   "tokens": [
@@ -36,7 +39,7 @@
       "rpcURL": "https://testnet-rpc.osmosis.zone",
       "explorerURL": "https://www.mintscan.io/osmosis/",
       "minBlockHeight": 1,
-      "stakingDenom": "OSMO",
+      "symbol": "OSMO",
       "ibcDenom": "uosmo",
       "coinLookup": [
         {
