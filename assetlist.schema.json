@@ -68,7 +68,6 @@
           "symbol": "CLAY",
           "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
           "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
-          "maxSupply": "999999999999",
           "socials": {
             "mailchimpID": "",
             "links": [
@@ -94,13 +93,13 @@
               "title": "Project Title",
               "content": "Project Content"
             },
-            "useCase": {
+            "useCases": {
               "title": "useCase Title",
               "content": "useCase Content",
-              "list": [
+              "cases": [
                 {
                   "title": "One",
-                  "shortDescription": "description"
+                  "content": "description"
                 }
               ]
             },
@@ -108,11 +107,11 @@
               "title": "useCase Title",
               "totalSupply": "9999999",
               "initialMarketcap": "9999999",
-              "list": [
+              "quantities": [
                 {
                   "title": "One",
                   "percentage": "10%",
-                  "shortDescription": "description"
+                  "content": "description"
                 }
               ],
               "vestingTokens": "10 years"
@@ -172,7 +171,6 @@
               "chainToViewConversionFactor": 1e-6
             }
           ],
-          "chainToViewConversionFactor": 1e-6,
           "addressPrefix": "bitsong",
           "coinGeckoId": "bitsong",
           "coinType": 639,
@@ -192,7 +190,6 @@
         "stakingDenom",
         "ibcDenom",
         "coinLookup",
-        "chainToViewConversionFactor",
         "addressPrefix",
         "coinGeckoId",
         "coinType",
@@ -360,14 +357,6 @@
               }
             ]
           }
-        },
-        "chainToViewConversionFactor": {
-          "$id": "#/properties/mainToken/properties/chainToViewConversionFactor",
-          "type": "number",
-          "title": "The chainToViewConversionFactor schema",
-          "description": "An explanation about the purpose of this instance.",
-          "default": 0.0,
-          "examples": [1e-6]
         },
         "addressPrefix": {
           "$id": "#/properties/mainToken/properties/addressPrefix",
@@ -719,7 +708,6 @@
             "symbol": "CLAY",
             "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
             "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
-            "maxSupply": "999999999999",
             "socials": {
               "mailchimpID": "",
               "links": [
@@ -745,13 +733,13 @@
                 "title": "Project Title",
                 "content": "Project Content"
               },
-              "useCase": {
+              "useCases": {
                 "title": "useCase Title",
                 "content": "useCase Content",
-                "list": [
+                "cases": [
                   {
                     "title": "One",
-                    "shortDescription": "description"
+                    "content": "description"
                   }
                 ]
               },
@@ -759,11 +747,11 @@
                 "title": "useCase Title",
                 "totalSupply": "9999999",
                 "initialMarketcap": "9999999",
-                "list": [
+                "quantities": [
                   {
                     "title": "One",
                     "percentage": "10%",
-                    "shortDescription": "description"
+                    "content": "description"
                   }
                 ],
                 "vestingTokens": "10 years"
@@ -807,7 +795,6 @@
                 "symbol": "CLAY",
                 "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
                 "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
-                "maxSupply": "999999999999",
                 "socials": {
                   "mailchimpID": "",
                   "links": [
@@ -833,13 +820,13 @@
                     "title": "Project Title",
                     "content": "Project Content"
                   },
-                  "useCase": {
+                  "useCases": {
                     "title": "useCase Title",
                     "content": "useCase Content",
-                    "list": [
+                    "cases": [
                       {
                         "title": "One",
-                        "shortDescription": "description"
+                        "content": "description"
                       }
                     ]
                   },
@@ -847,11 +834,11 @@
                     "title": "useCase Title",
                     "totalSupply": "9999999",
                     "initialMarketcap": "9999999",
-                    "list": [
+                    "quantities": [
                       {
                         "title": "One",
                         "percentage": "10%",
-                        "shortDescription": "description"
+                        "content": "description"
                       }
                     ],
                     "vestingTokens": "10 years"
@@ -881,7 +868,6 @@
               "symbol",
               "denom",
               "ibcDenom",
-              "maxSupply",
               "socials",
               "media",
               "whitepaper"
@@ -946,14 +932,6 @@
                 "examples": [
                   "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326"
                 ]
-              },
-              "maxSupply": {
-                "$id": "#/properties/fantokens/items/anyOf/0/properties/maxSupply",
-                "type": "string",
-                "title": "The maxSupply schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["999999999999"]
               },
               "socials": {
                 "$id": "#/properties/fantokens/items/anyOf/0/properties/socials",
@@ -1087,13 +1065,13 @@
                       "title": "Project Title",
                       "content": "Project Content"
                     },
-                    "useCase": {
+                    "useCases": {
                       "title": "useCase Title",
                       "content": "useCase Content",
-                      "list": [
+                      "cases": [
                         {
                           "title": "One",
-                          "shortDescription": "description"
+                          "content": "description"
                         }
                       ]
                     },
@@ -1101,11 +1079,11 @@
                       "title": "useCase Title",
                       "totalSupply": "9999999",
                       "initialMarketcap": "9999999",
-                      "list": [
+                      "quantities": [
                         {
                           "title": "One",
                           "percentage": "10%",
-                          "shortDescription": "description"
+                          "content": "description"
                         }
                       ],
                       "vestingTokens": "10 years"
@@ -1131,7 +1109,7 @@
                 "required": [
                   "biography",
                   "project",
-                  "useCase",
+                  "useCases",
                   "tokenomics",
                   "roadmap"
                 ],
@@ -1204,28 +1182,28 @@
                     },
                     "additionalProperties": true
                   },
-                  "useCase": {
-                    "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase",
+                  "useCases": {
+                    "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases",
                     "type": "object",
-                    "title": "The useCase schema",
+                    "title": "The useCases schema",
                     "description": "An explanation about the purpose of this instance.",
                     "default": {},
                     "examples": [
                       {
                         "title": "useCase Title",
                         "content": "useCase Content",
-                        "list": [
+                        "cases": [
                           {
                             "title": "One",
-                            "shortDescription": "description"
+                            "content": "description"
                           }
                         ]
                       }
                     ],
-                    "required": ["title", "content", "list"],
+                    "required": ["title", "content", "cases"],
                     "properties": {
                       "title": {
-                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/title",
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/title",
                         "type": "string",
                         "title": "The title schema",
                         "description": "An explanation about the purpose of this instance.",
@@ -1233,33 +1211,33 @@
                         "examples": ["useCase Title"]
                       },
                       "content": {
-                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/content",
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/content",
                         "type": "string",
                         "title": "The content schema",
                         "description": "An explanation about the purpose of this instance.",
                         "default": "",
                         "examples": ["useCase Content"]
                       },
-                      "list": {
-                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/list",
+                      "cases": {
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/cases",
                         "type": "array",
-                        "title": "The list schema",
+                        "title": "The cases schema",
                         "description": "An explanation about the purpose of this instance.",
                         "default": [],
                         "examples": [
                           [
                             {
                               "title": "One",
-                              "shortDescription": "description"
+                              "content": "description"
                             }
                           ]
                         ],
                         "additionalItems": true,
                         "items": {
-                          "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/list/items",
+                          "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/cases/items",
                           "anyOf": [
                             {
-                              "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/list/items/anyOf/0",
+                              "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/cases/items/anyOf/0",
                               "type": "object",
                               "title": "The first anyOf schema",
                               "description": "An explanation about the purpose of this instance.",
@@ -1267,23 +1245,23 @@
                               "examples": [
                                 {
                                   "title": "One",
-                                  "shortDescription": "description"
+                                  "content": "description"
                                 }
                               ],
-                              "required": ["title", "shortDescription"],
+                              "required": ["title", "content"],
                               "properties": {
                                 "title": {
-                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/list/items/anyOf/0/properties/title",
+                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/cases/items/anyOf/0/properties/title",
                                   "type": "string",
                                   "title": "The title schema",
                                   "description": "An explanation about the purpose of this instance.",
                                   "default": "",
                                   "examples": ["One"]
                                 },
-                                "shortDescription": {
-                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCase/properties/list/items/anyOf/0/properties/shortDescription",
+                                "content": {
+                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/useCases/properties/cases/items/anyOf/0/properties/content",
                                   "type": "string",
-                                  "title": "The shortDescription schema",
+                                  "title": "The content schema",
                                   "description": "An explanation about the purpose of this instance.",
                                   "default": "",
                                   "examples": ["description"]
@@ -1308,11 +1286,11 @@
                         "title": "useCase Title",
                         "totalSupply": "9999999",
                         "initialMarketcap": "9999999",
-                        "list": [
+                        "quantities": [
                           {
                             "title": "One",
                             "percentage": "10%",
-                            "shortDescription": "description"
+                            "content": "description"
                           }
                         ],
                         "vestingTokens": "10 years"
@@ -1322,7 +1300,7 @@
                       "title",
                       "totalSupply",
                       "initialMarketcap",
-                      "list",
+                      "quantities",
                       "vestingTokens"
                     ],
                     "properties": {
@@ -1350,10 +1328,10 @@
                         "default": "",
                         "examples": ["9999999"]
                       },
-                      "list": {
-                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/list",
+                      "quantities": {
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/quantities",
                         "type": "array",
-                        "title": "The list schema",
+                        "title": "The quantities schema",
                         "description": "An explanation about the purpose of this instance.",
                         "default": [],
                         "examples": [
@@ -1361,16 +1339,16 @@
                             {
                               "title": "One",
                               "percentage": "10%",
-                              "shortDescription": "description"
+                              "content": "description"
                             }
                           ]
                         ],
                         "additionalItems": true,
                         "items": {
-                          "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/list/items",
+                          "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/quantities/items",
                           "anyOf": [
                             {
-                              "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/list/items/anyOf/0",
+                              "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/quantities/items/anyOf/0",
                               "type": "object",
                               "title": "The first anyOf schema",
                               "description": "An explanation about the purpose of this instance.",
@@ -1379,17 +1357,13 @@
                                 {
                                   "title": "One",
                                   "percentage": "10%",
-                                  "shortDescription": "description"
+                                  "content": "description"
                                 }
                               ],
-                              "required": [
-                                "title",
-                                "percentage",
-                                "shortDescription"
-                              ],
+                              "required": ["title", "percentage", "content"],
                               "properties": {
                                 "title": {
-                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/list/items/anyOf/0/properties/title",
+                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/quantities/items/anyOf/0/properties/title",
                                   "type": "string",
                                   "title": "The title schema",
                                   "description": "An explanation about the purpose of this instance.",
@@ -1397,17 +1371,17 @@
                                   "examples": ["One"]
                                 },
                                 "percentage": {
-                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/list/items/anyOf/0/properties/percentage",
+                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/quantities/items/anyOf/0/properties/percentage",
                                   "type": "string",
                                   "title": "The percentage schema",
                                   "description": "An explanation about the purpose of this instance.",
                                   "default": "",
                                   "examples": ["10%"]
                                 },
-                                "shortDescription": {
-                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/list/items/anyOf/0/properties/shortDescription",
+                                "content": {
+                                  "$id": "#/properties/fantokens/items/anyOf/0/properties/whitepaper/properties/tokenomics/properties/quantities/items/anyOf/0/properties/content",
                                   "type": "string",
-                                  "title": "The shortDescription schema",
+                                  "title": "The content schema",
                                   "description": "An explanation about the purpose of this instance.",
                                   "default": "",
                                   "examples": ["description"]

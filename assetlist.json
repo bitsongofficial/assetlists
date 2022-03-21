@@ -60,7 +60,6 @@
       "symbol": "CLAY",
       "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
       "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
-      "maxSupply": "999999999999",
       "socials": {
         "mailchimpID": "",
         "links": [
@@ -86,13 +85,13 @@
           "title": "Project Title",
           "content": "Project Content"
         },
-        "useCase": {
+        "useCases": {
           "title": "useCase Title",
           "content": "useCase Content",
-          "list": [
+          "cases": [
             {
               "title": "One",
-              "shortDescription": "description"
+              "content": "description"
             }
           ]
         },
@@ -100,11 +99,11 @@
           "title": "useCase Title",
           "totalSupply": "9999999",
           "initialMarketcap": "9999999",
-          "list": [
+          "quantities": [
             {
               "title": "One",
               "percentage": "10%",
-              "shortDescription": "description"
+              "content": "description"
             }
           ],
           "vestingTokens": "10 years"
