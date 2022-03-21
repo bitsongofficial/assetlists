@@ -1,70 +1,138 @@
 {
-    "mainToken": {
-        "chainID": "bigbang-test-3",
-        "logos": {
-            "svg": ""
-        },
-        "name": "BitSong Testnet",
-        "apiURL": "https://api.testnet.bitsong.network",
-        "rpcURL": "https://rpc.testnet.bitsong.network",
-        "explorerURL": "https://www.mintscan.io/bitsong/",
-        "minBlockHeight": 1,
-        "stakingDenom": "BTSG",
-        "coinLookup": [{
-            "viewDenom": "BTSG",
-            "chainDenom": "ubtsg",
-            "chainToViewConversionFactor": 1e-6
-        }],
-        "chainToViewConversionFactor": 1e-6,
-        "addressPrefix": "bitsong",
-        "coinGeckoId": "bitsong",
-        "coinType": 639
+  "mainToken": {
+    "chainID": "bigbang-test-3",
+    "logos": {
+      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
     },
-    "tokens": [{
-        "chainID": "osmosis-test-4",
-        "logos": {
-            "svg": ""
+    "name": "BitSong Testnet",
+    "apiURL": "https://api.testnet.bitsong.network",
+    "rpcURL": "https://rpc.testnet.bitsong.network",
+    "explorerURL": "https://www.mintscan.io/bitsong/",
+    "minBlockHeight": 1,
+    "stakingDenom": "BTSG",
+    "ibcDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+    "coinLookup": [
+      {
+        "viewDenom": "BTSG",
+        "chainDenom": "ubtsg",
+        "chainToViewConversionFactor": 1e-6
+      }
+    ],
+    "chainToViewConversionFactor": 1e-6,
+    "addressPrefix": "bitsong",
+    "coinGeckoId": "bitsong",
+    "coinType": 639,
+    "sourceChannelId": "channel-194",
+    "destChannelId": "channel-2",
+    "ibcEnabled": true
+  },
+  "tokens": [
+    {
+      "chainID": "osmosis-test-4",
+      "logos": {
+        "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+      },
+      "name": "Osmosis Testnet",
+      "apiURL": "https://testnet-rest.osmosis.zone",
+      "rpcURL": "https://testnet-rpc.osmosis.zone",
+      "explorerURL": "https://www.mintscan.io/osmosis/",
+      "minBlockHeight": 1,
+      "stakingDenom": "OSMO",
+      "ibcDenom": "uosmo",
+      "coinLookup": [
+        {
+          "viewDenom": "OSMO",
+          "chainDenom": "uosmo",
+          "chainToViewConversionFactor": 1e-6
+        }
+      ],
+      "addressPrefix": "osmo",
+      "coinGeckoId": "osmosis",
+      "coinType": 118,
+      "ibcEnabled": false
+    }
+  ],
+  "fantokens": [
+    {
+      "logos": {
+        "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/atom.svg"
+      },
+      "name": "Adam Clay",
+      "symbol": "CLAY",
+      "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+      "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+      "maxSupply": "999999999999",
+      "socials": {
+        "mailchimpID": "",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "type": "facebook",
+            "url": "https://www.facebook.com/"
+          }
+        ]
+      },
+      "media": {
+        "hero": ""
+      },
+      "whitepaper": {
+        "biography": {
+          "title": "BitSong introduces: Adam Clay",
+          "content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
         },
-        "name": "Osmosis Testnet",
-        "apiURL": "https://testnet-rest.osmosis.zone",
-        "rpcURL": "https://testnet-rpc.osmosis.zone",
-        "explorerURL": "https://www.mintscan.io/osmosis/",
-        "minBlockHeight": 1,
-        "stakingDenom": "OSMO",
-        "coinLookup": [{
-            "viewDenom": "OSMO",
-            "chainDenom": "uosmo",
-            "chainToViewConversionFactor": 1e-6
-        }],
-        "addressPrefix": "osmo",
-        "coinGeckoId": "osmosis",
-        "coinType": 118
-    }],
-    "fantokens": [{
-        "logos": {
-            "svg": ""
+        "project": {
+          "title": "Project Title",
+          "content": "Project Content"
         },
-        "name": "Adam Clay",
-        "symbol": "CLAY",
-        "denom": "",
-        "maxSupply": "999999999999",
-        "socials": {
-            "mailchimpID": "",
-            "links": [{
-                    "type": "instagram",
-                    "url": "https://www.instagram.com/"
+        "useCase": {
+          "title": "useCase Title",
+          "content": "useCase Content",
+          "list": [
+            {
+              "title": "One",
+              "shortDescription": "description"
+            }
+          ]
+        },
+        "tokenomics": {
+          "title": "useCase Title",
+          "totalSupply": "9999999",
+          "initialMarketcap": "9999999",
+          "list": [
+            {
+              "title": "One",
+              "percentage": "10%",
+              "shortDescription": "description"
+            }
+          ],
+          "vestingTokens": "10 years"
+        },
+        "roadmap": {
+          "list": [
+            {
+              "title": "One",
+              "time": "Q1 2022",
+              "events": [
+                {
+                  "description": "Event 1"
                 },
                 {
-                    "type": "facebook",
-                    "url": "https://www.facebook.com/"
+                  "description": "Event 2"
                 }
-            ]
+              ]
+            }
+          ]
         }
-    }],
-    "timestamp": "2022-03-21T00:00:00+00:00",
-    "version": {
-        "major": 0,
-        "minor": 1,
-        "patch": 0
+      }
     }
+  ],
+  "timestamp": "2022-03-21T00:00:00+00:00",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
 }
