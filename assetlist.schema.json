@@ -1,0 +1,895 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "mainToken": {
+                "chainID": "bigbang-test-3",
+                "iconUrl": "",
+                "name": "BitSong Testnet",
+                "apiURL": "https://api.testnet.bitsong.network",
+                "rpcURL": "https://rpc.testnet.bitsong.network",
+                "explorerURL": "https://www.mintscan.io/bitsong/",
+                "minBlockHeight": 1,
+                "stakingDenom": "BTSG",
+                "coinLookup": [
+                    {
+                        "viewDenom": "BTSG",
+                        "chainDenom": "ubtsg",
+                        "chainToViewConversionFactor": 1e-06
+                    }
+                ],
+                "chainToViewConversionFactor": 1e-06,
+                "addressPrefix": "bitsong",
+                "coinGeckoId": "bitsong",
+                "coinType": 639
+            },
+            "tokens": [
+                {
+                    "chainID": "osmosis-test-4",
+                    "iconUrl": "",
+                    "name": "Osmosis Testnet",
+                    "apiURL": "https://testnet-rest.osmosis.zone",
+                    "rpcURL": "https://testnet-rpc.osmosis.zone",
+                    "explorerURL": "https://www.mintscan.io/osmosis/",
+                    "minBlockHeight": 1,
+                    "stakingDenom": "OSMO",
+                    "coinLookup": [
+                        {
+                            "viewDenom": "OSMO",
+                            "chainDenom": "uosmo",
+                            "chainToViewConversionFactor": 1e-06
+                        }
+                    ],
+                    "addressPrefix": "osmo",
+                    "coinGeckoId": "osmosis",
+                    "coinType": 118
+                }
+            ],
+            "fantokens": [
+                {
+                    "iconUrl": "",
+                    "name": "Adam Clay",
+                    "symbol": "CLAY",
+                    "denom": "",
+                    "maxSupply": "999999999999",
+                    "socials": {
+                        "mailchimpID": "",
+                        "links": [
+                            {
+                                "type": "instagram",
+                                "url": "https://www.instagram.com/"
+                            },
+                            {
+                                "type": "facebook",
+                                "url": "https://www.facebook.com/"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "timestamp": "2022-03-21T00:00:00+00:00",
+            "version": {
+                "major": 0,
+                "minor": 1,
+                "patch": 0
+            }
+        }
+    ],
+    "required": [
+        "mainToken",
+        "tokens",
+        "fantokens",
+        "timestamp",
+        "version"
+    ],
+    "properties": {
+        "mainToken": {
+            "$id": "#/properties/mainToken",
+            "type": "object",
+            "title": "The mainToken schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "chainID": "bigbang-test-3",
+                    "iconUrl": "",
+                    "name": "BitSong Testnet",
+                    "apiURL": "https://api.testnet.bitsong.network",
+                    "rpcURL": "https://rpc.testnet.bitsong.network",
+                    "explorerURL": "https://www.mintscan.io/bitsong/",
+                    "minBlockHeight": 1,
+                    "stakingDenom": "BTSG",
+                    "coinLookup": [
+                        {
+                            "viewDenom": "BTSG",
+                            "chainDenom": "ubtsg",
+                            "chainToViewConversionFactor": 1e-06
+                        }
+                    ],
+                    "chainToViewConversionFactor": 1e-06,
+                    "addressPrefix": "bitsong",
+                    "coinGeckoId": "bitsong",
+                    "coinType": 639
+                }
+            ],
+            "required": [
+                "chainID",
+                "iconUrl",
+                "name",
+                "apiURL",
+                "rpcURL",
+                "explorerURL",
+                "minBlockHeight",
+                "stakingDenom",
+                "coinLookup",
+                "chainToViewConversionFactor",
+                "addressPrefix",
+                "coinGeckoId",
+                "coinType"
+            ],
+            "properties": {
+                "chainID": {
+                    "$id": "#/properties/mainToken/properties/chainID",
+                    "type": "string",
+                    "title": "The chainID schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "bigbang-test-3"
+                    ]
+                },
+                "iconUrl": {
+                    "$id": "#/properties/mainToken/properties/iconUrl",
+                    "type": "string",
+                    "title": "The iconUrl schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        ""
+                    ]
+                },
+                "name": {
+                    "$id": "#/properties/mainToken/properties/name",
+                    "type": "string",
+                    "title": "The name schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "BitSong Testnet"
+                    ]
+                },
+                "apiURL": {
+                    "$id": "#/properties/mainToken/properties/apiURL",
+                    "type": "string",
+                    "title": "The apiURL schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "https://api.testnet.bitsong.network"
+                    ]
+                },
+                "rpcURL": {
+                    "$id": "#/properties/mainToken/properties/rpcURL",
+                    "type": "string",
+                    "title": "The rpcURL schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "https://rpc.testnet.bitsong.network"
+                    ]
+                },
+                "explorerURL": {
+                    "$id": "#/properties/mainToken/properties/explorerURL",
+                    "type": "string",
+                    "title": "The explorerURL schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "https://www.mintscan.io/bitsong/"
+                    ]
+                },
+                "minBlockHeight": {
+                    "$id": "#/properties/mainToken/properties/minBlockHeight",
+                    "type": "integer",
+                    "title": "The minBlockHeight schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        1
+                    ]
+                },
+                "stakingDenom": {
+                    "$id": "#/properties/mainToken/properties/stakingDenom",
+                    "type": "string",
+                    "title": "The stakingDenom schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "BTSG"
+                    ]
+                },
+                "coinLookup": {
+                    "$id": "#/properties/mainToken/properties/coinLookup",
+                    "type": "array",
+                    "title": "The coinLookup schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": [],
+                    "examples": [
+                        [
+                            {
+                                "viewDenom": "BTSG",
+                                "chainDenom": "ubtsg",
+                                "chainToViewConversionFactor": 1e-06
+                            }
+                        ]
+                    ],
+                    "additionalItems": true,
+                    "items": {
+                        "$id": "#/properties/mainToken/properties/coinLookup/items",
+                        "anyOf": [
+                            {
+                                "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0",
+                                "type": "object",
+                                "title": "The first anyOf schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": {},
+                                "examples": [
+                                    {
+                                        "viewDenom": "BTSG",
+                                        "chainDenom": "ubtsg",
+                                        "chainToViewConversionFactor": 1e-06
+                                    }
+                                ],
+                                "required": [
+                                    "viewDenom",
+                                    "chainDenom",
+                                    "chainToViewConversionFactor"
+                                ],
+                                "properties": {
+                                    "viewDenom": {
+                                        "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0/properties/viewDenom",
+                                        "type": "string",
+                                        "title": "The viewDenom schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "BTSG"
+                                        ]
+                                    },
+                                    "chainDenom": {
+                                        "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0/properties/chainDenom",
+                                        "type": "string",
+                                        "title": "The chainDenom schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            "ubtsg"
+                                        ]
+                                    },
+                                    "chainToViewConversionFactor": {
+                                        "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
+                                        "type": "number",
+                                        "title": "The chainToViewConversionFactor schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": 0.0,
+                                        "examples": [
+                                            1e-06
+                                        ]
+                                    }
+                                },
+                                "additionalProperties": true
+                            }
+                        ]
+                    }
+                },
+                "chainToViewConversionFactor": {
+                    "$id": "#/properties/mainToken/properties/chainToViewConversionFactor",
+                    "type": "number",
+                    "title": "The chainToViewConversionFactor schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [
+                        1e-06
+                    ]
+                },
+                "addressPrefix": {
+                    "$id": "#/properties/mainToken/properties/addressPrefix",
+                    "type": "string",
+                    "title": "The addressPrefix schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "bitsong"
+                    ]
+                },
+                "coinGeckoId": {
+                    "$id": "#/properties/mainToken/properties/coinGeckoId",
+                    "type": "string",
+                    "title": "The coinGeckoId schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "bitsong"
+                    ]
+                },
+                "coinType": {
+                    "$id": "#/properties/mainToken/properties/coinType",
+                    "type": "integer",
+                    "title": "The coinType schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        639
+                    ]
+                }
+            },
+            "additionalProperties": true
+        },
+        "tokens": {
+            "$id": "#/properties/tokens",
+            "type": "array",
+            "title": "The tokens schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "chainID": "osmosis-test-4",
+                        "iconUrl": "",
+                        "name": "Osmosis Testnet",
+                        "apiURL": "https://testnet-rest.osmosis.zone",
+                        "rpcURL": "https://testnet-rpc.osmosis.zone",
+                        "explorerURL": "https://www.mintscan.io/osmosis/",
+                        "minBlockHeight": 1,
+                        "stakingDenom": "OSMO",
+                        "coinLookup": [
+                            {
+                                "viewDenom": "OSMO",
+                                "chainDenom": "uosmo",
+                                "chainToViewConversionFactor": 1e-06
+                            }
+                        ],
+                        "addressPrefix": "osmo",
+                        "coinGeckoId": "osmosis",
+                        "coinType": 118
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/tokens/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/tokens/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "chainID": "osmosis-test-4",
+                                "iconUrl": "",
+                                "name": "Osmosis Testnet",
+                                "apiURL": "https://testnet-rest.osmosis.zone",
+                                "rpcURL": "https://testnet-rpc.osmosis.zone",
+                                "explorerURL": "https://www.mintscan.io/osmosis/",
+                                "minBlockHeight": 1,
+                                "stakingDenom": "OSMO",
+                                "coinLookup": [
+                                    {
+                                        "viewDenom": "OSMO",
+                                        "chainDenom": "uosmo",
+                                        "chainToViewConversionFactor": 1e-06
+                                    }
+                                ],
+                                "addressPrefix": "osmo",
+                                "coinGeckoId": "osmosis",
+                                "coinType": 118
+                            }
+                        ],
+                        "required": [
+                            "chainID",
+                            "iconUrl",
+                            "name",
+                            "apiURL",
+                            "rpcURL",
+                            "explorerURL",
+                            "minBlockHeight",
+                            "stakingDenom",
+                            "coinLookup",
+                            "addressPrefix",
+                            "coinGeckoId",
+                            "coinType"
+                        ],
+                        "properties": {
+                            "chainID": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/chainID",
+                                "type": "string",
+                                "title": "The chainID schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "osmosis-test-4"
+                                ]
+                            },
+                            "iconUrl": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/iconUrl",
+                                "type": "string",
+                                "title": "The iconUrl schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "name": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/name",
+                                "type": "string",
+                                "title": "The name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Osmosis Testnet"
+                                ]
+                            },
+                            "apiURL": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/apiURL",
+                                "type": "string",
+                                "title": "The apiURL schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "https://testnet-rest.osmosis.zone"
+                                ]
+                            },
+                            "rpcURL": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/rpcURL",
+                                "type": "string",
+                                "title": "The rpcURL schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "https://testnet-rpc.osmosis.zone"
+                                ]
+                            },
+                            "explorerURL": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/explorerURL",
+                                "type": "string",
+                                "title": "The explorerURL schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "https://www.mintscan.io/osmosis/"
+                                ]
+                            },
+                            "minBlockHeight": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/minBlockHeight",
+                                "type": "integer",
+                                "title": "The minBlockHeight schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    1
+                                ]
+                            },
+                            "stakingDenom": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/stakingDenom",
+                                "type": "string",
+                                "title": "The stakingDenom schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "OSMO"
+                                ]
+                            },
+                            "coinLookup": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup",
+                                "type": "array",
+                                "title": "The coinLookup schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": [],
+                                "examples": [
+                                    [
+                                        {
+                                            "viewDenom": "OSMO",
+                                            "chainDenom": "uosmo",
+                                            "chainToViewConversionFactor": 1e-06
+                                        }
+                                    ]
+                                ],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "examples": [
+                                                {
+                                                    "viewDenom": "OSMO",
+                                                    "chainDenom": "uosmo",
+                                                    "chainToViewConversionFactor": 1e-06
+                                                }
+                                            ],
+                                            "required": [
+                                                "viewDenom",
+                                                "chainDenom",
+                                                "chainToViewConversionFactor"
+                                            ],
+                                            "properties": {
+                                                "viewDenom": {
+                                                    "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/viewDenom",
+                                                    "type": "string",
+                                                    "title": "The viewDenom schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "OSMO"
+                                                    ]
+                                                },
+                                                "chainDenom": {
+                                                    "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainDenom",
+                                                    "type": "string",
+                                                    "title": "The chainDenom schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": "",
+                                                    "examples": [
+                                                        "uosmo"
+                                                    ]
+                                                },
+                                                "chainToViewConversionFactor": {
+                                                    "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
+                                                    "type": "number",
+                                                    "title": "The chainToViewConversionFactor schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": 0.0,
+                                                    "examples": [
+                                                        1e-06
+                                                    ]
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            },
+                            "addressPrefix": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/addressPrefix",
+                                "type": "string",
+                                "title": "The addressPrefix schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "osmo"
+                                ]
+                            },
+                            "coinGeckoId": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/coinGeckoId",
+                                "type": "string",
+                                "title": "The coinGeckoId schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "osmosis"
+                                ]
+                            },
+                            "coinType": {
+                                "$id": "#/properties/tokens/items/anyOf/0/properties/coinType",
+                                "type": "integer",
+                                "title": "The coinType schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    118
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "fantokens": {
+            "$id": "#/properties/fantokens",
+            "type": "array",
+            "title": "The fantokens schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "iconUrl": "",
+                        "name": "Adam Clay",
+                        "symbol": "CLAY",
+                        "denom": "",
+                        "maxSupply": "999999999999",
+                        "socials": {
+                            "mailchimpID": "",
+                            "links": [
+                                {
+                                    "type": "instagram",
+                                    "url": "https://www.instagram.com/"
+                                },
+                                {
+                                    "type": "facebook",
+                                    "url": "https://www.facebook.com/"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/fantokens/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/fantokens/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "iconUrl": "",
+                                "name": "Adam Clay",
+                                "symbol": "CLAY",
+                                "denom": "",
+                                "maxSupply": "999999999999",
+                                "socials": {
+                                    "mailchimpID": "",
+                                    "links": [
+                                        {
+                                            "type": "instagram",
+                                            "url": "https://www.instagram.com/"
+                                        },
+                                        {
+                                            "type": "facebook",
+                                            "url": "https://www.facebook.com/"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "required": [
+                            "iconUrl",
+                            "name",
+                            "symbol",
+                            "denom",
+                            "maxSupply",
+                            "socials"
+                        ],
+                        "properties": {
+                            "iconUrl": {
+                                "$id": "#/properties/fantokens/items/anyOf/0/properties/iconUrl",
+                                "type": "string",
+                                "title": "The iconUrl schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "name": {
+                                "$id": "#/properties/fantokens/items/anyOf/0/properties/name",
+                                "type": "string",
+                                "title": "The name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Adam Clay"
+                                ]
+                            },
+                            "symbol": {
+                                "$id": "#/properties/fantokens/items/anyOf/0/properties/symbol",
+                                "type": "string",
+                                "title": "The symbol schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "CLAY"
+                                ]
+                            },
+                            "denom": {
+                                "$id": "#/properties/fantokens/items/anyOf/0/properties/denom",
+                                "type": "string",
+                                "title": "The denom schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "maxSupply": {
+                                "$id": "#/properties/fantokens/items/anyOf/0/properties/maxSupply",
+                                "type": "string",
+                                "title": "The maxSupply schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "999999999999"
+                                ]
+                            },
+                            "socials": {
+                                "$id": "#/properties/fantokens/items/anyOf/0/properties/socials",
+                                "type": "object",
+                                "title": "The socials schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": {},
+                                "examples": [
+                                    {
+                                        "mailchimpID": "",
+                                        "links": [
+                                            {
+                                                "type": "instagram",
+                                                "url": "https://www.instagram.com/"
+                                            },
+                                            {
+                                                "type": "facebook",
+                                                "url": "https://www.facebook.com/"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "required": [
+                                    "mailchimpID",
+                                    "links"
+                                ],
+                                "properties": {
+                                    "mailchimpID": {
+                                        "$id": "#/properties/fantokens/items/anyOf/0/properties/socials/properties/mailchimpID",
+                                        "type": "string",
+                                        "title": "The mailchimpID schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": "",
+                                        "examples": [
+                                            ""
+                                        ]
+                                    },
+                                    "links": {
+                                        "$id": "#/properties/fantokens/items/anyOf/0/properties/socials/properties/links",
+                                        "type": "array",
+                                        "title": "The links schema",
+                                        "description": "An explanation about the purpose of this instance.",
+                                        "default": [],
+                                        "examples": [
+                                            [
+                                                {
+                                                    "type": "instagram",
+                                                    "url": "https://www.instagram.com/"
+                                                },
+                                                {
+                                                    "type": "facebook",
+                                                    "url": "https://www.facebook.com/"
+                                                }
+                                            ]
+                                        ],
+                                        "additionalItems": true,
+                                        "items": {
+                                            "$id": "#/properties/fantokens/items/anyOf/0/properties/socials/properties/links/items",
+                                            "anyOf": [
+                                                {
+                                                    "$id": "#/properties/fantokens/items/anyOf/0/properties/socials/properties/links/items/anyOf/0",
+                                                    "type": "object",
+                                                    "title": "The first anyOf schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": {},
+                                                    "examples": [
+                                                        {
+                                                            "type": "instagram",
+                                                            "url": "https://www.instagram.com/"
+                                                        }
+                                                    ],
+                                                    "required": [
+                                                        "type",
+                                                        "url"
+                                                    ],
+                                                    "properties": {
+                                                        "type": {
+                                                            "$id": "#/properties/fantokens/items/anyOf/0/properties/socials/properties/links/items/anyOf/0/properties/type",
+                                                            "type": "string",
+                                                            "title": "The type schema",
+                                                            "description": "An explanation about the purpose of this instance.",
+                                                            "default": "",
+                                                            "examples": [
+                                                                "instagram"
+                                                            ]
+                                                        },
+                                                        "url": {
+                                                            "$id": "#/properties/fantokens/items/anyOf/0/properties/socials/properties/links/items/anyOf/0/properties/url",
+                                                            "type": "string",
+                                                            "title": "The url schema",
+                                                            "description": "An explanation about the purpose of this instance.",
+                                                            "default": "",
+                                                            "examples": [
+                                                                "https://www.instagram.com/"
+                                                            ]
+                                                        }
+                                                    },
+                                                    "additionalProperties": true
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "additionalProperties": true
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "timestamp": {
+            "$id": "#/properties/timestamp",
+            "type": "string",
+            "title": "The timestamp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2022-03-21T00:00:00+00:00"
+            ]
+        },
+        "version": {
+            "$id": "#/properties/version",
+            "type": "object",
+            "title": "The version schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "major": 0,
+                    "minor": 1,
+                    "patch": 0
+                }
+            ],
+            "required": [
+                "major",
+                "minor",
+                "patch"
+            ],
+            "properties": {
+                "major": {
+                    "$id": "#/properties/version/properties/major",
+                    "type": "integer",
+                    "title": "The major schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        0
+                    ]
+                },
+                "minor": {
+                    "$id": "#/properties/version/properties/minor",
+                    "type": "integer",
+                    "title": "The minor schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        1
+                    ]
+                },
+                "patch": {
+                    "$id": "#/properties/version/properties/patch",
+                    "type": "integer",
+                    "title": "The patch schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        0
+                    ]
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}

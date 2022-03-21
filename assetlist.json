@@ -1,0 +1,70 @@
+{
+    "mainToken": {
+        "chainID": "bigbang-test-3",
+        "logos": {
+            "svg": ""
+        },
+        "name": "BitSong Testnet",
+        "apiURL": "https://api.testnet.bitsong.network",
+        "rpcURL": "https://rpc.testnet.bitsong.network",
+        "explorerURL": "https://www.mintscan.io/bitsong/",
+        "minBlockHeight": 1,
+        "stakingDenom": "BTSG",
+        "coinLookup": [{
+            "viewDenom": "BTSG",
+            "chainDenom": "ubtsg",
+            "chainToViewConversionFactor": 1e-6
+        }],
+        "chainToViewConversionFactor": 1e-6,
+        "addressPrefix": "bitsong",
+        "coinGeckoId": "bitsong",
+        "coinType": 639
+    },
+    "tokens": [{
+        "chainID": "osmosis-test-4",
+        "logos": {
+            "svg": ""
+        },
+        "name": "Osmosis Testnet",
+        "apiURL": "https://testnet-rest.osmosis.zone",
+        "rpcURL": "https://testnet-rpc.osmosis.zone",
+        "explorerURL": "https://www.mintscan.io/osmosis/",
+        "minBlockHeight": 1,
+        "stakingDenom": "OSMO",
+        "coinLookup": [{
+            "viewDenom": "OSMO",
+            "chainDenom": "uosmo",
+            "chainToViewConversionFactor": 1e-6
+        }],
+        "addressPrefix": "osmo",
+        "coinGeckoId": "osmosis",
+        "coinType": 118
+    }],
+    "fantokens": [{
+        "logos": {
+            "svg": ""
+        },
+        "name": "Adam Clay",
+        "symbol": "CLAY",
+        "denom": "",
+        "maxSupply": "999999999999",
+        "socials": {
+            "mailchimpID": "",
+            "links": [{
+                    "type": "instagram",
+                    "url": "https://www.instagram.com/"
+                },
+                {
+                    "type": "facebook",
+                    "url": "https://www.facebook.com/"
+                }
+            ]
+        }
+    }],
+    "timestamp": "2022-03-21T00:00:00+00:00",
+    "version": {
+        "major": 0,
+        "minor": 1,
+        "patch": 0
+    }
+}
