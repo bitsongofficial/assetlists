@@ -26,7 +26,6 @@
             "chainToViewConversionFactor": 1e-6
           }
         ],
-        "chainToViewConversionFactor": 1e-6,
         "addressPrefix": "bitsong",
         "coinGeckoId": "bitsong",
         "coinType": 639,
