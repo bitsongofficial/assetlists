@@ -30,7 +30,7 @@
   },
   "tokens": [
     {
-      "chainID": "osmosis-test-4",
+      "chainID": "osmo-test-4",
       "logos": {
         "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
       },
