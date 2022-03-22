@@ -1,5 +1,5 @@
 {
-  "mainToken": {
+  "bitsongToken": {
     "chainID": "bigbang-test-3",
     "logos": {
       "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
@@ -28,32 +28,31 @@
     },
     "ibcEnabled": true
   },
-  "tokens": [
-    {
-      "chainID": "osmo-test-4",
-      "logos": {
-        "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
-      },
-      "name": "Osmosis Testnet",
-      "apiURL": "https://testnet-rest.osmosis.zone",
-      "rpcURL": "https://testnet-rpc.osmosis.zone",
-      "explorerURL": "https://www.mintscan.io/osmosis/",
-      "minBlockHeight": 1,
-      "symbol": "OSMO",
-      "ibcDenom": "uosmo",
-      "coinLookup": [
-        {
-          "viewDenom": "OSMO",
-          "chainDenom": "uosmo",
-          "chainToViewConversionFactor": 1e-6
-        }
-      ],
-      "addressPrefix": "osmo",
-      "coinGeckoId": "osmosis",
-      "coinType": 118,
-      "ibcEnabled": false
-    }
-  ],
+  "osmosisToken": {
+    "chainID": "osmo-test-4",
+    "logos": {
+      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+    },
+    "name": "Osmosis Testnet",
+    "apiURL": "https://testnet-rest.osmosis.zone",
+    "rpcURL": "https://testnet-rpc.osmosis.zone",
+    "explorerURL": "https://www.mintscan.io/osmosis/",
+    "minBlockHeight": 1,
+    "symbol": "OSMO",
+    "ibcDenom": "uosmo",
+    "coinLookup": [
+      {
+        "viewDenom": "OSMO",
+        "chainDenom": "uosmo",
+        "chainToViewConversionFactor": 1e-6
+      }
+    ],
+    "addressPrefix": "osmo",
+    "coinGeckoId": "osmosis",
+    "coinType": 118,
+    "ibcEnabled": false
+  },
+  "tokens": [],
   "fantokens": [
     {
       "logos": {

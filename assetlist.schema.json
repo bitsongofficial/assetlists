@@ -7,7 +7,7 @@
   "default": {},
   "examples": [
     {
-      "mainToken": {
+      "bitsongToken": {
         "chainID": "bigbang-test-3",
         "logos": {
           "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
@@ -36,28 +36,52 @@
         },
         "ibcEnabled": true
       },
+      "osmosisToken": {
+        "chainID": "osmo-test-4",
+        "logos": {
+          "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+        },
+        "name": "Osmosis Testnet",
+        "apiURL": "https://testnet-rest.osmosis.zone",
+        "rpcURL": "https://testnet-rpc.osmosis.zone",
+        "explorerURL": "https://www.mintscan.io/osmosis/",
+        "minBlockHeight": 1,
+        "symbol": "OSMO",
+        "ibcDenom": "uosmo",
+        "coinLookup": [
+          {
+            "viewDenom": "OSMO",
+            "chainDenom": "uosmo",
+            "chainToViewConversionFactor": 1e-6
+          }
+        ],
+        "addressPrefix": "osmo",
+        "coinGeckoId": "osmosis",
+        "coinType": 118,
+        "ibcEnabled": false
+      },
       "tokens": [
         {
-          "chainID": "osmosis-test-4",
+          "chainID": "juno-1",
           "logos": {
-            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
           },
-          "name": "Osmosis Testnet",
-          "apiURL": "https://testnet-rest.osmosis.zone",
-          "rpcURL": "https://testnet-rpc.osmosis.zone",
-          "explorerURL": "https://www.mintscan.io/osmosis/",
-          "minBlockHeight": 1,
-          "symbol": "OSMO",
-          "ibcDenom": "uosmo",
+          "name": "Juno",
+          "apiURL": "https://lcd-juno.itastakers.com",
+          "rpcURL": "https://rpc-juno.itastakers.com",
+          "explorerURL": "https://www.mintscan.io/juno/",
+          "minBlockHeight": 1412200,
+          "symbol": "JUNO",
+          "ibcDenom": "ujuno",
           "coinLookup": [
             {
-              "viewDenom": "OSMO",
-              "chainDenom": "uosmo",
+              "viewDenom": "JUNO",
+              "chainDenom": "ujuno",
               "chainToViewConversionFactor": 1e-6
             }
           ],
-          "addressPrefix": "osmo",
-          "coinGeckoId": "osmosis",
+          "addressPrefix": "juno",
+          "coinGeckoId": "juno-network",
           "coinType": 118,
           "ibcEnabled": false
         }
@@ -146,12 +170,19 @@
       }
     }
   ],
-  "required": ["mainToken", "tokens", "fantokens", "timestamp", "version"],
+  "required": [
+    "bitsongToken",
+    "osmosisToken",
+    "tokens",
+    "fantokens",
+    "timestamp",
+    "version"
+  ],
   "properties": {
-    "mainToken": {
-      "$id": "#/properties/mainToken",
+    "bitsongToken": {
+      "$id": "#/properties/bitsongToken",
       "type": "object",
-      "title": "The mainToken schema",
+      "title": "The bitsongToken schema",
       "description": "An explanation about the purpose of this instance.",
       "default": {},
       "examples": [
@@ -204,7 +235,7 @@
       ],
       "properties": {
         "chainID": {
-          "$id": "#/properties/mainToken/properties/chainID",
+          "$id": "#/properties/bitsongToken/properties/chainID",
           "type": "string",
           "title": "The chainID schema",
           "description": "An explanation about the purpose of this instance.",
@@ -212,7 +243,7 @@
           "examples": ["bigbang-test-3"]
         },
         "logos": {
-          "$id": "#/properties/mainToken/properties/logos",
+          "$id": "#/properties/bitsongToken/properties/logos",
           "type": "object",
           "title": "The logos schema",
           "description": "An explanation about the purpose of this instance.",
@@ -225,7 +256,7 @@
           "required": ["svg"],
           "properties": {
             "svg": {
-              "$id": "#/properties/mainToken/properties/logos/properties/svg",
+              "$id": "#/properties/bitsongToken/properties/logos/properties/svg",
               "type": "string",
               "title": "The svg schema",
               "description": "An explanation about the purpose of this instance.",
@@ -238,7 +269,7 @@
           "additionalProperties": true
         },
         "name": {
-          "$id": "#/properties/mainToken/properties/name",
+          "$id": "#/properties/bitsongToken/properties/name",
           "type": "string",
           "title": "The name schema",
           "description": "An explanation about the purpose of this instance.",
@@ -246,7 +277,7 @@
           "examples": ["BitSong Testnet"]
         },
         "apiURL": {
-          "$id": "#/properties/mainToken/properties/apiURL",
+          "$id": "#/properties/bitsongToken/properties/apiURL",
           "type": "string",
           "title": "The apiURL schema",
           "description": "An explanation about the purpose of this instance.",
@@ -254,7 +285,7 @@
           "examples": ["https://api.testnet.bitsong.network"]
         },
         "rpcURL": {
-          "$id": "#/properties/mainToken/properties/rpcURL",
+          "$id": "#/properties/bitsongToken/properties/rpcURL",
           "type": "string",
           "title": "The rpcURL schema",
           "description": "An explanation about the purpose of this instance.",
@@ -262,7 +293,7 @@
           "examples": ["https://rpc.testnet.bitsong.network"]
         },
         "explorerURL": {
-          "$id": "#/properties/mainToken/properties/explorerURL",
+          "$id": "#/properties/bitsongToken/properties/explorerURL",
           "type": "string",
           "title": "The explorerURL schema",
           "description": "An explanation about the purpose of this instance.",
@@ -270,7 +301,7 @@
           "examples": ["https://www.mintscan.io/bitsong/"]
         },
         "minBlockHeight": {
-          "$id": "#/properties/mainToken/properties/minBlockHeight",
+          "$id": "#/properties/bitsongToken/properties/minBlockHeight",
           "type": "integer",
           "title": "The minBlockHeight schema",
           "description": "An explanation about the purpose of this instance.",
@@ -278,7 +309,7 @@
           "examples": [1]
         },
         "symbol": {
-          "$id": "#/properties/mainToken/properties/symbol",
+          "$id": "#/properties/bitsongToken/properties/symbol",
           "type": "string",
           "title": "The symbol schema",
           "description": "An explanation about the purpose of this instance.",
@@ -286,7 +317,7 @@
           "examples": ["BTSG"]
         },
         "ibcDenom": {
-          "$id": "#/properties/mainToken/properties/ibcDenom",
+          "$id": "#/properties/bitsongToken/properties/ibcDenom",
           "type": "string",
           "title": "The ibcDenom schema",
           "description": "An explanation about the purpose of this instance.",
@@ -296,7 +327,7 @@
           ]
         },
         "coinLookup": {
-          "$id": "#/properties/mainToken/properties/coinLookup",
+          "$id": "#/properties/bitsongToken/properties/coinLookup",
           "type": "array",
           "title": "The coinLookup schema",
           "description": "An explanation about the purpose of this instance.",
@@ -312,10 +343,10 @@
           ],
           "additionalItems": true,
           "items": {
-            "$id": "#/properties/mainToken/properties/coinLookup/items",
+            "$id": "#/properties/bitsongToken/properties/coinLookup/items",
             "anyOf": [
               {
-                "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0",
+                "$id": "#/properties/bitsongToken/properties/coinLookup/items/anyOf/0",
                 "type": "object",
                 "title": "The first anyOf schema",
                 "description": "An explanation about the purpose of this instance.",
@@ -334,7 +365,7 @@
                 ],
                 "properties": {
                   "viewDenom": {
-                    "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0/properties/viewDenom",
+                    "$id": "#/properties/bitsongToken/properties/coinLookup/items/anyOf/0/properties/viewDenom",
                     "type": "string",
                     "title": "The viewDenom schema",
                     "description": "An explanation about the purpose of this instance.",
@@ -342,7 +373,7 @@
                     "examples": ["BTSG"]
                   },
                   "chainDenom": {
-                    "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0/properties/chainDenom",
+                    "$id": "#/properties/bitsongToken/properties/coinLookup/items/anyOf/0/properties/chainDenom",
                     "type": "string",
                     "title": "The chainDenom schema",
                     "description": "An explanation about the purpose of this instance.",
@@ -350,7 +381,7 @@
                     "examples": ["ubtsg"]
                   },
                   "chainToViewConversionFactor": {
-                    "$id": "#/properties/mainToken/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
+                    "$id": "#/properties/bitsongToken/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
                     "type": "number",
                     "title": "The chainToViewConversionFactor schema",
                     "description": "An explanation about the purpose of this instance.",
@@ -364,7 +395,7 @@
           }
         },
         "addressPrefix": {
-          "$id": "#/properties/mainToken/properties/addressPrefix",
+          "$id": "#/properties/bitsongToken/properties/addressPrefix",
           "type": "string",
           "title": "The addressPrefix schema",
           "description": "An explanation about the purpose of this instance.",
@@ -372,7 +403,7 @@
           "examples": ["bitsong"]
         },
         "coinGeckoId": {
-          "$id": "#/properties/mainToken/properties/coinGeckoId",
+          "$id": "#/properties/bitsongToken/properties/coinGeckoId",
           "type": "string",
           "title": "The coinGeckoId schema",
           "description": "An explanation about the purpose of this instance.",
@@ -380,7 +411,7 @@
           "examples": ["bitsong"]
         },
         "coinType": {
-          "$id": "#/properties/mainToken/properties/coinType",
+          "$id": "#/properties/bitsongToken/properties/coinType",
           "type": "integer",
           "title": "The coinType schema",
           "description": "An explanation about the purpose of this instance.",
@@ -388,7 +419,7 @@
           "examples": [639]
         },
         "ibc": {
-          "$id": "#/properties/mainToken/properties/ibc",
+          "$id": "#/properties/bitsongToken/properties/ibc",
           "type": "object",
           "title": "The ibc schema",
           "description": "An explanation about the purpose of this instance.",
@@ -403,7 +434,7 @@
           "required": ["sourceChannelId", "destChannelId", "sourceDenom"],
           "properties": {
             "sourceChannelId": {
-              "$id": "#/properties/mainToken/properties/ibc/properties/sourceChannelId",
+              "$id": "#/properties/bitsongToken/properties/ibc/properties/sourceChannelId",
               "type": "string",
               "title": "The sourceChannelId schema",
               "description": "An explanation about the purpose of this instance.",
@@ -411,7 +442,7 @@
               "examples": ["channel-194"]
             },
             "destChannelId": {
-              "$id": "#/properties/mainToken/properties/ibc/properties/destChannelId",
+              "$id": "#/properties/bitsongToken/properties/ibc/properties/destChannelId",
               "type": "string",
               "title": "The destChannelId schema",
               "description": "An explanation about the purpose of this instance.",
@@ -419,7 +450,7 @@
               "examples": ["channel-2"]
             },
             "sourceDenom": {
-              "$id": "#/properties/mainToken/properties/ibc/properties/sourceDenom",
+              "$id": "#/properties/bitsongToken/properties/ibc/properties/sourceDenom",
               "type": "string",
               "title": "The sourceDenom schema",
               "description": "An explanation about the purpose of this instance.",
@@ -430,12 +461,254 @@
           "additionalProperties": true
         },
         "ibcEnabled": {
-          "$id": "#/properties/mainToken/properties/ibcEnabled",
+          "$id": "#/properties/bitsongToken/properties/ibcEnabled",
           "type": "boolean",
           "title": "The ibcEnabled schema",
           "description": "An explanation about the purpose of this instance.",
           "default": false,
           "examples": [true]
+        }
+      },
+      "additionalProperties": true
+    },
+    "osmosisToken": {
+      "$id": "#/properties/osmosisToken",
+      "type": "object",
+      "title": "The osmosisToken schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "chainID": "osmo-test-4",
+          "logos": {
+            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+          },
+          "name": "Osmosis Testnet",
+          "apiURL": "https://testnet-rest.osmosis.zone",
+          "rpcURL": "https://testnet-rpc.osmosis.zone",
+          "explorerURL": "https://www.mintscan.io/osmosis/",
+          "minBlockHeight": 1,
+          "symbol": "OSMO",
+          "ibcDenom": "uosmo",
+          "coinLookup": [
+            {
+              "viewDenom": "OSMO",
+              "chainDenom": "uosmo",
+              "chainToViewConversionFactor": 1e-6
+            }
+          ],
+          "addressPrefix": "osmo",
+          "coinGeckoId": "osmosis",
+          "coinType": 118,
+          "ibcEnabled": false
+        }
+      ],
+      "required": [
+        "chainID",
+        "logos",
+        "name",
+        "apiURL",
+        "rpcURL",
+        "explorerURL",
+        "minBlockHeight",
+        "symbol",
+        "ibcDenom",
+        "coinLookup",
+        "addressPrefix",
+        "coinGeckoId",
+        "coinType",
+        "ibcEnabled"
+      ],
+      "properties": {
+        "chainID": {
+          "$id": "#/properties/osmosisToken/properties/chainID",
+          "type": "string",
+          "title": "The chainID schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["osmo-test-4"]
+        },
+        "logos": {
+          "$id": "#/properties/osmosisToken/properties/logos",
+          "type": "object",
+          "title": "The logos schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+            }
+          ],
+          "required": ["svg"],
+          "properties": {
+            "svg": {
+              "$id": "#/properties/osmosisToken/properties/logos/properties/svg",
+              "type": "string",
+              "title": "The svg schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+              ]
+            }
+          },
+          "additionalProperties": true
+        },
+        "name": {
+          "$id": "#/properties/osmosisToken/properties/name",
+          "type": "string",
+          "title": "The name schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["Osmosis Testnet"]
+        },
+        "apiURL": {
+          "$id": "#/properties/osmosisToken/properties/apiURL",
+          "type": "string",
+          "title": "The apiURL schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["https://testnet-rest.osmosis.zone"]
+        },
+        "rpcURL": {
+          "$id": "#/properties/osmosisToken/properties/rpcURL",
+          "type": "string",
+          "title": "The rpcURL schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["https://testnet-rpc.osmosis.zone"]
+        },
+        "explorerURL": {
+          "$id": "#/properties/osmosisToken/properties/explorerURL",
+          "type": "string",
+          "title": "The explorerURL schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["https://www.mintscan.io/osmosis/"]
+        },
+        "minBlockHeight": {
+          "$id": "#/properties/osmosisToken/properties/minBlockHeight",
+          "type": "integer",
+          "title": "The minBlockHeight schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [1]
+        },
+        "symbol": {
+          "$id": "#/properties/osmosisToken/properties/symbol",
+          "type": "string",
+          "title": "The symbol schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["OSMO"]
+        },
+        "ibcDenom": {
+          "$id": "#/properties/osmosisToken/properties/ibcDenom",
+          "type": "string",
+          "title": "The ibcDenom schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["uosmo"]
+        },
+        "coinLookup": {
+          "$id": "#/properties/osmosisToken/properties/coinLookup",
+          "type": "array",
+          "title": "The coinLookup schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": [],
+          "examples": [
+            [
+              {
+                "viewDenom": "OSMO",
+                "chainDenom": "uosmo",
+                "chainToViewConversionFactor": 1e-6
+              }
+            ]
+          ],
+          "additionalItems": true,
+          "items": {
+            "$id": "#/properties/osmosisToken/properties/coinLookup/items",
+            "anyOf": [
+              {
+                "$id": "#/properties/osmosisToken/properties/coinLookup/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "viewDenom": "OSMO",
+                    "chainDenom": "uosmo",
+                    "chainToViewConversionFactor": 1e-6
+                  }
+                ],
+                "required": [
+                  "viewDenom",
+                  "chainDenom",
+                  "chainToViewConversionFactor"
+                ],
+                "properties": {
+                  "viewDenom": {
+                    "$id": "#/properties/osmosisToken/properties/coinLookup/items/anyOf/0/properties/viewDenom",
+                    "type": "string",
+                    "title": "The viewDenom schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["OSMO"]
+                  },
+                  "chainDenom": {
+                    "$id": "#/properties/osmosisToken/properties/coinLookup/items/anyOf/0/properties/chainDenom",
+                    "type": "string",
+                    "title": "The chainDenom schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["uosmo"]
+                  },
+                  "chainToViewConversionFactor": {
+                    "$id": "#/properties/osmosisToken/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
+                    "type": "number",
+                    "title": "The chainToViewConversionFactor schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [1e-6]
+                  }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        },
+        "addressPrefix": {
+          "$id": "#/properties/osmosisToken/properties/addressPrefix",
+          "type": "string",
+          "title": "The addressPrefix schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["osmo"]
+        },
+        "coinGeckoId": {
+          "$id": "#/properties/osmosisToken/properties/coinGeckoId",
+          "type": "string",
+          "title": "The coinGeckoId schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["osmosis"]
+        },
+        "coinType": {
+          "$id": "#/properties/osmosisToken/properties/coinType",
+          "type": "integer",
+          "title": "The coinType schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [118]
+        },
+        "ibcEnabled": {
+          "$id": "#/properties/osmosisToken/properties/ibcEnabled",
+          "type": "boolean",
+          "title": "The ibcEnabled schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [false]
         }
       },
       "additionalProperties": true
@@ -449,26 +722,26 @@
       "examples": [
         [
           {
-            "chainID": "osmosis-test-4",
+            "chainID": "juno-1",
             "logos": {
-              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
             },
-            "name": "Osmosis Testnet",
-            "apiURL": "https://testnet-rest.osmosis.zone",
-            "rpcURL": "https://testnet-rpc.osmosis.zone",
-            "explorerURL": "https://www.mintscan.io/osmosis/",
-            "minBlockHeight": 1,
-            "symbol": "OSMO",
-            "ibcDenom": "uosmo",
+            "name": "Juno",
+            "apiURL": "https://lcd-juno.itastakers.com",
+            "rpcURL": "https://rpc-juno.itastakers.com",
+            "explorerURL": "https://www.mintscan.io/juno/",
+            "minBlockHeight": 1412200,
+            "symbol": "JUNO",
+            "ibcDenom": "ujuno",
             "coinLookup": [
               {
-                "viewDenom": "OSMO",
-                "chainDenom": "uosmo",
+                "viewDenom": "JUNO",
+                "chainDenom": "ujuno",
                 "chainToViewConversionFactor": 1e-6
               }
             ],
-            "addressPrefix": "osmo",
-            "coinGeckoId": "osmosis",
+            "addressPrefix": "juno",
+            "coinGeckoId": "juno-network",
             "coinType": 118,
             "ibcEnabled": false
           }
@@ -486,26 +759,26 @@
             "default": {},
             "examples": [
               {
-                "chainID": "osmosis-test-4",
+                "chainID": "juno-1",
                 "logos": {
-                  "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+                  "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
                 },
-                "name": "Osmosis Testnet",
-                "apiURL": "https://testnet-rest.osmosis.zone",
-                "rpcURL": "https://testnet-rpc.osmosis.zone",
-                "explorerURL": "https://www.mintscan.io/osmosis/",
-                "minBlockHeight": 1,
-                "symbol": "OSMO",
-                "ibcDenom": "uosmo",
+                "name": "Juno",
+                "apiURL": "https://lcd-juno.itastakers.com",
+                "rpcURL": "https://rpc-juno.itastakers.com",
+                "explorerURL": "https://www.mintscan.io/juno/",
+                "minBlockHeight": 1412200,
+                "symbol": "JUNO",
+                "ibcDenom": "ujuno",
                 "coinLookup": [
                   {
-                    "viewDenom": "OSMO",
-                    "chainDenom": "uosmo",
+                    "viewDenom": "JUNO",
+                    "chainDenom": "ujuno",
                     "chainToViewConversionFactor": 1e-6
                   }
                 ],
-                "addressPrefix": "osmo",
-                "coinGeckoId": "osmosis",
+                "addressPrefix": "juno",
+                "coinGeckoId": "juno-network",
                 "coinType": 118,
                 "ibcEnabled": false
               }
@@ -533,7 +806,7 @@
                 "title": "The chainID schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["osmosis-test-4"]
+                "examples": ["juno-1"]
               },
               "logos": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/logos",
@@ -543,7 +816,7 @@
                 "default": {},
                 "examples": [
                   {
-                    "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+                    "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
                   }
                 ],
                 "required": ["svg"],
@@ -555,7 +828,7 @@
                     "description": "An explanation about the purpose of this instance.",
                     "default": "",
                     "examples": [
-                      "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+                      "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
                     ]
                   }
                 },
@@ -567,7 +840,7 @@
                 "title": "The name schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["Osmosis Testnet"]
+                "examples": ["Juno"]
               },
               "apiURL": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/apiURL",
@@ -575,7 +848,7 @@
                 "title": "The apiURL schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["https://testnet-rest.osmosis.zone"]
+                "examples": ["https://lcd-juno.itastakers.com"]
               },
               "rpcURL": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/rpcURL",
@@ -583,7 +856,7 @@
                 "title": "The rpcURL schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["https://testnet-rpc.osmosis.zone"]
+                "examples": ["https://rpc-juno.itastakers.com"]
               },
               "explorerURL": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/explorerURL",
@@ -591,7 +864,7 @@
                 "title": "The explorerURL schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["https://www.mintscan.io/osmosis/"]
+                "examples": ["https://www.mintscan.io/juno/"]
               },
               "minBlockHeight": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/minBlockHeight",
@@ -599,7 +872,7 @@
                 "title": "The minBlockHeight schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": 0,
-                "examples": [1]
+                "examples": [1412200]
               },
               "symbol": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/symbol",
@@ -607,7 +880,7 @@
                 "title": "The symbol schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["OSMO"]
+                "examples": ["JUNO"]
               },
               "ibcDenom": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/ibcDenom",
@@ -615,7 +888,7 @@
                 "title": "The ibcDenom schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["uosmo"]
+                "examples": ["ujuno"]
               },
               "coinLookup": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup",
@@ -626,8 +899,8 @@
                 "examples": [
                   [
                     {
-                      "viewDenom": "OSMO",
-                      "chainDenom": "uosmo",
+                      "viewDenom": "JUNO",
+                      "chainDenom": "ujuno",
                       "chainToViewConversionFactor": 1e-6
                     }
                   ]
@@ -644,8 +917,8 @@
                       "default": {},
                       "examples": [
                         {
-                          "viewDenom": "OSMO",
-                          "chainDenom": "uosmo",
+                          "viewDenom": "JUNO",
+                          "chainDenom": "ujuno",
                           "chainToViewConversionFactor": 1e-6
                         }
                       ],
@@ -661,7 +934,7 @@
                           "title": "The viewDenom schema",
                           "description": "An explanation about the purpose of this instance.",
                           "default": "",
-                          "examples": ["OSMO"]
+                          "examples": ["JUNO"]
                         },
                         "chainDenom": {
                           "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainDenom",
@@ -669,7 +942,7 @@
                           "title": "The chainDenom schema",
                           "description": "An explanation about the purpose of this instance.",
                           "default": "",
-                          "examples": ["uosmo"]
+                          "examples": ["ujuno"]
                         },
                         "chainToViewConversionFactor": {
                           "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
@@ -691,7 +964,7 @@
                 "title": "The addressPrefix schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["osmo"]
+                "examples": ["juno"]
               },
               "coinGeckoId": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/coinGeckoId",
@@ -699,7 +972,7 @@
                 "title": "The coinGeckoId schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["osmosis"]
+                "examples": ["juno-network"]
               },
               "coinType": {
                 "$id": "#/properties/tokens/items/anyOf/0/properties/coinType",
