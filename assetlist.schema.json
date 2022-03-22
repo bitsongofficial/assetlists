@@ -18,7 +18,6 @@
         "explorerURL": "https://www.mintscan.io/bitsong/",
         "minBlockHeight": 1,
         "symbol": "BTSG",
-        "ibcDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
         "coinLookup": [
           {
             "viewDenom": "BTSG",
@@ -30,9 +29,12 @@
         "coinGeckoId": "bitsong",
         "coinType": 639,
         "ibc": {
-          "sourceChannelId": "channel-194",
-          "destChannelId": "channel-2",
-          "sourceDenom": "ubtsg"
+          "osmosis": {
+            "sourceChannelId": "channel-194",
+            "destChannelId": "channel-2",
+            "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+            "sourceDenom": "ubtsg"
+          }
         },
         "ibcEnabled": true
       },
@@ -47,7 +49,6 @@
         "explorerURL": "https://www.mintscan.io/osmosis/",
         "minBlockHeight": 1,
         "symbol": "OSMO",
-        "ibcDenom": "uosmo",
         "coinLookup": [
           {
             "viewDenom": "OSMO",
@@ -57,35 +58,9 @@
         ],
         "addressPrefix": "osmo",
         "coinGeckoId": "osmosis",
-        "coinType": 118,
-        "ibcEnabled": false
+        "coinType": 118
       },
-      "tokens": [
-        {
-          "chainID": "juno-1",
-          "logos": {
-            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
-          },
-          "name": "Juno",
-          "apiURL": "https://lcd-juno.itastakers.com",
-          "rpcURL": "https://rpc-juno.itastakers.com",
-          "explorerURL": "https://www.mintscan.io/juno/",
-          "minBlockHeight": 1412200,
-          "symbol": "JUNO",
-          "ibcDenom": "ujuno",
-          "coinLookup": [
-            {
-              "viewDenom": "JUNO",
-              "chainDenom": "ujuno",
-              "chainToViewConversionFactor": 1e-6
-            }
-          ],
-          "addressPrefix": "juno",
-          "coinGeckoId": "juno-network",
-          "coinType": 118,
-          "ibcEnabled": false
-        }
-      ],
+      "tokens": [],
       "fantokens": [
         {
           "logos": {
@@ -93,8 +68,24 @@
           },
           "name": "Adam Clay",
           "symbol": "CLAY",
-          "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
-          "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+          "coinLookup": [
+            {
+              "viewDenom": "CLAY",
+              "chainDenom": "seg",
+              "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+              "chainToViewConversionFactor": 1e-6
+            }
+          ],
+          "ibc": {
+            "osmosis": {
+              "sourceChannelId": "channel-194",
+              "destChannelId": "channel-2",
+              "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+              "sourceDenom": "ubtsg"
+            }
+          },
+          "ibcEnabled": true,
+          "fantoken": true,
           "socials": {
             "mailchimpID": "",
             "links": [
@@ -197,7 +188,6 @@
           "explorerURL": "https://www.mintscan.io/bitsong/",
           "minBlockHeight": 1,
           "symbol": "BTSG",
-          "ibcDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
           "coinLookup": [
             {
               "viewDenom": "BTSG",
@@ -209,9 +199,12 @@
           "coinGeckoId": "bitsong",
           "coinType": 639,
           "ibc": {
-            "sourceChannelId": "channel-194",
-            "destChannelId": "channel-2",
-            "sourceDenom": "ubtsg"
+            "osmosis": {
+              "sourceChannelId": "channel-194",
+              "destChannelId": "channel-2",
+              "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+              "sourceDenom": "ubtsg"
+            }
           },
           "ibcEnabled": true
         }
@@ -225,7 +218,6 @@
         "explorerURL",
         "minBlockHeight",
         "symbol",
-        "ibcDenom",
         "coinLookup",
         "addressPrefix",
         "coinGeckoId",
@@ -315,16 +307,6 @@
           "description": "An explanation about the purpose of this instance.",
           "default": "",
           "examples": ["BTSG"]
-        },
-        "ibcDenom": {
-          "$id": "#/properties/bitsongToken/properties/ibcDenom",
-          "type": "string",
-          "title": "The ibcDenom schema",
-          "description": "An explanation about the purpose of this instance.",
-          "default": "",
-          "examples": [
-            "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
-          ]
         },
         "coinLookup": {
           "$id": "#/properties/bitsongToken/properties/coinLookup",
@@ -426,36 +408,73 @@
           "default": {},
           "examples": [
             {
-              "sourceChannelId": "channel-194",
-              "destChannelId": "channel-2",
-              "sourceDenom": "ubtsg"
+              "osmosis": {
+                "sourceChannelId": "channel-194",
+                "destChannelId": "channel-2",
+                "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+                "sourceDenom": "ubtsg"
+              }
             }
           ],
-          "required": ["sourceChannelId", "destChannelId", "sourceDenom"],
+          "required": ["osmosis"],
           "properties": {
-            "sourceChannelId": {
-              "$id": "#/properties/bitsongToken/properties/ibc/properties/sourceChannelId",
-              "type": "string",
-              "title": "The sourceChannelId schema",
+            "osmosis": {
+              "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis",
+              "type": "object",
+              "title": "The osmosis schema",
               "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": ["channel-194"]
-            },
-            "destChannelId": {
-              "$id": "#/properties/bitsongToken/properties/ibc/properties/destChannelId",
-              "type": "string",
-              "title": "The destChannelId schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": ["channel-2"]
-            },
-            "sourceDenom": {
-              "$id": "#/properties/bitsongToken/properties/ibc/properties/sourceDenom",
-              "type": "string",
-              "title": "The sourceDenom schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": ["ubtsg"]
+              "default": {},
+              "examples": [
+                {
+                  "sourceChannelId": "channel-194",
+                  "destChannelId": "channel-2",
+                  "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+                  "sourceDenom": "ubtsg"
+                }
+              ],
+              "required": [
+                "sourceChannelId",
+                "destChannelId",
+                "destDenom",
+                "sourceDenom"
+              ],
+              "properties": {
+                "sourceChannelId": {
+                  "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis/properties/sourceChannelId",
+                  "type": "string",
+                  "title": "The sourceChannelId schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": ["channel-194"]
+                },
+                "destChannelId": {
+                  "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis/properties/destChannelId",
+                  "type": "string",
+                  "title": "The destChannelId schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": ["channel-2"]
+                },
+                "destDenom": {
+                  "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis/properties/destDenom",
+                  "type": "string",
+                  "title": "The destDenom schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+                  ]
+                },
+                "sourceDenom": {
+                  "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis/properties/sourceDenom",
+                  "type": "string",
+                  "title": "The sourceDenom schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": ["ubtsg"]
+                }
+              },
+              "additionalProperties": true
             }
           },
           "additionalProperties": true
@@ -489,7 +508,6 @@
           "explorerURL": "https://www.mintscan.io/osmosis/",
           "minBlockHeight": 1,
           "symbol": "OSMO",
-          "ibcDenom": "uosmo",
           "coinLookup": [
             {
               "viewDenom": "OSMO",
@@ -499,8 +517,7 @@
           ],
           "addressPrefix": "osmo",
           "coinGeckoId": "osmosis",
-          "coinType": 118,
-          "ibcEnabled": false
+          "coinType": 118
         }
       ],
       "required": [
@@ -512,12 +529,10 @@
         "explorerURL",
         "minBlockHeight",
         "symbol",
-        "ibcDenom",
         "coinLookup",
         "addressPrefix",
         "coinGeckoId",
-        "coinType",
-        "ibcEnabled"
+        "coinType"
       ],
       "properties": {
         "chainID": {
@@ -601,14 +616,6 @@
           "description": "An explanation about the purpose of this instance.",
           "default": "",
           "examples": ["OSMO"]
-        },
-        "ibcDenom": {
-          "$id": "#/properties/osmosisToken/properties/ibcDenom",
-          "type": "string",
-          "title": "The ibcDenom schema",
-          "description": "An explanation about the purpose of this instance.",
-          "default": "",
-          "examples": ["uosmo"]
         },
         "coinLookup": {
           "$id": "#/properties/osmosisToken/properties/coinLookup",
@@ -701,14 +708,6 @@
           "description": "An explanation about the purpose of this instance.",
           "default": 0,
           "examples": [118]
-        },
-        "ibcEnabled": {
-          "$id": "#/properties/osmosisToken/properties/ibcEnabled",
-          "type": "boolean",
-          "title": "The ibcEnabled schema",
-          "description": "An explanation about the purpose of this instance.",
-          "default": false,
-          "examples": [false]
         }
       },
       "additionalProperties": true
@@ -719,281 +718,10 @@
       "title": "The tokens schema",
       "description": "An explanation about the purpose of this instance.",
       "default": [],
-      "examples": [
-        [
-          {
-            "chainID": "juno-1",
-            "logos": {
-              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
-            },
-            "name": "Juno",
-            "apiURL": "https://lcd-juno.itastakers.com",
-            "rpcURL": "https://rpc-juno.itastakers.com",
-            "explorerURL": "https://www.mintscan.io/juno/",
-            "minBlockHeight": 1412200,
-            "symbol": "JUNO",
-            "ibcDenom": "ujuno",
-            "coinLookup": [
-              {
-                "viewDenom": "JUNO",
-                "chainDenom": "ujuno",
-                "chainToViewConversionFactor": 1e-6
-              }
-            ],
-            "addressPrefix": "juno",
-            "coinGeckoId": "juno-network",
-            "coinType": 118,
-            "ibcEnabled": false
-          }
-        ]
-      ],
+      "examples": [[]],
       "additionalItems": true,
       "items": {
-        "$id": "#/properties/tokens/items",
-        "anyOf": [
-          {
-            "$id": "#/properties/tokens/items/anyOf/0",
-            "type": "object",
-            "title": "The first anyOf schema",
-            "description": "An explanation about the purpose of this instance.",
-            "default": {},
-            "examples": [
-              {
-                "chainID": "juno-1",
-                "logos": {
-                  "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
-                },
-                "name": "Juno",
-                "apiURL": "https://lcd-juno.itastakers.com",
-                "rpcURL": "https://rpc-juno.itastakers.com",
-                "explorerURL": "https://www.mintscan.io/juno/",
-                "minBlockHeight": 1412200,
-                "symbol": "JUNO",
-                "ibcDenom": "ujuno",
-                "coinLookup": [
-                  {
-                    "viewDenom": "JUNO",
-                    "chainDenom": "ujuno",
-                    "chainToViewConversionFactor": 1e-6
-                  }
-                ],
-                "addressPrefix": "juno",
-                "coinGeckoId": "juno-network",
-                "coinType": 118,
-                "ibcEnabled": false
-              }
-            ],
-            "required": [
-              "chainID",
-              "logos",
-              "name",
-              "apiURL",
-              "rpcURL",
-              "explorerURL",
-              "minBlockHeight",
-              "symbol",
-              "ibcDenom",
-              "coinLookup",
-              "addressPrefix",
-              "coinGeckoId",
-              "coinType",
-              "ibcEnabled"
-            ],
-            "properties": {
-              "chainID": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/chainID",
-                "type": "string",
-                "title": "The chainID schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["juno-1"]
-              },
-              "logos": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/logos",
-                "type": "object",
-                "title": "The logos schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": {},
-                "examples": [
-                  {
-                    "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
-                  }
-                ],
-                "required": ["svg"],
-                "properties": {
-                  "svg": {
-                    "$id": "#/properties/tokens/items/anyOf/0/properties/logos/properties/svg",
-                    "type": "string",
-                    "title": "The svg schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                      "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/juno.svg"
-                    ]
-                  }
-                },
-                "additionalProperties": true
-              },
-              "name": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/name",
-                "type": "string",
-                "title": "The name schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["Juno"]
-              },
-              "apiURL": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/apiURL",
-                "type": "string",
-                "title": "The apiURL schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["https://lcd-juno.itastakers.com"]
-              },
-              "rpcURL": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/rpcURL",
-                "type": "string",
-                "title": "The rpcURL schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["https://rpc-juno.itastakers.com"]
-              },
-              "explorerURL": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/explorerURL",
-                "type": "string",
-                "title": "The explorerURL schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["https://www.mintscan.io/juno/"]
-              },
-              "minBlockHeight": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/minBlockHeight",
-                "type": "integer",
-                "title": "The minBlockHeight schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": 0,
-                "examples": [1412200]
-              },
-              "symbol": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/symbol",
-                "type": "string",
-                "title": "The symbol schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["JUNO"]
-              },
-              "ibcDenom": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/ibcDenom",
-                "type": "string",
-                "title": "The ibcDenom schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["ujuno"]
-              },
-              "coinLookup": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup",
-                "type": "array",
-                "title": "The coinLookup schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": [],
-                "examples": [
-                  [
-                    {
-                      "viewDenom": "JUNO",
-                      "chainDenom": "ujuno",
-                      "chainToViewConversionFactor": 1e-6
-                    }
-                  ]
-                ],
-                "additionalItems": true,
-                "items": {
-                  "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items",
-                  "anyOf": [
-                    {
-                      "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0",
-                      "type": "object",
-                      "title": "The first anyOf schema",
-                      "description": "An explanation about the purpose of this instance.",
-                      "default": {},
-                      "examples": [
-                        {
-                          "viewDenom": "JUNO",
-                          "chainDenom": "ujuno",
-                          "chainToViewConversionFactor": 1e-6
-                        }
-                      ],
-                      "required": [
-                        "viewDenom",
-                        "chainDenom",
-                        "chainToViewConversionFactor"
-                      ],
-                      "properties": {
-                        "viewDenom": {
-                          "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/viewDenom",
-                          "type": "string",
-                          "title": "The viewDenom schema",
-                          "description": "An explanation about the purpose of this instance.",
-                          "default": "",
-                          "examples": ["JUNO"]
-                        },
-                        "chainDenom": {
-                          "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainDenom",
-                          "type": "string",
-                          "title": "The chainDenom schema",
-                          "description": "An explanation about the purpose of this instance.",
-                          "default": "",
-                          "examples": ["ujuno"]
-                        },
-                        "chainToViewConversionFactor": {
-                          "$id": "#/properties/tokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
-                          "type": "number",
-                          "title": "The chainToViewConversionFactor schema",
-                          "description": "An explanation about the purpose of this instance.",
-                          "default": 0.0,
-                          "examples": [1e-6]
-                        }
-                      },
-                      "additionalProperties": true
-                    }
-                  ]
-                }
-              },
-              "addressPrefix": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/addressPrefix",
-                "type": "string",
-                "title": "The addressPrefix schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["juno"]
-              },
-              "coinGeckoId": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/coinGeckoId",
-                "type": "string",
-                "title": "The coinGeckoId schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["juno-network"]
-              },
-              "coinType": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/coinType",
-                "type": "integer",
-                "title": "The coinType schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": 0,
-                "examples": [118]
-              },
-              "ibcEnabled": {
-                "$id": "#/properties/tokens/items/anyOf/0/properties/ibcEnabled",
-                "type": "boolean",
-                "title": "The ibcEnabled schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": false,
-                "examples": [false]
-              }
-            },
-            "additionalProperties": true
-          }
-        ]
+        "$id": "#/properties/tokens/items"
       }
     },
     "fantokens": {
@@ -1010,8 +738,24 @@
             },
             "name": "Adam Clay",
             "symbol": "CLAY",
-            "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
-            "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+            "coinLookup": [
+              {
+                "viewDenom": "CLAY",
+                "chainDenom": "seg",
+                "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+                "chainToViewConversionFactor": 1e-6
+              }
+            ],
+            "ibc": {
+              "osmosis": {
+                "sourceChannelId": "channel-194",
+                "destChannelId": "channel-2",
+                "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+                "sourceDenom": "ubtsg"
+              }
+            },
+            "ibcEnabled": true,
+            "fantoken": true,
             "socials": {
               "mailchimpID": "",
               "links": [
@@ -1097,8 +841,24 @@
                 },
                 "name": "Adam Clay",
                 "symbol": "CLAY",
-                "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
-                "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+                "coinLookup": [
+                  {
+                    "viewDenom": "CLAY",
+                    "chainDenom": "seg",
+                    "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+                    "chainToViewConversionFactor": 1e-6
+                  }
+                ],
+                "ibc": {
+                  "osmosis": {
+                    "sourceChannelId": "channel-194",
+                    "destChannelId": "channel-2",
+                    "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+                    "sourceDenom": "ubtsg"
+                  }
+                },
+                "ibcEnabled": true,
+                "fantoken": true,
                 "socials": {
                   "mailchimpID": "",
                   "links": [
@@ -1170,8 +930,10 @@
               "logos",
               "name",
               "symbol",
-              "denom",
-              "ibcDenom",
+              "coinLookup",
+              "ibc",
+              "ibcEnabled",
+              "fantoken",
               "socials",
               "media",
               "whitepaper"
@@ -1219,23 +981,181 @@
                 "default": "",
                 "examples": ["CLAY"]
               },
-              "denom": {
-                "$id": "#/properties/fantokens/items/anyOf/0/properties/denom",
-                "type": "string",
-                "title": "The denom schema",
+              "coinLookup": {
+                "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup",
+                "type": "array",
+                "title": "The coinLookup schema",
                 "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": ["ftB80F52AC1B95727989F7953C6A55768341E1EAD1"]
-              },
-              "ibcDenom": {
-                "$id": "#/properties/fantokens/items/anyOf/0/properties/ibcDenom",
-                "type": "string",
-                "title": "The ibcDenom schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
+                "default": [],
                 "examples": [
-                  "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326"
-                ]
+                  [
+                    {
+                      "viewDenom": "CLAY",
+                      "chainDenom": "seg",
+                      "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+                      "chainToViewConversionFactor": 1e-6
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "viewDenom": "CLAY",
+                          "chainDenom": "seg",
+                          "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+                          "chainToViewConversionFactor": 1e-6
+                        }
+                      ],
+                      "required": [
+                        "viewDenom",
+                        "chainDenom",
+                        "fantokenDenom",
+                        "chainToViewConversionFactor"
+                      ],
+                      "properties": {
+                        "viewDenom": {
+                          "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/viewDenom",
+                          "type": "string",
+                          "title": "The viewDenom schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": ["CLAY"]
+                        },
+                        "chainDenom": {
+                          "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainDenom",
+                          "type": "string",
+                          "title": "The chainDenom schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": ["seg"]
+                        },
+                        "fantokenDenom": {
+                          "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/fantokenDenom",
+                          "type": "string",
+                          "title": "The fantokenDenom schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "ftB80F52AC1B95727989F7953C6A55768341E1EAD1"
+                          ]
+                        },
+                        "chainToViewConversionFactor": {
+                          "$id": "#/properties/fantokens/items/anyOf/0/properties/coinLookup/items/anyOf/0/properties/chainToViewConversionFactor",
+                          "type": "number",
+                          "title": "The chainToViewConversionFactor schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": 0.0,
+                          "examples": [1e-6]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              },
+              "ibc": {
+                "$id": "#/properties/fantokens/items/anyOf/0/properties/ibc",
+                "type": "object",
+                "title": "The ibc schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "osmosis": {
+                      "sourceChannelId": "channel-194",
+                      "destChannelId": "channel-2",
+                      "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+                      "sourceDenom": "ubtsg"
+                    }
+                  }
+                ],
+                "required": ["osmosis"],
+                "properties": {
+                  "osmosis": {
+                    "$id": "#/properties/fantokens/items/anyOf/0/properties/ibc/properties/osmosis",
+                    "type": "object",
+                    "title": "The osmosis schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                      {
+                        "sourceChannelId": "channel-194",
+                        "destChannelId": "channel-2",
+                        "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+                        "sourceDenom": "ubtsg"
+                      }
+                    ],
+                    "required": [
+                      "sourceChannelId",
+                      "destChannelId",
+                      "destDenom",
+                      "sourceDenom"
+                    ],
+                    "properties": {
+                      "sourceChannelId": {
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/ibc/properties/osmosis/properties/sourceChannelId",
+                        "type": "string",
+                        "title": "The sourceChannelId schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": ["channel-194"]
+                      },
+                      "destChannelId": {
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/ibc/properties/osmosis/properties/destChannelId",
+                        "type": "string",
+                        "title": "The destChannelId schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": ["channel-2"]
+                      },
+                      "destDenom": {
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/ibc/properties/osmosis/properties/destDenom",
+                        "type": "string",
+                        "title": "The destDenom schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326"
+                        ]
+                      },
+                      "sourceDenom": {
+                        "$id": "#/properties/fantokens/items/anyOf/0/properties/ibc/properties/osmosis/properties/sourceDenom",
+                        "type": "string",
+                        "title": "The sourceDenom schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": ["ubtsg"]
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "additionalProperties": true
+              },
+              "ibcEnabled": {
+                "$id": "#/properties/fantokens/items/anyOf/0/properties/ibcEnabled",
+                "type": "boolean",
+                "title": "The ibcEnabled schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": false,
+                "examples": [true]
+              },
+              "fantoken": {
+                "$id": "#/properties/fantokens/items/anyOf/0/properties/fantoken",
+                "type": "boolean",
+                "title": "The fantoken schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": false,
+                "examples": [true]
               },
               "socials": {
                 "$id": "#/properties/fantokens/items/anyOf/0/properties/socials",

@@ -10,7 +10,6 @@
     "explorerURL": "https://www.mintscan.io/bitsong/",
     "minBlockHeight": 1,
     "symbol": "BTSG",
-    "ibcDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
     "coinLookup": [
       {
         "viewDenom": "BTSG",
@@ -22,9 +21,12 @@
     "coinGeckoId": "bitsong",
     "coinType": 639,
     "ibc": {
-      "sourceChannelId": "channel-194",
-      "destChannelId": "channel-2",
-      "sourceDenom": "ubtsg"
+      "osmosis": {
+        "sourceChannelId": "channel-194",
+        "destChannelId": "channel-2",
+        "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+        "sourceDenom": "ubtsg"
+      }
     },
     "ibcEnabled": true
   },
@@ -39,7 +41,6 @@
     "explorerURL": "https://www.mintscan.io/osmosis/",
     "minBlockHeight": 1,
     "symbol": "OSMO",
-    "ibcDenom": "uosmo",
     "coinLookup": [
       {
         "viewDenom": "OSMO",
@@ -49,8 +50,7 @@
     ],
     "addressPrefix": "osmo",
     "coinGeckoId": "osmosis",
-    "coinType": 118,
-    "ibcEnabled": false
+    "coinType": 118
   },
   "tokens": [],
   "fantokens": [
@@ -60,8 +60,24 @@
       },
       "name": "Adam Clay",
       "symbol": "CLAY",
-      "denom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
-      "ibcDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+      "coinLookup": [
+        {
+          "viewDenom": "CLAY",
+          "chainDenom": "seg",
+          "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
+          "chainToViewConversionFactor": 1e-6
+        }
+      ],
+      "ibc": {
+        "osmosis": {
+          "sourceChannelId": "channel-194",
+          "destChannelId": "channel-2",
+          "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
+          "sourceDenom": "ubtsg"
+        }
+      },
+      "ibcEnabled": true,
+      "fantoken": true,
       "socials": {
         "mailchimpID": "",
         "links": [
