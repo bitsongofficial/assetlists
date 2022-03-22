@@ -153,6 +153,11 @@
           }
         }
       ],
+      "pools": [
+        {
+          "id": "644"
+        }
+      ],
       "timestamp": "2022-03-21T00:00:00+00:00",
       "version": {
         "major": 0,
@@ -166,6 +171,7 @@
     "osmosisToken",
     "tokens",
     "fantokens",
+    "pools",
     "timestamp",
     "version"
   ],
@@ -1775,6 +1781,50 @@
                   }
                 },
                 "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "pools": {
+      "$id": "#/properties/pools",
+      "type": "array",
+      "title": "The pools schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "id": "644"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/pools/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/pools/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "id": "644"
+              }
+            ],
+            "required": ["id"],
+            "properties": {
+              "id": {
+                "$id": "#/properties/pools/items/anyOf/0/properties/id",
+                "type": "string",
+                "title": "The id schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["644"]
               }
             },
             "additionalProperties": true
