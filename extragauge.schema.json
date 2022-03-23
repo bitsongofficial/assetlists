@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "Extra Gauge In Pool",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "644": [
+        {
+          "gaugeId": "000",
+          "denom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        },
+        {
+          "gaugeId": "001",
+          "denom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        },
+        {
+          "gaugeId": "002",
+          "denom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        }
+      ]
+    }
+  ],
+  "required": ["644"],
+  "properties": {
+    "644": {
+      "$id": "#/properties/644",
+      "type": "array",
+      "title": "The 644 schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "gaugeId": "000",
+            "denom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+          },
+          {
+            "gaugeId": "001",
+            "denom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/644/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/644/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "gaugeId": "000",
+                "denom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+              }
+            ],
+            "required": ["gaugeId", "denom"],
+            "properties": {
+              "gaugeId": {
+                "$id": "#/properties/644/items/anyOf/0/properties/gaugeId",
+                "type": "string",
+                "title": "The gaugeId schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["000"]
+              },
+              "denom": {
+                "$id": "#/properties/644/items/anyOf/0/properties/denom",
+                "type": "string",
+                "title": "The denom schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}
