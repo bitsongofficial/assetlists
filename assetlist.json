@@ -1,12 +1,12 @@
 {
   "bitsongToken": {
-    "chainID": "bigbang-test-3",
+    "chainID": "bitsong-2b",
     "logos": {
       "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
     },
     "name": "BitSong Testnet",
-    "apiURL": "https://api.testnet.bitsong.network",
-    "rpcURL": "https://rpc.testnet.bitsong.network",
+    "apiURL": "https://lcd.explorebitsong.com",
+    "rpcURL": "https://rpc.explorebitsong.com",
     "explorerURL": "https://www.mintscan.io/bitsong/",
     "minBlockHeight": 1,
     "symbol": "BTSG",
@@ -31,13 +31,13 @@
     "ibcEnabled": true
   },
   "osmosisToken": {
-    "chainID": "osmo-test-4",
+    "chainID": "osmosis-1",
     "logos": {
       "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
     },
-    "name": "Osmosis Testnet",
-    "apiURL": "https://testnet-rest.osmosis.zone",
-    "rpcURL": "https://testnet-rpc.osmosis.zone",
+    "name": "Osmosis",
+    "apiURL": "https://lcd.osmosis.bas.network",
+    "rpcURL": "https://rpc.osmosis.bas.network",
     "explorerURL": "https://www.mintscan.io/osmosis/",
     "minBlockHeight": 1,
     "symbol": "OSMO",
@@ -147,7 +147,7 @@
   ],
   "pools": [
     {
-      "id": "644"
+      "id": "573"
     }
   ],
   "timestamp": "2022-03-21T00:00:00+00:00",
