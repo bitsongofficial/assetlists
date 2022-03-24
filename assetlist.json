@@ -74,7 +74,48 @@
     "coinGeckoId": "osmosis",
     "coinType": 118
   },
-  "tokens": [],
+  "tokens": [{
+    "chainID": "juno-1",
+    "logos": {
+      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/juno.svg"
+    },
+    "name": "Juno",
+    "apiURL": "https://lcd-juno.itastakers.com",
+    "rpcURL": "https://rpc-juno.itastakers.com",
+    "explorerURL": "https://www.mintscan.io/juno/",
+    "minBlockHeight": 1412200,
+    "symbol": "JUNO",
+    "coinLookup": [
+      {
+        "viewDenom": "JUNO",
+        "chainDenom": "ujuno",
+        "chainToViewConversionFactor": 1e-6
+      }
+    ],
+    "fees": {
+      "default": {
+        "gasEstimate": 350000,
+        "feeOptions": [
+          {
+            "denom": "JUNO",
+            "amount": "0.001"
+          }
+        ]
+      }
+    },
+    "addressPrefix": "juno",
+    "coinGeckoId": "juno-network",
+    "coinType": 118,
+    "ibc": {
+      "osmosis": {
+        "sourceChannelId": "channel-42",
+        "destChannelId": "channel-0",
+        "destDenom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+        "sourceDenom": "ujuno"
+      }
+    },
+    "ibcEnabled": true
+  }],
   "fantokens": [
     {
       "logos": {
@@ -170,6 +211,9 @@
   "pools": [
     {
       "id": "573"
+    },
+    {
+      "id": "497"
     }
   ],
   "timestamp": "2022-03-21T00:00:00+00:00",
