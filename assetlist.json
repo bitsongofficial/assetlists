@@ -98,6 +98,9 @@
           "sourceDenom": "ubtsg"
         }
       },
+      "routes": {
+        "poolID": "644"
+      },
       "ibcEnabled": true,
       "fantoken": true,
       "socials": {
