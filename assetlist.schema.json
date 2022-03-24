@@ -8,13 +8,13 @@
   "examples": [
     {
       "bitsongToken": {
-        "chainID": "bigbang-test-3",
+        "chainID": "bitsong-2b",
         "logos": {
-          "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
+          "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
         },
         "name": "BitSong Testnet",
-        "apiURL": "https://api.testnet.bitsong.network",
-        "rpcURL": "https://rpc.testnet.bitsong.network",
+        "apiURL": "https://lcd.explorebitsong.com",
+        "rpcURL": "https://rpc.explorebitsong.com",
         "explorerURL": "https://www.mintscan.io/bitsong/",
         "minBlockHeight": 1,
         "symbol": "BTSG",
@@ -25,27 +25,38 @@
             "chainToViewConversionFactor": 1e-6
           }
         ],
+        "fees": {
+          "default": {
+            "gasEstimate": 350000,
+            "feeOptions": [
+              {
+                "denom": "BTSG",
+                "amount": "0.001"
+              }
+            ]
+          }
+        },
         "addressPrefix": "bitsong",
         "coinGeckoId": "bitsong",
         "coinType": 639,
         "ibc": {
           "osmosis": {
-            "sourceChannelId": "channel-194",
-            "destChannelId": "channel-2",
-            "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+            "sourceChannelId": "channel-73",
+            "destChannelId": "channel-0",
+            "destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
             "sourceDenom": "ubtsg"
           }
         },
         "ibcEnabled": true
       },
       "osmosisToken": {
-        "chainID": "osmo-test-4",
+        "chainID": "osmosis-1",
         "logos": {
-          "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+          "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
         },
-        "name": "Osmosis Testnet",
-        "apiURL": "https://testnet-rest.osmosis.zone",
-        "rpcURL": "https://testnet-rpc.osmosis.zone",
+        "name": "Osmosis",
+        "apiURL": "https://lcd.osmosis.bas.network",
+        "rpcURL": "https://rpc.osmosis.bas.network",
         "explorerURL": "https://www.mintscan.io/osmosis/",
         "minBlockHeight": 1,
         "symbol": "OSMO",
@@ -56,6 +67,17 @@
             "chainToViewConversionFactor": 1e-6
           }
         ],
+        "fees": {
+          "default": {
+            "gasEstimate": 350000,
+            "feeOptions": [
+              {
+                "denom": "BTSG",
+                "amount": "0.001"
+              }
+            ]
+          }
+        },
         "addressPrefix": "osmo",
         "coinGeckoId": "osmosis",
         "coinType": 118
@@ -64,7 +86,7 @@
       "fantokens": [
         {
           "logos": {
-            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/atom.svg"
+            "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam-clay.png"
           },
           "name": "Adam Clay",
           "symbol": "CLAY",
@@ -155,7 +177,7 @@
       ],
       "pools": [
         {
-          "id": "644"
+          "id": "573"
         }
       ],
       "timestamp": "2022-03-21T00:00:00+00:00",
@@ -184,13 +206,13 @@
       "default": {},
       "examples": [
         {
-          "chainID": "bigbang-test-3",
+          "chainID": "bitsong-2b",
           "logos": {
-            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
+            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
           },
           "name": "BitSong Testnet",
-          "apiURL": "https://api.testnet.bitsong.network",
-          "rpcURL": "https://rpc.testnet.bitsong.network",
+          "apiURL": "https://lcd.explorebitsong.com",
+          "rpcURL": "https://rpc.explorebitsong.com",
           "explorerURL": "https://www.mintscan.io/bitsong/",
           "minBlockHeight": 1,
           "symbol": "BTSG",
@@ -201,14 +223,25 @@
               "chainToViewConversionFactor": 1e-6
             }
           ],
+          "fees": {
+            "default": {
+              "gasEstimate": 350000,
+              "feeOptions": [
+                {
+                  "denom": "BTSG",
+                  "amount": "0.001"
+                }
+              ]
+            }
+          },
           "addressPrefix": "bitsong",
           "coinGeckoId": "bitsong",
           "coinType": 639,
           "ibc": {
             "osmosis": {
-              "sourceChannelId": "channel-194",
-              "destChannelId": "channel-2",
-              "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+              "sourceChannelId": "channel-73",
+              "destChannelId": "channel-0",
+              "destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
               "sourceDenom": "ubtsg"
             }
           },
@@ -225,6 +258,7 @@
         "minBlockHeight",
         "symbol",
         "coinLookup",
+        "fees",
         "addressPrefix",
         "coinGeckoId",
         "coinType",
@@ -238,7 +272,7 @@
           "title": "The chainID schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["bigbang-test-3"]
+          "examples": ["bitsong-2b"]
         },
         "logos": {
           "$id": "#/properties/bitsongToken/properties/logos",
@@ -248,7 +282,7 @@
           "default": {},
           "examples": [
             {
-              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
+              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
             }
           ],
           "required": ["svg"],
@@ -260,7 +294,7 @@
               "description": "An explanation about the purpose of this instance.",
               "default": "",
               "examples": [
-                "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
+                "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
               ]
             }
           },
@@ -280,7 +314,7 @@
           "title": "The apiURL schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["https://api.testnet.bitsong.network"]
+          "examples": ["https://lcd.explorebitsong.com"]
         },
         "rpcURL": {
           "$id": "#/properties/bitsongToken/properties/rpcURL",
@@ -288,7 +322,7 @@
           "title": "The rpcURL schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["https://rpc.testnet.bitsong.network"]
+          "examples": ["https://rpc.explorebitsong.com"]
         },
         "explorerURL": {
           "$id": "#/properties/bitsongToken/properties/explorerURL",
@@ -382,6 +416,114 @@
             ]
           }
         },
+        "fees": {
+          "$id": "#/properties/bitsongToken/properties/fees",
+          "type": "object",
+          "title": "The fees schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "default": {
+                "gasEstimate": 350000,
+                "feeOptions": [
+                  {
+                    "denom": "BTSG",
+                    "amount": "0.001"
+                  }
+                ]
+              }
+            }
+          ],
+          "required": ["default"],
+          "properties": {
+            "default": {
+              "$id": "#/properties/bitsongToken/properties/fees/properties/default",
+              "type": "object",
+              "title": "The default schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "gasEstimate": 350000,
+                  "feeOptions": [
+                    {
+                      "denom": "BTSG",
+                      "amount": "0.001"
+                    }
+                  ]
+                }
+              ],
+              "required": ["gasEstimate", "feeOptions"],
+              "properties": {
+                "gasEstimate": {
+                  "$id": "#/properties/bitsongToken/properties/fees/properties/default/properties/gasEstimate",
+                  "type": "integer",
+                  "title": "The gasEstimate schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [350000]
+                },
+                "feeOptions": {
+                  "$id": "#/properties/bitsongToken/properties/fees/properties/default/properties/feeOptions",
+                  "type": "array",
+                  "title": "The feeOptions schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": [],
+                  "examples": [
+                    [
+                      {
+                        "denom": "BTSG",
+                        "amount": "0.001"
+                      }
+                    ]
+                  ],
+                  "additionalItems": true,
+                  "items": {
+                    "$id": "#/properties/bitsongToken/properties/fees/properties/default/properties/feeOptions/items",
+                    "anyOf": [
+                      {
+                        "$id": "#/properties/bitsongToken/properties/fees/properties/default/properties/feeOptions/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                          {
+                            "denom": "BTSG",
+                            "amount": "0.001"
+                          }
+                        ],
+                        "required": ["denom", "amount"],
+                        "properties": {
+                          "denom": {
+                            "$id": "#/properties/bitsongToken/properties/fees/properties/default/properties/feeOptions/items/anyOf/0/properties/denom",
+                            "type": "string",
+                            "title": "The denom schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": ["BTSG"]
+                          },
+                          "amount": {
+                            "$id": "#/properties/bitsongToken/properties/fees/properties/default/properties/feeOptions/items/anyOf/0/properties/amount",
+                            "type": "string",
+                            "title": "The amount schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": ["0.001"]
+                          }
+                        },
+                        "additionalProperties": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
         "addressPrefix": {
           "$id": "#/properties/bitsongToken/properties/addressPrefix",
           "type": "string",
@@ -415,9 +557,9 @@
           "examples": [
             {
               "osmosis": {
-                "sourceChannelId": "channel-194",
-                "destChannelId": "channel-2",
-                "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+                "sourceChannelId": "channel-73",
+                "destChannelId": "channel-0",
+                "destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
                 "sourceDenom": "ubtsg"
               }
             }
@@ -432,9 +574,9 @@
               "default": {},
               "examples": [
                 {
-                  "sourceChannelId": "channel-194",
-                  "destChannelId": "channel-2",
-                  "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
+                  "sourceChannelId": "channel-73",
+                  "destChannelId": "channel-0",
+                  "destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
                   "sourceDenom": "ubtsg"
                 }
               ],
@@ -451,7 +593,7 @@
                   "title": "The sourceChannelId schema",
                   "description": "An explanation about the purpose of this instance.",
                   "default": "",
-                  "examples": ["channel-194"]
+                  "examples": ["channel-73"]
                 },
                 "destChannelId": {
                   "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis/properties/destChannelId",
@@ -459,7 +601,7 @@
                   "title": "The destChannelId schema",
                   "description": "An explanation about the purpose of this instance.",
                   "default": "",
-                  "examples": ["channel-2"]
+                  "examples": ["channel-0"]
                 },
                 "destDenom": {
                   "$id": "#/properties/bitsongToken/properties/ibc/properties/osmosis/properties/destDenom",
@@ -468,7 +610,7 @@
                   "description": "An explanation about the purpose of this instance.",
                   "default": "",
                   "examples": [
-                    "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+                    "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
                   ]
                 },
                 "sourceDenom": {
@@ -504,13 +646,13 @@
       "default": {},
       "examples": [
         {
-          "chainID": "osmo-test-4",
+          "chainID": "osmosis-1",
           "logos": {
-            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+            "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
           },
-          "name": "Osmosis Testnet",
-          "apiURL": "https://testnet-rest.osmosis.zone",
-          "rpcURL": "https://testnet-rpc.osmosis.zone",
+          "name": "Osmosis",
+          "apiURL": "https://lcd.osmosis.bas.network",
+          "rpcURL": "https://rpc.osmosis.bas.network",
           "explorerURL": "https://www.mintscan.io/osmosis/",
           "minBlockHeight": 1,
           "symbol": "OSMO",
@@ -521,6 +663,17 @@
               "chainToViewConversionFactor": 1e-6
             }
           ],
+          "fees": {
+            "default": {
+              "gasEstimate": 350000,
+              "feeOptions": [
+                {
+                  "denom": "BTSG",
+                  "amount": "0.001"
+                }
+              ]
+            }
+          },
           "addressPrefix": "osmo",
           "coinGeckoId": "osmosis",
           "coinType": 118
@@ -536,6 +689,7 @@
         "minBlockHeight",
         "symbol",
         "coinLookup",
+        "fees",
         "addressPrefix",
         "coinGeckoId",
         "coinType"
@@ -547,7 +701,7 @@
           "title": "The chainID schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["osmo-test-4"]
+          "examples": ["osmosis-1"]
         },
         "logos": {
           "$id": "#/properties/osmosisToken/properties/logos",
@@ -557,7 +711,7 @@
           "default": {},
           "examples": [
             {
-              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
             }
           ],
           "required": ["svg"],
@@ -569,7 +723,7 @@
               "description": "An explanation about the purpose of this instance.",
               "default": "",
               "examples": [
-                "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
+                "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
               ]
             }
           },
@@ -581,7 +735,7 @@
           "title": "The name schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["Osmosis Testnet"]
+          "examples": ["Osmosis"]
         },
         "apiURL": {
           "$id": "#/properties/osmosisToken/properties/apiURL",
@@ -589,7 +743,7 @@
           "title": "The apiURL schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["https://testnet-rest.osmosis.zone"]
+          "examples": ["https://lcd.osmosis.bas.network"]
         },
         "rpcURL": {
           "$id": "#/properties/osmosisToken/properties/rpcURL",
@@ -597,7 +751,7 @@
           "title": "The rpcURL schema",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
-          "examples": ["https://testnet-rpc.osmosis.zone"]
+          "examples": ["https://rpc.osmosis.bas.network"]
         },
         "explorerURL": {
           "$id": "#/properties/osmosisToken/properties/explorerURL",
@@ -691,6 +845,114 @@
             ]
           }
         },
+        "fees": {
+          "$id": "#/properties/osmosisToken/properties/fees",
+          "type": "object",
+          "title": "The fees schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "default": {
+                "gasEstimate": 350000,
+                "feeOptions": [
+                  {
+                    "denom": "BTSG",
+                    "amount": "0.001"
+                  }
+                ]
+              }
+            }
+          ],
+          "required": ["default"],
+          "properties": {
+            "default": {
+              "$id": "#/properties/osmosisToken/properties/fees/properties/default",
+              "type": "object",
+              "title": "The default schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "gasEstimate": 350000,
+                  "feeOptions": [
+                    {
+                      "denom": "BTSG",
+                      "amount": "0.001"
+                    }
+                  ]
+                }
+              ],
+              "required": ["gasEstimate", "feeOptions"],
+              "properties": {
+                "gasEstimate": {
+                  "$id": "#/properties/osmosisToken/properties/fees/properties/default/properties/gasEstimate",
+                  "type": "integer",
+                  "title": "The gasEstimate schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [350000]
+                },
+                "feeOptions": {
+                  "$id": "#/properties/osmosisToken/properties/fees/properties/default/properties/feeOptions",
+                  "type": "array",
+                  "title": "The feeOptions schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": [],
+                  "examples": [
+                    [
+                      {
+                        "denom": "BTSG",
+                        "amount": "0.001"
+                      }
+                    ]
+                  ],
+                  "additionalItems": true,
+                  "items": {
+                    "$id": "#/properties/osmosisToken/properties/fees/properties/default/properties/feeOptions/items",
+                    "anyOf": [
+                      {
+                        "$id": "#/properties/osmosisToken/properties/fees/properties/default/properties/feeOptions/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                          {
+                            "denom": "BTSG",
+                            "amount": "0.001"
+                          }
+                        ],
+                        "required": ["denom", "amount"],
+                        "properties": {
+                          "denom": {
+                            "$id": "#/properties/osmosisToken/properties/fees/properties/default/properties/feeOptions/items/anyOf/0/properties/denom",
+                            "type": "string",
+                            "title": "The denom schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": ["BTSG"]
+                          },
+                          "amount": {
+                            "$id": "#/properties/osmosisToken/properties/fees/properties/default/properties/feeOptions/items/anyOf/0/properties/amount",
+                            "type": "string",
+                            "title": "The amount schema",
+                            "description": "An explanation about the purpose of this instance.",
+                            "default": "",
+                            "examples": ["0.001"]
+                          }
+                        },
+                        "additionalProperties": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
         "addressPrefix": {
           "$id": "#/properties/osmosisToken/properties/addressPrefix",
           "type": "string",
@@ -740,7 +1002,7 @@
         [
           {
             "logos": {
-              "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/atom.svg"
+              "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam-clay.png"
             },
             "name": "Adam Clay",
             "symbol": "CLAY",
@@ -843,7 +1105,7 @@
             "examples": [
               {
                 "logos": {
-                  "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/atom.svg"
+                  "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam-clay.png"
                 },
                 "name": "Adam Clay",
                 "symbol": "CLAY",
@@ -953,19 +1215,19 @@
                 "default": {},
                 "examples": [
                   {
-                    "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/atom.svg"
+                    "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam-clay.png"
                   }
                 ],
-                "required": ["svg"],
+                "required": ["png"],
                 "properties": {
-                  "svg": {
-                    "$id": "#/properties/fantokens/items/anyOf/0/properties/logos/properties/svg",
+                  "png": {
+                    "$id": "#/properties/fantokens/items/anyOf/0/properties/logos/properties/png",
                     "type": "string",
-                    "title": "The svg schema",
+                    "title": "The png schema",
                     "description": "An explanation about the purpose of this instance.",
                     "default": "",
                     "examples": [
-                      "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/atom.svg"
+                      "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam-clay.png"
                     ]
                   }
                 },
@@ -1797,7 +2059,7 @@
       "examples": [
         [
           {
-            "id": "644"
+            "id": "573"
           }
         ]
       ],
@@ -1813,7 +2075,7 @@
             "default": {},
             "examples": [
               {
-                "id": "644"
+                "id": "573"
               }
             ],
             "required": ["id"],
@@ -1824,7 +2086,7 @@
                 "title": "The id schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": "",
-                "examples": ["644"]
+                "examples": ["573"]
               }
             },
             "additionalProperties": true

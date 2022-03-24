@@ -4,7 +4,7 @@
     "logos": {
       "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
     },
-    "name": "BitSong Testnet",
+    "name": "BitSong",
     "apiURL": "https://lcd.explorebitsong.com",
     "rpcURL": "https://rpc.explorebitsong.com",
     "explorerURL": "https://www.mintscan.io/bitsong/",
@@ -17,6 +17,17 @@
         "chainToViewConversionFactor": 1e-6
       }
     ],
+    "fees": {
+      "default": {
+        "gasEstimate": 350000,
+        "feeOptions": [
+          {
+            "denom": "BTSG",
+            "amount": "0.001"
+          }
+        ]
+      }
+    },
     "addressPrefix": "bitsong",
     "coinGeckoId": "bitsong",
     "coinType": 639,
@@ -48,6 +59,17 @@
         "chainToViewConversionFactor": 1e-6
       }
     ],
+    "fees": {
+      "default": {
+        "gasEstimate": 350000,
+        "feeOptions": [
+          {
+            "denom": "BTSG",
+            "amount": "0.001"
+          }
+        ]
+      }
+    },
     "addressPrefix": "osmo",
     "coinGeckoId": "osmosis",
     "coinType": 118
