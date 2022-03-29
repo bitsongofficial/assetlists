@@ -1,12 +1,12 @@
 {
   "bitsongToken": {
-    "chainID": "bitsong-2b",
+    "chainID": "bigbang-test-3",
     "logos": {
       "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
     },
-    "name": "BitSong",
-    "apiURL": "https://lcd.explorebitsong.com",
-    "rpcURL": "https://rpc.explorebitsong.com",
+    "name": "BitSong Testnet",
+    "apiURL": "https://api.testnet.bitsong.network",
+    "rpcURL": "https://rpc.testnet.bitsong.network",
     "explorerURL": "https://www.mintscan.io/bitsong/",
     "minBlockHeight": 1,
     "symbol": "BTSG",
@@ -33,22 +33,22 @@
     "coinType": 639,
     "ibc": {
       "osmosis": {
-        "sourceChannelId": "channel-73",
-        "destChannelId": "channel-0",
-        "destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
+        "sourceChannelId": "channel-194",
+        "destChannelId": "channel-2",
+        "destDenom": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F",
         "sourceDenom": "ubtsg"
       }
     },
     "ibcEnabled": true
   },
   "osmosisToken": {
-    "chainID": "osmosis-1",
+    "chainID": "osmo-test-4",
     "logos": {
       "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
     },
-    "name": "Osmosis",
-    "apiURL": "https://lcd.osmosis.bas.network",
-    "rpcURL": "https://rpc.osmosis.bas.network",
+    "name": "Osmosis Testnet",
+    "apiURL": "https://testnet-rest.osmosis.zone",
+    "rpcURL": "https://testnet-rpc.osmosis.zone",
     "explorerURL": "https://www.mintscan.io/osmosis/",
     "minBlockHeight": 1,
     "symbol": "OSMO",
