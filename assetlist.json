@@ -17,6 +17,17 @@
         "chainToViewConversionFactor": 1e-6
       }
     ],
+    "fees": {
+      "default": {
+        "gasEstimate": 350000,
+        "feeOptions": [
+          {
+            "denom": "BTSG",
+            "amount": "0.001"
+          }
+        ]
+      }
+    },
     "addressPrefix": "bitsong",
     "coinGeckoId": "bitsong",
     "coinType": 639,
@@ -37,7 +48,7 @@
     },
     "name": "Osmosis Testnet",
     "apiURL": "https://testnet-rest.osmosis.zone",
-    "rpcURL": "https://testnet-rpc.osmosis.zone",
+    "rpcURL": "https://rpc.osmo-test.ccvalidators.com",
     "explorerURL": "https://www.mintscan.io/osmosis/",
     "minBlockHeight": 1,
     "symbol": "OSMO",
@@ -48,6 +59,17 @@
         "chainToViewConversionFactor": 1e-6
       }
     ],
+    "fees": {
+      "default": {
+        "gasEstimate": 350000,
+        "feeOptions": [
+          {
+            "denom": "OSMO",
+            "amount": "0.001"
+          }
+        ]
+      }
+    },
     "addressPrefix": "osmo",
     "coinGeckoId": "osmosis",
     "coinType": 118
@@ -75,6 +97,9 @@
           "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
           "sourceDenom": "ubtsg"
         }
+      },
+      "routes": {
+        "poolID": "644"
       },
       "ibcEnabled": true,
       "fantoken": true,
@@ -148,8 +173,51 @@
   "pools": [
     {
       "id": "644"
+    },
+    {
+      "id": "645"
     }
   ],
+  "routes": {
+    "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F":  {
+      "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326": [
+        {
+          "id": "644",
+          "out": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326"
+        }
+      ]
+    },
+    "uosmo": {
+      "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326": [
+        {
+          "id": "645",
+          "out": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        },
+        {
+          "id": "644",
+          "out": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326"
+        }
+      ]
+    },
+    "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326": {
+      "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F": [
+        {
+          "id": "644",
+          "out": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        }
+      ],
+      "uosmo": [
+        {
+          "id": "644",
+          "out": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        },
+        {
+          "id": "645",
+          "out": "uosmo"
+        }
+      ]
+    }
+  },
   "timestamp": "2022-03-21T00:00:00+00:00",
   "version": {
     "major": 0,
