@@ -115,6 +115,48 @@
       }
     },
     "ibcEnabled": true
+  },
+  {
+    "chainID": "cerberus-chain-1",
+    "logos": {
+      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/atom.svg"
+    },
+    "name": "Cerberus",
+    "apiURL": "https://api.cerberus.zone:1317",
+    "rpcURL": "https://rpc.cerberus.zone:26657",
+    "explorerURL": "https://www.mintscan.io/cerberus/",
+    "minBlockHeight": 1412200,
+    "symbol": "CRBRUS",
+    "coinLookup": [
+      {
+        "viewDenom": "CRBRUS",
+        "chainDenom": "ucrbrus",
+        "chainToViewConversionFactor": 1e-6
+      }
+    ],
+    "fees": {
+      "default": {
+        "gasEstimate": 350000,
+        "feeOptions": [
+          {
+            "denom": "CRBRUS",
+            "amount": "0.001"
+          }
+        ]
+      }
+    },
+    "addressPrefix": "cerberus",
+    "coinGeckoId": "cerberus-2",
+    "coinType": 118,
+    "ibc": {
+      "osmosis": {
+        "sourceChannelId": "channel-212",
+        "destChannelId": "channel-1",
+        "destDenom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
+        "sourceDenom": "ucrbrus"
+      }
+    },
+    "ibcEnabled": true
   }],
   "fantokens": [
     {
@@ -217,6 +259,9 @@
     },
     {
       "id": "497"
+    },
+    {
+      "id": "662"
     }
   ],
   "routes": {
