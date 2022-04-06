@@ -191,6 +191,9 @@
           "sourceDenom": "ubtsg"
         }
       },
+      "routes": {
+        "poolID": "648"
+      },
       "ibcEnabled": true,
       "fantoken": true,
       "socials": {
@@ -311,6 +314,24 @@
       "uosmo": [
         {
           "id": "644",
+          "out": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        },
+        {
+          "id": "645",
+          "out": "uosmo"
+        }
+      ]
+    },
+    "ibc/B1716228650500B4377DE96B8189140C225FD874D5F26365369F64E070379277": {
+      "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F": [
+        {
+          "id": "648",
+          "out": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
+        }
+      ],
+      "uosmo": [
+        {
+          "id": "648",
           "out": "ibc/3BB16ABE9D0AE03672C82583B667248479D9F11B0EC75DE5CD64E13CDD86EF1F"
         },
         {
