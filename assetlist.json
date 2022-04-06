@@ -168,6 +168,96 @@
           ]
         }
       }
+    },
+    {
+      "logos": {
+        "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.png"
+      },
+      "name": "Delta9",
+      "symbol": "DT9",
+      "coinLookup": [
+        {
+          "viewDenom": "DT9",
+          "chainDenom": "dt9",
+          "fantokenDenom": "ftCEF14E03B5E2E68B2CB8671496D0191B9E0C5237",
+          "chainToViewConversionFactor": 1e-6
+        }
+      ],
+      "ibc": {
+        "osmosis": {
+          "sourceChannelId": "channel-194",
+          "destChannelId": "channel-2",
+          "destDenom": "ibc/B1716228650500B4377DE96B8189140C225FD874D5F26365369F64E070379277",
+          "sourceDenom": "ubtsg"
+        }
+      },
+      "ibcEnabled": true,
+      "fantoken": true,
+      "socials": {
+        "mailchimpID": "",
+        "links": [
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "type": "facebook",
+            "url": "https://www.facebook.com/"
+          }
+        ]
+      },
+      "media": {
+        "hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
+      },
+      "whitepaper": {
+        "biography": {
+          "title": "BitSong introduces: Adam Clay",
+          "content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
+        },
+        "project": {
+          "title": "Project Title",
+          "content": "Project Content"
+        },
+        "useCases": {
+          "title": "useCase Title",
+          "content": "useCase Content",
+          "cases": [
+            {
+              "title": "One",
+              "content": "description"
+            }
+          ]
+        },
+        "tokenomics": {
+          "title": "useCase Title",
+          "totalSupply": "9999999",
+          "initialMarketcap": "9999999",
+          "quantities": [
+            {
+              "title": "One",
+              "percentage": "10%",
+              "content": "description"
+            }
+          ],
+          "vestingTokens": "10 years"
+        },
+        "roadmap": {
+          "list": [
+            {
+              "title": "One",
+              "time": "Q1 2022",
+              "events": [
+                {
+                  "description": "Event 1"
+                },
+                {
+                  "description": "Event 2"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "pools": [
