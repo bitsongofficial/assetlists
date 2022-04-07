@@ -200,19 +200,35 @@
         "mailchimpID": "",
         "links": [
           {
-            "type": "instagram",
-            "url": "https://www.instagram.com/"
+            "type": "facebook",
+            "url": "https://www.facebook.com/adamclaymusic"
           },
           {
-            "type": "facebook",
-            "url": "https://www.facebook.com/"
+            "type": "instagram",
+            "url": "https://www.instagram.com/adamclayreal"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/adamclaymusic"
+          },
+          {
+            "type": "spotify",
+            "url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
+          },
+          {
+            "type": "website",
+            "url": "https://www.adamclay.com/"
           }
         ]
       },
       "media": {
         "hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
       },
+      "airdrop": {
+        "url": "https://bitsong.io/airdrop/"
+      },
       "whitepaper": {
+        "url": "https://bitsong.io/fantokens/adam-clay/",
         "biography": {
           "title": "BitSong introduces: Adam Clay",
           "content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
