@@ -104,7 +104,7 @@
       "ibcEnabled": true,
       "fantoken": true,
       "socials": {
-        "mailchimpID": "",
+        "mailchimpID": "deaadbfbd5",
         "links": [
           {
             "type": "facebook",
