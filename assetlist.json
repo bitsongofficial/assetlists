@@ -61,11 +61,11 @@
     ],
     "fees": {
       "default": {
-        "gasEstimate": 350000,
+        "gasEstimate": 250000,
         "feeOptions": [
           {
             "denom": "OSMO",
-            "amount": "0.001"
+            "amount": "0"
           }
         ]
       }
