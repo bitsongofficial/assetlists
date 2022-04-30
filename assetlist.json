@@ -498,7 +498,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/delta9.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/rawanne.jpeg"
 			},
 			"name": "Rawanne",
 			"symbol": "RWNE",
@@ -541,7 +541,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/delta9/media/delta9-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/rowanne/media/rowanne-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -599,7 +599,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/delta9.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/fofdr.png"
 			},
 			"name": "404 Deep Records",
 			"symbol": "FOFDR",
@@ -638,7 +638,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/delta9/media/delta9-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/fofdr/media/fofdr-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -793,7 +793,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/delta9.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/bjks.png"
 			},
 			"name": "Blackjack Records",
 			"symbol": "BJKS",
@@ -836,7 +836,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/delta9/media/delta9-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/bjks/media/bjks-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -928,7 +928,7 @@
 					},
 					{
 					  "type": "website",
-					  "url": "delvento.it"
+					  "url": "http://delvento.it"
 					}
 				]
 			},
