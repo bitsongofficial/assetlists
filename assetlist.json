@@ -216,24 +216,12 @@
 				"mailchimpID": "",
 				"links": [
 					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
+					  "type": "facebook",
+					  "url": "https://www.facebook.com/delta9recordings"
 					},
 					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+					  "type": "twitter",
+					  "url": "https://twitter.com/Delta9Recs"
 					}
 				]
 			},
@@ -325,24 +313,24 @@
 				"mailchimpID": "",
 				"links": [
 					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
+					  "type": "facebook",
+					  "url": "https://www.facebook.com/NicolaFasanoOfficial"
 					},
 					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
+					  "type": "instagram",
+					  "url": "https://www.instagram.com/adamclayrealhttps://www.facebook.com/NicolaFasanoOfficial"
 					},
 					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
+					  "type": "twitter",
+					  "url": "https://twitter.com/nicolafasano"
 					},
 					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
+					  "type": "spotify",
+					  "url": "https://open.spotify.com/artist/0AJ9YvsEOnAqMB9Q15TfYQ?si=Ums8iHgLSBW2c-f3EiQ8SQ"
 					},
 					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+					  "type": "website",
+					  "url": "https://www.nicolafasano.co.uk/"
 					}
 				]
 			},
@@ -434,24 +422,20 @@
 				"mailchimpID": "",
 				"links": [
 					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
+					  "type": "facebook",
+					  "url": "https://facebook.com/vibraniumrec"
 					},
 					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
+					  "type": "instagram",
+					  "url": "https://www.instagram.com/vibraniumrec/"
 					},
 					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
+					  "type": "twitter",
+					  "url": "https://twitter.com/Vibraniumrec"
 					},
 					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+					  "type": "website",
+					  "url": "https://www.vibraniumworld.com/"
 					}
 				]
 			},
@@ -541,27 +525,19 @@
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "",
-				"links": [
-					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
-					},
-					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
-					}
+				"links": [ 
+					{ 
+					  "type": "facebook", 
+					  "url": "https://www.facebook.com/RawanneOfficial/" 
+					}, 
+					{ 
+					  "type": "instagram", 
+					  "url": "https://instagram.com/rawanne.official?igshid=YmMyMTA2M2Y=" 
+					}, 
+					{ 
+					  "type": "spotify", 
+					  "url": "https://open.spotify.com/artist/0VtYOiIXEO8qQvRawhPzU2?si=Fl_VlUd8T5q4rnF5hD8aIQ"
+					} 
 				]
 			},
 			"media": {
@@ -650,26 +626,14 @@
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "",
-				"links": [
-					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
-					},
-					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+				"links": [ 
+					{ 
+					  "type": "facebook", 
+					  "url": "https://www.facebook.com/404DeepRecords/" 
+					}, 
+					{ 
+					  "type": "instagram", 
+					  "url": "https://instagram.com/404.deep.records?igshid=YmMyMTA2M2Y=" 
 					}
 				]
 			},
@@ -761,24 +725,12 @@
 				"mailchimpID": "",
 				"links": [
 					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
+					  "type": "facebook",
+					  "url": "https://www.facebook.com/fontiofficial"
 					},
 					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+					  "type": "instagram",
+					  "url": "https://instagram.com/fontiofficial?igshid=YmMyMTA2M2Y="
 					}
 				]
 			},
@@ -868,26 +820,18 @@
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "",
-				"links": [
-					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
+				"links": [ 
+					{ 
+					  "type": "facebook", 
+					  "url": "https://www.facebook.com/BlackJackRecords/" 
+					}, 
+					{ 
+					  "type": "instagram", 
+					  "url": "https://instagram.com/blackjackrecords?igshid=YmMyMTA2M2Y=" 
 					},
-					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+				   { 
+					  "type": "twitter", 
+					  "url": "https://twitter.com/BlackJackRecor2" 
 					}
 				]
 			},
@@ -979,24 +923,12 @@
 				"mailchimpID": "",
 				"links": [
 					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
+					  "type": "instagram",
+					  "url": "https://www.instagram.com/iosonodelvento/ "
 					},
 					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
+					  "type": "website",
+					  "url": "delvento.it"
 					}
 				]
 			},
@@ -1086,27 +1018,11 @@
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "",
-				"links": [
-					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/adamclaymusic"
-					},
-					{
-						"type": "instagram",
-						"url": "https://www.instagram.com/adamclayreal"
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/adamclaymusic"
-					},
-					{
-						"type": "spotify",
-						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
-					},
-					{
-						"type": "website",
-						"url": "https://www.adamclay.com/"
-					}
+				"links": [ 
+					{ 
+					  "type": "instagram", 
+					  "url": "https://instagram.com/puro.lobo?igshid=YmMyMTA2M2Y="
+				   }
 				]
 			},
 			"media": {
