@@ -498,7 +498,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/rawanne.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/rawanne.jpg"
 			},
 			"name": "Rawanne",
 			"symbol": "RWNE",
@@ -541,7 +541,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/rawanne/media/rawanne-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/rawanne/media/rawanne-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
