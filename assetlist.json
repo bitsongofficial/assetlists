@@ -23,7 +23,18 @@
 				"feeOptions": [
 					{
 						"denom": "BTSG",
-						"amount": "0.001"
+						"amount": "0.01",
+						"type": "low"
+					},
+					{
+						"denom": "BTSG",
+						"amount": "0.025",
+						"type": "average"
+					},
+					{
+						"denom": "BTSG",
+						"amount": "0.04",
+						"type": "high"
 					}
 				]
 			}
@@ -65,7 +76,18 @@
 				"feeOptions": [
 					{
 						"denom": "OSMO",
-						"amount": "0"
+						"amount": "0",
+						"type": "low"
+					},
+					{
+						"denom": "OSMO",
+						"amount": "0",
+						"type": "average"
+					},
+					{
+						"denom": "OSMO",
+						"amount": "0",
+						"type": "high"
 					}
 				]
 			}
