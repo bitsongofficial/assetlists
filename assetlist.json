@@ -2,7 +2,7 @@
 	"bitsongToken": {
 		"chainID": "bitsong-sinfonia-test-1",
 		"logos": {
-			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/btsg.svg"
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
 		},
 		"name": "BitSong Testnet",
 		"apiURL": "https://api.testnet.bitsong.network",
@@ -55,7 +55,7 @@
 	"osmosisToken": {
 		"chainID": "osmosis-sinfonia-test-1",
 		"logos": {
-			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/osmo.svg"
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
 		},
 		"name": "Osmosis Testnet",
 		"apiURL": "https://api.osmosis.devnet.bitsong.network",
@@ -100,7 +100,7 @@
 	"fantokens": [
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/clay.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/clay.png"
 			},
 			"name": "Adam Clay",
 			"symbol": "CLAY",
@@ -151,7 +151,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/adam-clay/media/adam-clay-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/adam-clay/media/adam-clay-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -209,7 +209,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/delta9.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.png"
 			},
 			"name": "Delta9 Recordings",
 			"symbol": "D9",
@@ -248,7 +248,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/delta9/media/delta9-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -306,7 +306,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/fasano.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fasano.png"
 			},
 			"name": "Nicola Fasano",
 			"symbol": "FASANO",
@@ -357,7 +357,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/nicola-fasano/media/nicola-fasano-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/nicola-fasano/media/nicola-fasano-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -415,7 +415,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/vibranium.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/vibranium.png"
 			},
 			"name": "Vibranium",
 			"symbol": "VIBRA",
@@ -462,7 +462,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/vibranium/media/vibranium-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/vibranium/media/vibranium-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -520,7 +520,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/rawanne.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/rawanne.png"
 			},
 			"name": "Rawanne",
 			"symbol": "RWNE",
@@ -563,7 +563,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/rawanne/media/rawanne-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/rawanne/media/rawanne-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -621,7 +621,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/404.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/404.png"
 			},
 			"name": "404 Deep Records",
 			"symbol": "DEEP",
@@ -660,7 +660,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/fofdr/media/fofdr-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fofdr/media/fofdr-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -718,7 +718,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/fonti.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.png"
 			},
 			"name": "Fonti",
 			"symbol": "FONTI",
@@ -757,7 +757,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/fonti/media/fonti-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fonti/media/fonti-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -815,7 +815,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/blackjack.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.png"
 			},
 			"name": "Blackjack Records",
 			"symbol": "BJKS",
@@ -858,7 +858,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/bjks/media/bjks-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/bjks/media/bjks-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -916,7 +916,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/purolobo.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/purolobo.png"
 			},
 			"name": "Puro Lobo",
 			"symbol": "LOBO",
@@ -951,7 +951,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/purolobo/media/purolobo-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/purolobo/media/purolobo-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -1009,7 +1009,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/N43.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/N43.png"
 			},
 			"name": "N43 Records",
 			"symbol": "N43",
@@ -1039,7 +1039,7 @@
 				"links": []
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/n43/media/n43-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/n43/media/n43-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -1097,7 +1097,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/enmoda.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/enmoda.png"
 			},
 			"name": "Enmoda",
 			"symbol": "ENMODA",
@@ -1127,7 +1127,7 @@
 				"links": []
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/enmoda/media/enmoda-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/enmoda/media/enmoda-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
