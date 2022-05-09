@@ -1034,7 +1034,7 @@
 				}
 			},
 			"routes": {
-				"poolID": "12"
+				"poolID": "5"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -1127,7 +1127,7 @@
 				}
 			},
 			"routes": {
-				"poolID": "5"
+				"poolID": "12"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
