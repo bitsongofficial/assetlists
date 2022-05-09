@@ -1103,6 +1103,182 @@
 					]
 				}
 			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/N43.png"
+			},
+			"name": "N43 Records",
+			"symbol": "N43",
+			"coinLookup": [
+				{
+					"viewDenom": "N43",
+					"chainDenom": "n43",
+					"fantokenDenom": "ft51D275B1F39F25563AA0D032594689E5DFB111CC",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-0",
+					"destDenom": "ibc/C98F951D9724303962FA8A8287B12651F9E7A75A9373D05E63E0CCD8D092B73D",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "5"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": []
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/n43/media/n43-hero.jpg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			},
+			"whitepaper": {
+				"url": "https://bitsong.io/fantokens/",
+				"biography": {
+					"title": "BitSong introduces: Adam Clay",
+					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
+				},
+				"project": {
+					"title": "Project Title",
+					"content": "Project Content"
+				},
+				"useCases": {
+					"title": "useCase Title",
+					"content": "useCase Content",
+					"cases": [
+						{
+							"title": "One",
+							"content": "description"
+						}
+					]
+				},
+				"tokenomics": {
+					"title": "useCase Title",
+					"totalSupply": "9999999",
+					"initialMarketcap": "9999999",
+					"quantities": [
+						{
+							"title": "One",
+							"percentage": "10%",
+							"content": "description"
+						}
+					],
+					"vestingTokens": "10 years"
+				},
+				"roadmap": {
+					"list": [
+						{
+							"title": "One",
+							"time": "Q1 2022",
+							"events": [
+								{
+									"description": "Event 1"
+								},
+								{
+									"description": "Event 2"
+								}
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/logos/enmoda.png"
+			},
+			"name": "Enmoda",
+			"symbol": "ENMODA",
+			"coinLookup": [
+				{
+					"viewDenom": "ENMODA",
+					"chainDenom": "enmoda",
+					"fantokenDenom": "ftC2E0807AD316D917873D5876705AD837C714477A",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-0",
+					"destDenom": "ibc/B050DCF5F938074C47FC4E6DA5CBFB321C9103745FD8F79FEBE1C27B21AE9AC7",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "5"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": []
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/playground/fantokens/enmoda/media/enmoda-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			},
+			"whitepaper": {
+				"url": "https://bitsong.io/fantokens/",
+				"biography": {
+					"title": "BitSong introduces: Adam Clay",
+					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
+				},
+				"project": {
+					"title": "Project Title",
+					"content": "Project Content"
+				},
+				"useCases": {
+					"title": "useCase Title",
+					"content": "useCase Content",
+					"cases": [
+						{
+							"title": "One",
+							"content": "description"
+						}
+					]
+				},
+				"tokenomics": {
+					"title": "useCase Title",
+					"totalSupply": "9999999",
+					"initialMarketcap": "9999999",
+					"quantities": [
+						{
+							"title": "One",
+							"percentage": "10%",
+							"content": "description"
+						}
+					],
+					"vestingTokens": "10 years"
+				},
+				"roadmap": {
+					"list": [
+						{
+							"title": "One",
+							"time": "Q1 2022",
+							"events": [
+								{
+									"description": "Event 1"
+								},
+								{
+									"description": "Event 2"
+								}
+							]
+						}
+					]
+				}
+			}
 		}
 	],
 	"pools": [
@@ -1135,6 +1311,12 @@
 		},
 		{
 			"id": "10"
+		},
+		{
+			"id": "11"
+		},
+		{
+			"id": "12"
 		}
 	],
 	"routes": {
