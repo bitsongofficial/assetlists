@@ -113,15 +113,15 @@
 	],
 	"9": [
 		{
-			"gaugeId": "58",
+			"gaugeId": "77",
 			"denom": "ibc/E24BFA26F417771E855676A7916741D0E72AE3E782A4C002DF935DF0DC38EC2B"
 		},
 		{
-			"gaugeId": "59",
+			"gaugeId": "78",
 			"denom": "ibc/E24BFA26F417771E855676A7916741D0E72AE3E782A4C002DF935DF0DC38EC2B"
 		},
 		{
-			"gaugeId": "60",
+			"gaugeId": "79",
 			"denom": "ibc/E24BFA26F417771E855676A7916741D0E72AE3E782A4C002DF935DF0DC38EC2B"
 		}
 	],
