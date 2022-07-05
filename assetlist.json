@@ -5,8 +5,8 @@
 			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
 		},
 		"name": "BitSong Testnet",
-		"apiURL": "https://api.testnet.bitsong.network",
-		"rpcURL": "https://rpc.testnet.bitsong.network",
+		"apiURL": "https://api.fantest-1.bitsong.network",
+		"rpcURL": "https://rpc.fantest-1.bitsong.network ",
 		"explorerURL": "https://www.mintscan.io/bitsong/",
 		"minBlockHeight": 1,
 		"symbol": "BTSG",
@@ -58,8 +58,8 @@
 			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
 		},
 		"name": "Osmosis Testnet",
-		"apiURL": "https://api.osmosis.devnet.bitsong.network",
-		"rpcURL": "https://rpc.osmosis.devnet.bitsong.network",
+		"apiURL": "https://api.osmo-test.bitsong.network",
+		"rpcURL": "https://rpc.osmo-test.bitsong.network",
 		"explorerURL": "https://www.mintscan.io/osmosis/",
 		"minBlockHeight": 1,
 		"symbol": "OSMO",
