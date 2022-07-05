@@ -1,6 +1,6 @@
 {
 	"bitsongToken": {
-		"chainID": "bitsong-sinfonia-test-1",
+		"chainID": "bitsong-2b",
 		"logos": {
 			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
 		},
@@ -44,7 +44,7 @@
 		"coinType": 639,
 		"ibc": {
 			"osmosis": {
-				"sourceChannelId": "channel-0",
+				"sourceChannelId": "channel-9",
 				"destChannelId": "channel-0",
 				"destDenom": "ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221",
 				"sourceDenom": "ubtsg"
@@ -53,7 +53,7 @@
 		"ibcEnabled": true
 	},
 	"osmosisToken": {
-		"chainID": "osmosis-sinfonia-test-1",
+		"chainID": "osmosis-sinfonia-test-2",
 		"logos": {
 			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
 		},
@@ -114,7 +114,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/E24BFA26F417771E855676A7916741D0E72AE3E782A4C002DF935DF0DC38EC2B",
 					"sourceDenom": "ubtsg"
@@ -223,7 +223,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/A7FEA25683CED4D27219CFF6C024E108F5DEFA1E48B039A60B7C18B1C34F2FBC",
 					"sourceDenom": "ubtsg"
@@ -320,7 +320,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/E09C137F596003E446B8A87F6429FCB47EA7DD0549E44DCEAA893D0022213E0B",
 					"sourceDenom": "ubtsg"
@@ -429,7 +429,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/46002E7A0CC76317EFE8BAD0F113147CDD60464A10797B2BBD79F900B7626106",
 					"sourceDenom": "ubtsg"
@@ -534,7 +534,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/14203406ECB9D468618DEA88C4C75A418C77D23376FA588D04F5FF25315A3257",
 					"sourceDenom": "ubtsg"
@@ -635,7 +635,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/219A7DB8B2DBC77557A89A2F30CE7E8D2C3BFBCC797AEE7B340C358A90313E4E",
 					"sourceDenom": "ubtsg"
@@ -732,7 +732,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/13CE02E61FBD9B29E5499FA967CE601F8AE4B87A546883D152E4376551AE64F3",
 					"sourceDenom": "ubtsg"
@@ -829,7 +829,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/0A4701632EED3332CD812498463F09B2247F04AD9BC390D9A0F84F8452F501C4",
 					"sourceDenom": "ubtsg"
@@ -930,7 +930,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/40F989389572752EED5669CFBD1EED2788845501548DACDC40F429F2BFAA65D4",
 					"sourceDenom": "ubtsg"
@@ -1023,7 +1023,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/C98F951D9724303962FA8A8287B12651F9E7A75A9373D05E63E0CCD8D092B73D",
 					"sourceDenom": "ubtsg"
@@ -1111,7 +1111,7 @@
 			],
 			"ibc": {
 				"osmosis": {
-					"sourceChannelId": "channel-0",
+					"sourceChannelId": "channel-9",
 					"destChannelId": "channel-0",
 					"destDenom": "ibc/B050DCF5F938074C47FC4E6DA5CBFB321C9103745FD8F79FEBE1C27B21AE9AC7",
 					"sourceDenom": "ubtsg"
