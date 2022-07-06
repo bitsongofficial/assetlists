@@ -6,7 +6,7 @@
 		},
 		"name": "BitSong Testnet",
 		"apiURL": "https://api.fantest-1.bitsong.network",
-		"rpcURL": "https://rpc.fantest-1.bitsong.network ",
+		"rpcURL": "https://rpc.fantest-1.bitsong.network",
 		"explorerURL": "https://www.mintscan.io/bitsong/",
 		"minBlockHeight": 1,
 		"symbol": "BTSG",
