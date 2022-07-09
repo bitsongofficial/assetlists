@@ -1,1 +1,16 @@
-{}
+{
+  "1": [
+    {
+      "gaugeId": "4",
+      "denom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632"
+    },
+    {
+      "gaugeId": "5",
+      "denom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632"
+    },
+    {
+      "gaugeId": "6",
+      "denom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632"
+    }
+  ]
+}
