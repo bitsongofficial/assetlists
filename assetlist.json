@@ -159,69 +159,19 @@
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/adam-clay/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
 			}
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/carolina-marquez.jpeg"
 			},
-			"name": "Delta9 Recordings",
-			"symbol": "D9",
+			"name": "Carolina Marquez",
+			"symbol": "CMQZ",
 			"coinLookup": [
 				{
-					"viewDenom": "D9",
-					"chainDenom": "d9",
-					"fantokenDenom": "ft0940D9D09B4622B50FD518AC4803A818301BC23C",
+					"viewDenom": "CMQZ",
+					"chainDenom": "cmqz",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -229,12 +179,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-0",
 					"destChannelId": "channel-8",
-					"destDenom": "ibc/A7FEA25683CED4D27219CFF6C024E108F5DEFA1E48B039A60B7C18B1C34F2FBC",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "7"
+				"poolID": "1"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -243,69 +193,94 @@
 				"links": [
 					{
 						"type": "facebook",
-						"url": "https://www.facebook.com/delta9recordings"
+						"url": "https://www.facebook.com/carolinamarquezOFFICIAL"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/carolinamarquez_official/"
 					},
 					{
 						"type": "twitter",
-						"url": "https://twitter.com/Delta9Recs"
+						"url": "https://twitter.com/CarolinaMarquez"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/3vrdwWVmzTsSJotjp92OPW?si=uXnjfHebQHyWVX7VRF_sig"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/user/carolinamarquezmusic"
 					}
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/carolina-marquez/media/carolina-marquez-hero.jpeg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/luca-testa.jpeg"
 			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/adam-clay/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
+			"name": "Luca Testa",
+			"symbol": "TESTA",
+			"coinLookup": [
+				{
+					"viewDenom": "TESTA",
+					"chainDenom": "testa",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"chainToViewConversionFactor": 1e-6
 				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/lucatestamusic"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/lucatestamusic/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/lucatestamusic"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/0Dzj2bn9ivDSjvJVSKL4q7?si=7Hyz17JcSvyxrEVxxX0vrQ"
+					},
+					{
+						"type": "website",
+						"url": "http://www.lucatestamusic.com"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCDCChbAOHKl0-L0V25VFqjA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/adam-clay/media/luca-testa-hero.jpeg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
 			}
 		},
 		{
@@ -357,6 +332,10 @@
 					{
 						"type": "website",
 						"url": "https://www.nicolafasano.co.uk/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/user/nicolafasano"
 					}
 				]
 			},
@@ -365,56 +344,65 @@
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.jpeg"
 			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
+			"name": "Delta9 Recordings",
+			"symbol": "D9",
+			"coinLookup": [
+				{
+					"viewDenom": "D9",
+					"chainDenom": "d9",
+					"fantokenDenom": "ft0940D9D09B4622B50FD518AC4803A818301BC23C",
+					"chainToViewConversionFactor": 1e-6
 				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/A7FEA25683CED4D27219CFF6C024E108F5DEFA1E48B039A60B7C18B1C34F2FBC",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "7"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/delta9recordings"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/Delta9Recs"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.facebook.com/delta9recordings"
+					},
+					{
+						"type": "website",
+						"url": "https://www.delta9recordings.com/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/c/Delta9recordings"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
 			}
 		},
 		{
@@ -462,6 +450,10 @@
 					{
 						"type": "website",
 						"url": "https://www.vibraniumworld.com/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCLfKwwIj9aso1dv5IJ565vw"
 					}
 				]
 			},
@@ -470,56 +462,6 @@
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
 			}
 		},
 		{
@@ -557,12 +499,20 @@
 						"url": "https://www.facebook.com/RawanneOfficial/"
 					},
 					{
+						"type": "twitter",
+						"url": "https://twitter.com/Rawanne_music"
+					},
+					{
 						"type": "instagram",
 						"url": "https://instagram.com/rawanne.official?igshid=YmMyMTA2M2Y="
 					},
 					{
 						"type": "spotify",
 						"url": "https://open.spotify.com/artist/0VtYOiIXEO8qQvRawhPzU2?si=Fl_VlUd8T5q4rnF5hD8aIQ"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCUQbr7Gpt5o_j3IZqGfDwRQ"
 					}
 				]
 			},
@@ -571,56 +521,281 @@
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.jpeg"
 			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/adam-clay/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
+			"name": "BlackJack Records",
+			"symbol": "BJKS",
+			"coinLookup": [
+				{
+					"viewDenom": "BJKS",
+					"chainDenom": "bjks",
+					"fantokenDenom": "ft0BAD4C07FA4C524DAC58DFFDECE76120B744207A",
+					"chainToViewConversionFactor": 1e-6
 				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/0A4701632EED3332CD812498463F09B2247F04AD9BC390D9A0F84F8452F501C4",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/BlackJackRecords/"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/blackjackrecords?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/BlackJackRecor2"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UC21UtREjug3GLyNSCTajw7A"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/bjks/media/bjks-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.jpeg"
+			},
+			"name": "Fonti",
+			"symbol": "FONTI",
+			"coinLookup": [
+				{
+					"viewDenom": "FONTI",
+					"chainDenom": "fonti",
+					"fantokenDenom": "ft10FC2204B7B92CC34F07299A2734ED39241BEBF8",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/13CE02E61FBD9B29E5499FA967CE601F8AE4B87A546883D152E4376551AE64F3",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "2"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/fontiofficial"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/fontiofficial?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/fontiofficial"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/1wYQzfNKzHpbeE3M1aRXS4?si=AP1gAmCbSliGrrxAnNlpmQ"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/c/GiuseppeFontidj"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fonti/media/fonti-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/puro-lobo.jpeg"
+			},
+			"name": "Puro Lobo",
+			"symbol": "LOBO",
+			"coinLookup": [
+				{
+					"viewDenom": "LOBO",
+					"chainDenom": "lobo",
+					"fantokenDenom": "ft26BA5DBE269175744931A252B2CCAED79BA1DAEF",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/40F989389572752EED5669CFBD1EED2788845501548DACDC40F429F2BFAA65D4",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "5"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/puro.lobo?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/0p07Qhb91JMjS2bzXkbjTA?si=OQKdADHoScm_Jjn7Ms02KA"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCU54EOGi_sRQdorm03Wfm_g"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/purolobo/media/purolobo-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/karina.jpeg"
+			},
+			"name": "Karina",
+			"symbol": "KARINA",
+			"coinLookup": [
+				{
+					"viewDenom": "KARINA",
+					"chainDenom": "karina",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/KarinaE01"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/karinamusic.official/"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/2Q4JgzofRBSt4jAwNxBV0f?si=CfyQ-WA1QJ-c3Y8K4dXJhw"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCx4jrqPV69SVTvJfHKajduA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/karina/media/karina-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/n43.jpeg"
+			},
+			"name": "N43",
+			"symbol": "N43",
+			"coinLookup": [
+				{
+					"viewDenom": "N43",
+					"chainDenom": "n43",
+					"fantokenDenom": "ft51D275B1F39F25563AA0D032594689E5DFB111CC",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/C98F951D9724303962FA8A8287B12651F9E7A75A9373D05E63E0CCD8D092B73D",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "11"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/N43Records"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/n43records/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/N43Records"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCRPuOMUvaMuheDEMUubTNqA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/n43/media/n43-hero.jpg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
 			}
 		},
 		{
@@ -668,435 +843,6 @@
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/adam-clay/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
-			}
-		},
-		{
-			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.jpeg"
-			},
-			"name": "Fonti",
-			"symbol": "FONTI",
-			"coinLookup": [
-				{
-					"viewDenom": "FONTI",
-					"chainDenom": "fonti",
-					"fantokenDenom": "ft10FC2204B7B92CC34F07299A2734ED39241BEBF8",
-					"chainToViewConversionFactor": 1e-6
-				}
-			],
-			"ibc": {
-				"osmosis": {
-					"sourceChannelId": "channel-0",
-					"destChannelId": "channel-8",
-					"destDenom": "ibc/13CE02E61FBD9B29E5499FA967CE601F8AE4B87A546883D152E4376551AE64F3",
-					"sourceDenom": "ubtsg"
-				}
-			},
-			"routes": {
-				"poolID": "2"
-			},
-			"ibcEnabled": true,
-			"fantoken": true,
-			"socials": {
-				"mailchimpID": "deaadbfbd5",
-				"links": [
-					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/fontiofficial"
-					},
-					{
-						"type": "instagram",
-						"url": "https://instagram.com/fontiofficial?igshid=YmMyMTA2M2Y="
-					}
-				]
-			},
-			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fonti/media/fonti-hero.png"
-			},
-			"airdrop": {
-				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
-			}
-		},
-		{
-			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.jpeg"
-			},
-			"name": "Blackjack Records",
-			"symbol": "BJKS",
-			"coinLookup": [
-				{
-					"viewDenom": "BJKS",
-					"chainDenom": "bjks",
-					"fantokenDenom": "ft0BAD4C07FA4C524DAC58DFFDECE76120B744207A",
-					"chainToViewConversionFactor": 1e-6
-				}
-			],
-			"ibc": {
-				"osmosis": {
-					"sourceChannelId": "channel-0",
-					"destChannelId": "channel-8",
-					"destDenom": "ibc/0A4701632EED3332CD812498463F09B2247F04AD9BC390D9A0F84F8452F501C4",
-					"sourceDenom": "ubtsg"
-				}
-			},
-			"routes": {
-				"poolID": "1"
-			},
-			"ibcEnabled": true,
-			"fantoken": true,
-			"socials": {
-				"mailchimpID": "deaadbfbd5",
-				"links": [
-					{
-						"type": "facebook",
-						"url": "https://www.facebook.com/BlackJackRecords/"
-					},
-					{
-						"type": "instagram",
-						"url": "https://instagram.com/blackjackrecords?igshid=YmMyMTA2M2Y="
-					},
-					{
-						"type": "twitter",
-						"url": "https://twitter.com/BlackJackRecor2"
-					}
-				]
-			},
-			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/bjks/media/bjks-hero.png"
-			},
-			"airdrop": {
-				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/adam-clay/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
-			}
-		},
-		{
-			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/puro-lobo.jpeg"
-			},
-			"name": "Puro Lobo",
-			"symbol": "LOBO",
-			"coinLookup": [
-				{
-					"viewDenom": "LOBO",
-					"chainDenom": "lobo",
-					"fantokenDenom": "ft26BA5DBE269175744931A252B2CCAED79BA1DAEF",
-					"chainToViewConversionFactor": 1e-6
-				}
-			],
-			"ibc": {
-				"osmosis": {
-					"sourceChannelId": "channel-0",
-					"destChannelId": "channel-8",
-					"destDenom": "ibc/40F989389572752EED5669CFBD1EED2788845501548DACDC40F429F2BFAA65D4",
-					"sourceDenom": "ubtsg"
-				}
-			},
-			"routes": {
-				"poolID": "5"
-			},
-			"ibcEnabled": true,
-			"fantoken": true,
-			"socials": {
-				"mailchimpID": "deaadbfbd5",
-				"links": [
-					{
-						"type": "instagram",
-						"url": "https://instagram.com/puro.lobo?igshid=YmMyMTA2M2Y="
-					}
-				]
-			},
-			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/purolobo/media/purolobo-hero.png"
-			},
-			"airdrop": {
-				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
-			}
-		},
-		{
-			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/n43.jpeg"
-			},
-			"name": "N43 Records",
-			"symbol": "N43",
-			"coinLookup": [
-				{
-					"viewDenom": "N43",
-					"chainDenom": "n43",
-					"fantokenDenom": "ft51D275B1F39F25563AA0D032594689E5DFB111CC",
-					"chainToViewConversionFactor": 1e-6
-				}
-			],
-			"ibc": {
-				"osmosis": {
-					"sourceChannelId": "channel-0",
-					"destChannelId": "channel-8",
-					"destDenom": "ibc/C98F951D9724303962FA8A8287B12651F9E7A75A9373D05E63E0CCD8D092B73D",
-					"sourceDenom": "ubtsg"
-				}
-			},
-			"routes": {
-				"poolID": "11"
-			},
-			"ibcEnabled": true,
-			"fantoken": true,
-			"socials": {
-				"mailchimpID": "deaadbfbd5",
-				"links": []
-			},
-			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/n43/media/n43-hero.jpg"
-			},
-			"airdrop": {
-				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
 			}
 		},
 		{
@@ -1128,63 +874,26 @@
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
-				"links": []
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/Enmodamagazine"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/enmodamagazine/"
+					},
+					{
+						"type": "website",
+						"url": "http://www.enmodamagazin.com/"
+					}
+				]
 			},
 			"media": {
 				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/enmoda/media/enmoda-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
-			},
-			"whitepaper": {
-				"url": "https://bitsong.io/fantokens/",
-				"biography": {
-					"title": "BitSong introduces: Adam Clay",
-					"content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-				},
-				"project": {
-					"title": "Project Title",
-					"content": "Project Content"
-				},
-				"useCases": {
-					"title": "useCase Title",
-					"content": "useCase Content",
-					"cases": [
-						{
-							"title": "One",
-							"content": "description"
-						}
-					]
-				},
-				"tokenomics": {
-					"title": "useCase Title",
-					"totalSupply": "9999999",
-					"initialMarketcap": "9999999",
-					"quantities": [
-						{
-							"title": "One",
-							"percentage": "10%",
-							"content": "description"
-						}
-					],
-					"vestingTokens": "10 years"
-				},
-				"roadmap": {
-					"list": [
-						{
-							"title": "One",
-							"time": "Q1 2022",
-							"events": [
-								{
-									"description": "Event 1"
-								},
-								{
-									"description": "Event 2"
-								}
-							]
-						}
-					]
-				}
 			}
 		}
 	],
