@@ -100,7 +100,7 @@
 	"fantokens": [
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/clay.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/clay.jpeg"
 			},
 			"name": "Adam Clay",
 			"symbol": "CLAY",
@@ -147,6 +147,10 @@
 					{
 						"type": "website",
 						"url": "https://www.adamclay.com/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCwnnlm9IXX6L4YjFSJN2GLA"
 					}
 				]
 			},
@@ -209,7 +213,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.jpeg"
 			},
 			"name": "Delta9 Recordings",
 			"symbol": "D9",
@@ -306,7 +310,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fasano.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/nicola-fasano.jpeg"
 			},
 			"name": "Nicola Fasano",
 			"symbol": "FASANO",
@@ -415,7 +419,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/vibranium.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/vibranium.jpeg"
 			},
 			"name": "Vibranium",
 			"symbol": "VIBRA",
@@ -520,7 +524,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/rawanne.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/rawanne.jpeg"
 			},
 			"name": "Rawanne",
 			"symbol": "RWNE",
@@ -621,7 +625,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/404.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/404-deep-records.jpeg"
 			},
 			"name": "404 Deep Records",
 			"symbol": "DEEP",
@@ -718,7 +722,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.jpeg"
 			},
 			"name": "Fonti",
 			"symbol": "FONTI",
@@ -815,7 +819,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.jpeg"
 			},
 			"name": "Blackjack Records",
 			"symbol": "BJKS",
@@ -916,7 +920,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/purolobo.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/puro-lobo.jpeg"
 			},
 			"name": "Puro Lobo",
 			"symbol": "LOBO",
@@ -1009,7 +1013,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/N43.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/n43.jpeg"
 			},
 			"name": "N43 Records",
 			"symbol": "N43",
@@ -1097,7 +1101,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/enmoda.png"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/enmoda.jpeg"
 			},
 			"name": "Enmoda",
 			"symbol": "ENMODA",
