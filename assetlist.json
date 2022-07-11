@@ -171,7 +171,7 @@
 				{
 					"viewDenom": "CMQZ",
 					"chainDenom": "cmqz",
-					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"fantokenDenom": "ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -179,12 +179,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
+					"destDenom": "ibc/C1CEF00F016FE89EA6E5B07DA895AACD91B0AAD69A991033D846B988AD4FB69D",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "1"
+				"poolID": "764"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -230,7 +230,7 @@
 				{
 					"viewDenom": "TESTA",
 					"chainDenom": "testa",
-					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"fantokenDenom": "ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -238,12 +238,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
+					"destDenom": "ibc/022A879A5301CBCACF96216C967805F15C33C615B74DC7236027C1BA1BF664FF",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "1"
+				"poolID": "763"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -293,7 +293,7 @@
 				{
 					"viewDenom": "FASANO",
 					"chainDenom": "fasano",
-					"fantokenDenom": "ft4130E034E6C7EBABDC4DFD73EC68E5AD46F3AF11",
+					"fantokenDenom": "ftE141AFEBD94447BADE4946D1BF4B2E141F00BBFD",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -301,12 +301,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/E09C137F596003E446B8A87F6429FCB47EA7DD0549E44DCEAA893D0022213E0B",
+					"destDenom": "ibc/F35C87A18804313088DAAF6FD430FCCCF1362BC3464D4FAD783C476F594C9CA7",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "8"
+				"poolID": "752"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -356,7 +356,7 @@
 				{
 					"viewDenom": "D9",
 					"chainDenom": "d9",
-					"fantokenDenom": "ft0940D9D09B4622B50FD518AC4803A818301BC23C",
+					"fantokenDenom": "ft7EC1DFFC7248F7437E75BEE3EF6D539AFE87C071",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -364,12 +364,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/A7FEA25683CED4D27219CFF6C024E108F5DEFA1E48B039A60B7C18B1C34F2FBC",
+					"destDenom": "ibc/B4DED8861763C7674BD726FFFE5CAB09BDC3CC706E77C82E46EFEDCF9DB3B495",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "7"
+				"poolID": "753"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -415,7 +415,7 @@
 				{
 					"viewDenom": "VIBRA",
 					"chainDenom": "vibra",
-					"fantokenDenom": "ftA1BE97FD8871105A325C8AA3D46A7B7E1C633CB9",
+					"fantokenDenom": "ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -423,12 +423,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/46002E7A0CC76317EFE8BAD0F113147CDD60464A10797B2BBD79F900B7626106",
+					"destDenom": "ibc/8A07D4BD40E0F44ECFDF360F7EA7008B288926FB87C54489FE54DB81A5340E0C",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "6"
+				"poolID": "761"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -474,7 +474,7 @@
 				{
 					"viewDenom": "RWNE",
 					"chainDenom": "rwne",
-					"fantokenDenom": "ft53AAE3E06B64B90485772AF9B9DC5AA3DE309329",
+					"fantokenDenom": "ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -482,12 +482,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/14203406ECB9D468618DEA88C4C75A418C77D23376FA588D04F5FF25315A3257",
+					"destDenom": "ibc/56C276FC136E239449DCE664292DBEEF5795C4EF4B5B35DB98BD1C0948274867",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "3"
+				"poolID": "756"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -533,7 +533,7 @@
 				{
 					"viewDenom": "BJKS",
 					"chainDenom": "bjks",
-					"fantokenDenom": "ft0BAD4C07FA4C524DAC58DFFDECE76120B744207A",
+					"fantokenDenom": "ft25FB31D974EED8EBC1CCB168FE7FC01789830EE8",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -541,12 +541,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/0A4701632EED3332CD812498463F09B2247F04AD9BC390D9A0F84F8452F501C4",
+					"destDenom": "ibc/7F1A862E98185A286F011DD093D8BD2FA1B7CD1A723EC5E6C59F76692F1728F7",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "1"
+				"poolID": "755"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -588,7 +588,7 @@
 				{
 					"viewDenom": "FONTI",
 					"chainDenom": "fonti",
-					"fantokenDenom": "ft10FC2204B7B92CC34F07299A2734ED39241BEBF8",
+					"fantokenDenom": "ftB06AFBD13CBFCEB3CDBE449DB3150A4BF985D6AE",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -596,12 +596,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/13CE02E61FBD9B29E5499FA967CE601F8AE4B87A546883D152E4376551AE64F3",
+					"destDenom": "ibc/27C09777C9F51B8AAE6BC15F92CFFDF2AB04067569A81D4938BA67EEC8D2E5D3",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "2"
+				"poolID": "754"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -647,7 +647,7 @@
 				{
 					"viewDenom": "LOBO",
 					"chainDenom": "lobo",
-					"fantokenDenom": "ft26BA5DBE269175744931A252B2CCAED79BA1DAEF",
+					"fantokenDenom": "ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -655,12 +655,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/40F989389572752EED5669CFBD1EED2788845501548DACDC40F429F2BFAA65D4",
+					"destDenom": "ibc/C9864D1B9623F703C75BBF72B7FF8A7317E1535C96538D21467A4311246DC3B5",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "5"
+				"poolID": "760"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -698,7 +698,7 @@
 				{
 					"viewDenom": "KARINA",
 					"chainDenom": "karina",
-					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"fantokenDenom": "ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -706,12 +706,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
+					"destDenom": "ibc/6A6174468758D207DD2D880363BF699C6568A29E87651337AEDAFD9E69EA7E58",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "1"
+				"poolID": "762"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -753,7 +753,7 @@
 				{
 					"viewDenom": "N43",
 					"chainDenom": "n43",
-					"fantokenDenom": "ft51D275B1F39F25563AA0D032594689E5DFB111CC",
+					"fantokenDenom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -761,12 +761,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/C98F951D9724303962FA8A8287B12651F9E7A75A9373D05E63E0CCD8D092B73D",
+					"destDenom": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "11"
+				"poolID": "759"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -808,7 +808,7 @@
 				{
 					"viewDenom": "DEEP",
 					"chainDenom": "deep",
-					"fantokenDenom": "ftDF19AC652864607CE37AFEF60E16136149A0FDA8",
+					"fantokenDenom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -816,12 +816,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/219A7DB8B2DBC77557A89A2F30CE7E8D2C3BFBCC797AEE7B340C358A90313E4E",
+					"destDenom": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "4"
+				"poolID": "758"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -855,7 +855,7 @@
 				{
 					"viewDenom": "ENMODA",
 					"chainDenom": "enmoda",
-					"fantokenDenom": "ftC2E0807AD316D917873D5876705AD837C714477A",
+					"fantokenDenom": "ft85AE1716C5E39EA6D64BBD7898C3899A7B500626",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -863,12 +863,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/B050DCF5F938074C47FC4E6DA5CBFB321C9103745FD8F79FEBE1C27B21AE9AC7",
+					"destDenom": "ibc/051A38BBEF92B9D8293AFBE1FA293E704359E9CB28297A0FD5DBA3E9CCEE9AB1",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "10"
+				"poolID": "757"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -897,9 +897,50 @@
 			}
 		}
 	],
-	"pools": [{
-		"id": "751"
-	  }],
+	"pools": [
+		{
+			"id": "751"
+		},
+		{
+			"id": "752"
+		},
+		{
+			"id": "753"
+		},
+		{
+			"id": "754"
+		},
+		{
+			"id": "755"
+		},
+		{
+			"id": "756"
+		},
+		{
+			"id": "757"
+		},
+		{
+			"id": "758"
+		},
+		{
+			"id": "759"
+		},
+		{
+			"id": "760"
+		},
+		{
+			"id": "761"
+		},
+		{
+			"id": "762"
+		},
+		{
+			"id": "763"
+		},
+		{
+			"id": "764"
+		}
+	],
 	"routes": {
 		"ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B": {
 			"ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452": [
