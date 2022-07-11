@@ -58,7 +58,7 @@
 			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
 		},
 		"name": "Osmosis",
-		"apiURL": "https://lcd-osmosis.keplr.app",
+		"apiURL": "https://api.osmo-test.bitsong.network",
 		"rpcURL": "https://rpc-osmosis.keplr.app",
 		"explorerURL": "https://www.mintscan.io/osmosis/",
 		"minBlockHeight": 1,
