@@ -2,7 +2,7 @@
 	"bitsongToken": {
 		"chainID": "bitsong-2b",
 		"logos": {
-			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
 		},
 		"name": "BitSong",
 		"apiURL": "https://lcd.explorebitsong.com",
@@ -55,7 +55,7 @@
 	"osmosisToken": {
 		"chainID": "osmosis-1",
 		"logos": {
-			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
 		},
 		"name": "Osmosis",
 		"apiURL": "https://lcd-osmosis.keplr.app",
@@ -100,7 +100,7 @@
 	"fantokens": [
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/adam.jpeg"
 			},
 			"name": "Adam Clay",
 			"symbol": "CLAY",
@@ -108,7 +108,7 @@
 				{
 					"viewDenom": "CLAY",
 					"chainDenom": "clay",
-					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"fantokenDenom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09",
 					"chainToViewConversionFactor": 1e-6
 				}
 			],
@@ -116,12 +116,12 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
 					"sourceDenom": "ubtsg"
 				}
 			},
 			"routes": {
-				"poolID": "1"
+				"poolID": "751"
 			},
 			"ibcEnabled": true,
 			"fantoken": true,
@@ -155,7 +155,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/adam-clay/media/adam-clay-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/adam-clay/media/adam-clay-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -163,7 +163,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/carolina-marquez.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/carolina-marquez.jpeg"
 			},
 			"name": "Carolina Marquez",
 			"symbol": "CMQZ",
@@ -179,7 +179,7 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
 					"sourceDenom": "ubtsg"
 				}
 			},
@@ -214,7 +214,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/carolina-marquez/media/carolina-marquez-hero.jpeg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/carolina-marquez/media/carolina-marquez-hero.jpeg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -222,7 +222,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/luca-testa.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/luca-testa.jpeg"
 			},
 			"name": "Luca Testa",
 			"symbol": "TESTA",
@@ -238,7 +238,7 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
 					"sourceDenom": "ubtsg"
 				}
 			},
@@ -277,7 +277,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/adam-clay/media/luca-testa-hero.jpeg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/adam-clay/media/luca-testa-hero.jpeg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -285,7 +285,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/nicola-fasano.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/nicola-fasano.jpeg"
 			},
 			"name": "Nicola Fasano",
 			"symbol": "FASANO",
@@ -340,7 +340,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/nicola-fasano/media/nicola-fasano-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/nicola-fasano/media/nicola-fasano-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -348,7 +348,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/delta9.jpeg"
 			},
 			"name": "Delta9 Recordings",
 			"symbol": "D9",
@@ -399,7 +399,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/delta9/media/delta9-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -407,7 +407,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/vibranium.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/vibranium.jpeg"
 			},
 			"name": "Vibranium",
 			"symbol": "VIBRA",
@@ -458,7 +458,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/vibranium/media/vibranium-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/vibranium/media/vibranium-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -466,7 +466,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/rawanne.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/rawanne.jpeg"
 			},
 			"name": "Rawanne",
 			"symbol": "RWNE",
@@ -517,7 +517,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/rawanne/media/rawanne-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/rawanne/media/rawanne-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -525,7 +525,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/blackjack.jpeg"
 			},
 			"name": "BlackJack Records",
 			"symbol": "BJKS",
@@ -572,7 +572,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/bjks/media/bjks-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/bjks/media/bjks-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -580,7 +580,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/fonti.jpeg"
 			},
 			"name": "Fonti",
 			"symbol": "FONTI",
@@ -631,7 +631,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fonti/media/fonti-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/fonti/media/fonti-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -639,7 +639,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/puro-lobo.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/puro-lobo.jpeg"
 			},
 			"name": "Puro Lobo",
 			"symbol": "LOBO",
@@ -682,7 +682,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/purolobo/media/purolobo-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/purolobo/media/purolobo-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -690,7 +690,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/karina.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/karina.jpeg"
 			},
 			"name": "Karina",
 			"symbol": "KARINA",
@@ -706,7 +706,7 @@
 				"osmosis": {
 					"sourceChannelId": "channel-73",
 					"destChannelId": "channel-0",
-					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"destDenom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
 					"sourceDenom": "ubtsg"
 				}
 			},
@@ -737,7 +737,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/karina/media/karina-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/karina/media/karina-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -745,7 +745,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/n43.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/n43.jpeg"
 			},
 			"name": "N43",
 			"symbol": "N43",
@@ -792,7 +792,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/n43/media/n43-hero.jpg"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/n43/media/n43-hero.jpg"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -800,7 +800,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/404-deep-records.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/404-deep-records.jpeg"
 			},
 			"name": "404 Deep Records",
 			"symbol": "DEEP",
@@ -839,7 +839,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fofdr/media/fofdr-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/fofdr/media/fofdr-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -847,7 +847,7 @@
 		},
 		{
 			"logos": {
-				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/enmoda.jpeg"
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/enmoda.jpeg"
 			},
 			"name": "Enmoda",
 			"symbol": "ENMODA",
@@ -890,7 +890,7 @@
 				]
 			},
 			"media": {
-				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/enmoda/media/enmoda-hero.png"
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/fantokens/enmoda/media/enmoda-hero.png"
 			},
 			"airdrop": {
 				"url": "https://bitsong.io/airdrop/"
@@ -898,22 +898,22 @@
 		}
 	],
 	"pools": [{
-		"id": "1"
+		"id": "751"
 	  }],
 	"routes": {
-		"ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632": {
-			"ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221": [
+		"ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B": {
+			"ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452": [
 				{
 					"id": "1",
-					"out": "ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221"
+					"out": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
 				}
 			]
 		},
-		"ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221": {
-			"ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632": [
+		"ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452": {
+			"ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B": [
 				{
 					"id": "1",
-					"out": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632"
+					"out": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B"
 				}
 			]
 		}
