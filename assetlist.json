@@ -803,11 +803,11 @@
 				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/404-deep-records.jpeg"
 			},
 			"name": "404 Deep Records",
-			"symbol": "DEEP",
+			"symbol": "404DR",
 			"coinLookup": [
 				{
-					"viewDenom": "DEEP",
-					"chainDenom": "deep",
+					"viewDenom": "404DR",
+					"chainDenom": "404dr",
 					"fantokenDenom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
 					"chainToViewConversionFactor": 1e-6
 				}
