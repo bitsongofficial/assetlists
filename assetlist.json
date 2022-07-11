@@ -59,7 +59,7 @@
 		},
 		"name": "Osmosis",
 		"apiURL": "https://api.osmo-test.bitsong.network",
-		"rpcURL": "https://rpc-osmosis.keplr.app",
+		"rpcURL": "https://rpc.osmo-test.bitsong.network",
 		"explorerURL": "https://www.mintscan.io/osmosis/",
 		"minBlockHeight": 1,
 		"symbol": "OSMO",
