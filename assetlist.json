@@ -1,313 +1,927 @@
 {
-  "bitsongToken": {
-    "chainID": "bitsong-2b",
-    "logos": {
-      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
-    },
-    "name": "BitSong",
-    "apiURL": "https://lcd.explorebitsong.com",
-    "rpcURL": "https://rpc.explorebitsong.com",
-    "explorerURL": "https://www.mintscan.io/bitsong/",
-    "minBlockHeight": 1,
-    "symbol": "BTSG",
-    "coinLookup": [
-      {
-        "viewDenom": "BTSG",
-        "chainDenom": "ubtsg",
-        "chainToViewConversionFactor": 1e-6
-      }
-    ],
-    "fees": {
-      "default": {
-        "gasEstimate": 350000,
-        "feeOptions": [
-          {
-            "denom": "BTSG",
-            "amount": "0.001"
-          }
-        ]
-      }
-    },
-    "addressPrefix": "bitsong",
-    "coinGeckoId": "bitsong",
-    "coinType": 639,
-    "ibc": {
-      "osmosis": {
-        "sourceChannelId": "channel-73",
-        "destChannelId": "channel-0",
-        "destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
-        "sourceDenom": "ubtsg"
-      }
-    },
-    "ibcEnabled": true
-  },
-  "osmosisToken": {
-    "chainID": "osmosis-1",
-    "logos": {
-      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
-    },
-    "name": "Osmosis",
-    "apiURL": "https://lcd.osmosis.bas.network",
-    "rpcURL": "https://rpc.osmosis.bas.network",
-    "explorerURL": "https://www.mintscan.io/osmosis/",
-    "minBlockHeight": 1,
-    "symbol": "OSMO",
-    "coinLookup": [
-      {
-        "viewDenom": "OSMO",
-        "chainDenom": "uosmo",
-        "chainToViewConversionFactor": 1e-6
-      }
-    ],
-    "fees": {
-      "default": {
-        "gasEstimate": 350000,
-        "feeOptions": [
-          {
-            "denom": "OSMO",
-            "amount": "0.001"
-          }
-        ]
-      }
-    },
-    "addressPrefix": "osmo",
-    "coinGeckoId": "osmosis",
-    "coinType": 118
-  },
-  "tokens": [{
-    "chainID": "juno-1",
-    "logos": {
-      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/juno.svg"
-    },
-    "name": "Juno",
-    "apiURL": "https://lcd-juno.itastakers.com",
-    "rpcURL": "https://rpc-juno.itastakers.com",
-    "explorerURL": "https://www.mintscan.io/juno/",
-    "minBlockHeight": 1412200,
-    "symbol": "JUNO",
-    "coinLookup": [
-      {
-        "viewDenom": "JUNO",
-        "chainDenom": "ujuno",
-        "chainToViewConversionFactor": 1e-6
-      }
-    ],
-    "fees": {
-      "default": {
-        "gasEstimate": 350000,
-        "feeOptions": [
-          {
-            "denom": "JUNO",
-            "amount": "0.001"
-          }
-        ]
-      }
-    },
-    "addressPrefix": "juno",
-    "coinGeckoId": "juno-network",
-    "coinType": 118,
-    "ibc": {
-      "osmosis": {
-        "sourceChannelId": "channel-43",
-        "destChannelId": "channel-0",
-        "destDenom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
-        "sourceDenom": "ujuno"
-      }
-    },
-    "ibcEnabled": true
-  },
-  {
-    "chainID": "cerberus-chain-1",
-    "logos": {
-      "svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/atom.svg"
-    },
-    "name": "Cerberus",
-    "apiURL": "https://api.cerberus.zone:1317",
-    "rpcURL": "https://rpc.cerberus.zone:26657",
-    "explorerURL": "https://www.mintscan.io/cerberus/",
-    "minBlockHeight": 1412200,
-    "symbol": "CRBRUS",
-    "coinLookup": [
-      {
-        "viewDenom": "CRBRUS",
-        "chainDenom": "ucrbrus",
-        "chainToViewConversionFactor": 1e-6
-      }
-    ],
-    "fees": {
-      "default": {
-        "gasEstimate": 350000,
-        "feeOptions": [
-          {
-            "denom": "CRBRUS",
-            "amount": "0.001"
-          }
-        ]
-      }
-    },
-    "addressPrefix": "cerberus",
-    "coinGeckoId": "cerberus-2",
-    "coinType": 118,
-    "ibc": {
-      "osmosis": {
-        "sourceChannelId": "channel-212",
-        "destChannelId": "channel-1",
-        "destDenom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
-        "sourceDenom": "ucrbrus"
-      }
-    },
-    "ibcEnabled": true
-  }],
-  "fantokens": [
-    {
-      "logos": {
-        "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam-clay.png"
-      },
-      "name": "Adam Clay",
-      "symbol": "CLAY",
-      "coinLookup": [
-        {
-          "viewDenom": "CLAY",
-          "chainDenom": "seg",
-          "fantokenDenom": "ftB80F52AC1B95727989F7953C6A55768341E1EAD1",
-          "chainToViewConversionFactor": 1e-6
-        }
-      ],
-      "ibc": {
-        "osmosis": {
-          "sourceChannelId": "channel-73",
-          "destChannelId": "channel-0",
-          "destDenom": "ibc/0D09C1F887502A86B4F6A664D46AF2C95C027AAD73F8EB124CCADD692EA89326",
-          "sourceDenom": "ubtsg"
-        }
-      },
-      "routes": {
-        "poolID": "644"
-      },
-      "ibcEnabled": true,
-      "fantoken": true,
-      "socials": {
-        "mailchimpID": "",
-        "links": [
-          {
-            "type": "instagram",
-            "url": "https://www.instagram.com/"
-          },
-          {
-            "type": "facebook",
-            "url": "https://www.facebook.com/"
-          }
-        ]
-      },
-      "media": {
-        "hero": ""
-      },
-      "whitepaper": {
-        "biography": {
-          "title": "BitSong introduces: Adam Clay",
-          "content": "Adam Clay is a Barbadian-Italian singer, producer, DJ, and author of many international hits, among which the best-known is undoubtedly Born Again (Babylonia)."
-        },
-        "project": {
-          "title": "Project Title",
-          "content": "Project Content"
-        },
-        "useCases": {
-          "title": "useCase Title",
-          "content": "useCase Content",
-          "cases": [
-            {
-              "title": "One",
-              "content": "description"
-            }
-          ]
-        },
-        "tokenomics": {
-          "title": "useCase Title",
-          "totalSupply": "9999999",
-          "initialMarketcap": "9999999",
-          "quantities": [
-            {
-              "title": "One",
-              "percentage": "10%",
-              "content": "description"
-            }
-          ],
-          "vestingTokens": "10 years"
-        },
-        "roadmap": {
-          "list": [
-            {
-              "title": "One",
-              "time": "Q1 2022",
-              "events": [
-                {
-                  "description": "Event 1"
-                },
-                {
-                  "description": "Event 2"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "pools": [
-    {
-      "id": "573"
-    },
-    {
-      "id": "497"
-    },
-    {
-      "id": "662"
-    }
-  ],
-  "routes": {
-    "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452":  {
-      "uosmo": [
-        {
-          "id": "573",
-          "out": "uosmo"
-        }
-      ],
-      "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED": [
-        {
-          "id": "573",
-          "out": "uosmo"
-        },
-        {
-          "id": "497",
-          "out": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"
-        }
-      ]
-    },
-    "uosmo": {
-      "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452": [
-        {
-          "id": "573",
-          "out": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
-        }
-      ]
-    },
-    "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED": {
-      "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452": [
-        {
-          "id": "497",
-          "out": "uosmo"
-        },
-        {
-          "id": "573",
-          "out": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
-        }
-      ]
-    }
-  },
-  "timestamp": "2022-03-21T00:00:00+00:00",
-  "version": {
-    "major": 0,
-    "minor": 1,
-    "patch": 0
-  }
+	"bitsongToken": {
+		"chainID": "bitsong-2b",
+		"logos": {
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/btsg.svg"
+		},
+		"name": "BitSong Testnet",
+		"apiURL": "https://api.fantest-1.bitsong.network",
+		"rpcURL": "https://rpc.fantest-1.bitsong.network",
+		"explorerURL": "https://www.mintscan.io/bitsong/",
+		"minBlockHeight": 1,
+		"symbol": "BTSG",
+		"coinLookup": [
+			{
+				"viewDenom": "BTSG",
+				"chainDenom": "ubtsg",
+				"chainToViewConversionFactor": 1e-6
+			}
+		],
+		"fees": {
+			"default": {
+				"gasEstimate": 350000,
+				"feeOptions": [
+					{
+						"denom": "BTSG",
+						"amount": "0.01",
+						"type": "low"
+					},
+					{
+						"denom": "BTSG",
+						"amount": "0.025",
+						"type": "average"
+					},
+					{
+						"denom": "BTSG",
+						"amount": "0.04",
+						"type": "high"
+					}
+				]
+			}
+		},
+		"addressPrefix": "bitsong",
+		"coinGeckoId": "bitsong",
+		"coinType": 639,
+		"ibc": {
+			"osmosis": {
+				"sourceChannelId": "channel-0",
+				"destChannelId": "channel-8",
+				"destDenom": "ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221",
+				"sourceDenom": "ubtsg"
+			}
+		},
+		"ibcEnabled": true
+	},
+	"osmosisToken": {
+		"chainID": "osmosis-sinfonia-test-2",
+		"logos": {
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/osmo.svg"
+		},
+		"name": "Osmosis Testnet",
+		"apiURL": "https://api.osmo-test.bitsong.network",
+		"rpcURL": "https://rpc.osmo-test.bitsong.network",
+		"explorerURL": "https://www.mintscan.io/osmosis/",
+		"minBlockHeight": 1,
+		"symbol": "OSMO",
+		"coinLookup": [
+			{
+				"viewDenom": "OSMO",
+				"chainDenom": "uosmo",
+				"chainToViewConversionFactor": 1e-6
+			}
+		],
+		"fees": {
+			"default": {
+				"gasEstimate": 250000,
+				"feeOptions": [
+					{
+						"denom": "OSMO",
+						"amount": "0",
+						"type": "low"
+					},
+					{
+						"denom": "OSMO",
+						"amount": "0",
+						"type": "average"
+					},
+					{
+						"denom": "OSMO",
+						"amount": "0",
+						"type": "high"
+					}
+				]
+			}
+		},
+		"addressPrefix": "osmo",
+		"coinGeckoId": "osmosis",
+		"coinType": 118
+	},
+	"tokens": [],
+	"fantokens": [
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/adam.jpeg"
+			},
+			"name": "Adam Clay",
+			"symbol": "CLAY",
+			"coinLookup": [
+				{
+					"viewDenom": "CLAY",
+					"chainDenom": "clay",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/adamclaymusic"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/adamclayreal"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/adamclaymusic"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/19jXtZ3WctjL00MMVqYrv8?si=Q_TJsXqORs6WSkQIV4F9DQ&nd=1"
+					},
+					{
+						"type": "website",
+						"url": "https://www.adamclay.com/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCwnnlm9IXX6L4YjFSJN2GLA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/adam-clay/media/adam-clay-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/carolina-marquez.jpeg"
+			},
+			"name": "Carolina Marquez",
+			"symbol": "CMQZ",
+			"coinLookup": [
+				{
+					"viewDenom": "CMQZ",
+					"chainDenom": "cmqz",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/carolinamarquezOFFICIAL"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/carolinamarquez_official/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/CarolinaMarquez"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/3vrdwWVmzTsSJotjp92OPW?si=uXnjfHebQHyWVX7VRF_sig"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/user/carolinamarquezmusic"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/carolina-marquez/media/carolina-marquez-hero.jpeg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/luca-testa.jpeg"
+			},
+			"name": "Luca Testa",
+			"symbol": "TESTA",
+			"coinLookup": [
+				{
+					"viewDenom": "TESTA",
+					"chainDenom": "testa",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/lucatestamusic"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/lucatestamusic/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/lucatestamusic"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/0Dzj2bn9ivDSjvJVSKL4q7?si=7Hyz17JcSvyxrEVxxX0vrQ"
+					},
+					{
+						"type": "website",
+						"url": "http://www.lucatestamusic.com"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCDCChbAOHKl0-L0V25VFqjA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/adam-clay/media/luca-testa-hero.jpeg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/nicola-fasano.jpeg"
+			},
+			"name": "Nicola Fasano",
+			"symbol": "FASANO",
+			"coinLookup": [
+				{
+					"viewDenom": "FASANO",
+					"chainDenom": "fasano",
+					"fantokenDenom": "ft4130E034E6C7EBABDC4DFD73EC68E5AD46F3AF11",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/E09C137F596003E446B8A87F6429FCB47EA7DD0549E44DCEAA893D0022213E0B",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "8"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/NicolaFasanoOfficial"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/adamclayrealhttps://www.facebook.com/NicolaFasanoOfficial"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/nicolafasano"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/0AJ9YvsEOnAqMB9Q15TfYQ?si=Ums8iHgLSBW2c-f3EiQ8SQ"
+					},
+					{
+						"type": "website",
+						"url": "https://www.nicolafasano.co.uk/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/user/nicolafasano"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/nicola-fasano/media/nicola-fasano-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/delta9.jpeg"
+			},
+			"name": "Delta9 Recordings",
+			"symbol": "D9",
+			"coinLookup": [
+				{
+					"viewDenom": "D9",
+					"chainDenom": "d9",
+					"fantokenDenom": "ft0940D9D09B4622B50FD518AC4803A818301BC23C",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/A7FEA25683CED4D27219CFF6C024E108F5DEFA1E48B039A60B7C18B1C34F2FBC",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "7"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/delta9recordings"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/Delta9Recs"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.facebook.com/delta9recordings"
+					},
+					{
+						"type": "website",
+						"url": "https://www.delta9recordings.com/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/c/Delta9recordings"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/delta9/media/delta9-hero.jpg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/vibranium.jpeg"
+			},
+			"name": "Vibranium",
+			"symbol": "VIBRA",
+			"coinLookup": [
+				{
+					"viewDenom": "VIBRA",
+					"chainDenom": "vibra",
+					"fantokenDenom": "ftA1BE97FD8871105A325C8AA3D46A7B7E1C633CB9",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/46002E7A0CC76317EFE8BAD0F113147CDD60464A10797B2BBD79F900B7626106",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "6"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://facebook.com/vibraniumrec"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/vibraniumrec/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/Vibraniumrec"
+					},
+					{
+						"type": "website",
+						"url": "https://www.vibraniumworld.com/"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCLfKwwIj9aso1dv5IJ565vw"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/vibranium/media/vibranium-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/rawanne.jpeg"
+			},
+			"name": "Rawanne",
+			"symbol": "RWNE",
+			"coinLookup": [
+				{
+					"viewDenom": "RWNE",
+					"chainDenom": "rwne",
+					"fantokenDenom": "ft53AAE3E06B64B90485772AF9B9DC5AA3DE309329",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/14203406ECB9D468618DEA88C4C75A418C77D23376FA588D04F5FF25315A3257",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "3"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/RawanneOfficial/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/Rawanne_music"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/rawanne.official?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/0VtYOiIXEO8qQvRawhPzU2?si=Fl_VlUd8T5q4rnF5hD8aIQ"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCUQbr7Gpt5o_j3IZqGfDwRQ"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/rawanne/media/rawanne-hero.jpg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/blackjack.jpeg"
+			},
+			"name": "BlackJack Records",
+			"symbol": "BJKS",
+			"coinLookup": [
+				{
+					"viewDenom": "BJKS",
+					"chainDenom": "bjks",
+					"fantokenDenom": "ft0BAD4C07FA4C524DAC58DFFDECE76120B744207A",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/0A4701632EED3332CD812498463F09B2247F04AD9BC390D9A0F84F8452F501C4",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/BlackJackRecords/"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/blackjackrecords?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/BlackJackRecor2"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UC21UtREjug3GLyNSCTajw7A"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/bjks/media/bjks-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/fonti.jpeg"
+			},
+			"name": "Fonti",
+			"symbol": "FONTI",
+			"coinLookup": [
+				{
+					"viewDenom": "FONTI",
+					"chainDenom": "fonti",
+					"fantokenDenom": "ft10FC2204B7B92CC34F07299A2734ED39241BEBF8",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/13CE02E61FBD9B29E5499FA967CE601F8AE4B87A546883D152E4376551AE64F3",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "2"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/fontiofficial"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/fontiofficial?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/fontiofficial"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/1wYQzfNKzHpbeE3M1aRXS4?si=AP1gAmCbSliGrrxAnNlpmQ"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/c/GiuseppeFontidj"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fonti/media/fonti-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/puro-lobo.jpeg"
+			},
+			"name": "Puro Lobo",
+			"symbol": "LOBO",
+			"coinLookup": [
+				{
+					"viewDenom": "LOBO",
+					"chainDenom": "lobo",
+					"fantokenDenom": "ft26BA5DBE269175744931A252B2CCAED79BA1DAEF",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/40F989389572752EED5669CFBD1EED2788845501548DACDC40F429F2BFAA65D4",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "5"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/puro.lobo?igshid=YmMyMTA2M2Y="
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/0p07Qhb91JMjS2bzXkbjTA?si=OQKdADHoScm_Jjn7Ms02KA"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCU54EOGi_sRQdorm03Wfm_g"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/purolobo/media/purolobo-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/karina.jpeg"
+			},
+			"name": "Karina",
+			"symbol": "KARINA",
+			"coinLookup": [
+				{
+					"viewDenom": "KARINA",
+					"chainDenom": "karina",
+					"fantokenDenom": "ft54D6D0115B12727F03C5AD2999EF3F2D65837BFD",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "1"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/KarinaE01"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/karinamusic.official/"
+					},
+					{
+						"type": "spotify",
+						"url": "https://open.spotify.com/artist/2Q4JgzofRBSt4jAwNxBV0f?si=CfyQ-WA1QJ-c3Y8K4dXJhw"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCx4jrqPV69SVTvJfHKajduA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/karina/media/karina-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/n43.jpeg"
+			},
+			"name": "N43",
+			"symbol": "N43",
+			"coinLookup": [
+				{
+					"viewDenom": "N43",
+					"chainDenom": "n43",
+					"fantokenDenom": "ft51D275B1F39F25563AA0D032594689E5DFB111CC",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/C98F951D9724303962FA8A8287B12651F9E7A75A9373D05E63E0CCD8D092B73D",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "11"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/N43Records"
+					},
+					{
+						"type": "instagram",
+						"url": "https://www.instagram.com/n43records/"
+					},
+					{
+						"type": "twitter",
+						"url": "https://twitter.com/N43Records"
+					},
+					{
+						"type": "youtube",
+						"url": "https://www.youtube.com/channel/UCRPuOMUvaMuheDEMUubTNqA"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/n43/media/n43-hero.jpg"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/404-deep-records.jpeg"
+			},
+			"name": "404 Deep Records",
+			"symbol": "DEEP",
+			"coinLookup": [
+				{
+					"viewDenom": "DEEP",
+					"chainDenom": "deep",
+					"fantokenDenom": "ftDF19AC652864607CE37AFEF60E16136149A0FDA8",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/219A7DB8B2DBC77557A89A2F30CE7E8D2C3BFBCC797AEE7B340C358A90313E4E",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "4"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/404DeepRecords/"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/404.deep.records?igshid=YmMyMTA2M2Y="
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/fofdr/media/fofdr-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		},
+		{
+			"logos": {
+				"png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/logos/enmoda.jpeg"
+			},
+			"name": "Enmoda",
+			"symbol": "ENMODA",
+			"coinLookup": [
+				{
+					"viewDenom": "ENMODA",
+					"chainDenom": "enmoda",
+					"fantokenDenom": "ftC2E0807AD316D917873D5876705AD837C714477A",
+					"chainToViewConversionFactor": 1e-6
+				}
+			],
+			"ibc": {
+				"osmosis": {
+					"sourceChannelId": "channel-0",
+					"destChannelId": "channel-8",
+					"destDenom": "ibc/B050DCF5F938074C47FC4E6DA5CBFB321C9103745FD8F79FEBE1C27B21AE9AC7",
+					"sourceDenom": "ubtsg"
+				}
+			},
+			"routes": {
+				"poolID": "10"
+			},
+			"ibcEnabled": true,
+			"fantoken": true,
+			"socials": {
+				"mailchimpID": "deaadbfbd5",
+				"links": [
+					{
+						"type": "facebook",
+						"url": "https://www.facebook.com/Enmodamagazine"
+					},
+					{
+						"type": "instagram",
+						"url": "https://instagram.com/enmodamagazine/"
+					},
+					{
+						"type": "website",
+						"url": "http://www.enmodamagazin.com/"
+					}
+				]
+			},
+			"media": {
+				"hero": "https://raw.githubusercontent.com/bitsongofficial/assetlists/testnet/fantokens/enmoda/media/enmoda-hero.png"
+			},
+			"airdrop": {
+				"url": "https://bitsong.io/airdrop/"
+			}
+		}
+	],
+	"pools": [{
+		"id": "1"
+	  }],
+	"routes": {
+		"ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632": {
+			"ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221": [
+				{
+					"id": "1",
+					"out": "ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221"
+				}
+			]
+		},
+		"ibc/8B066EED78CCC6A90E963C81EB4B527C28FE538BE396B8756F4C4BFC53C74221": {
+			"ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632": [
+				{
+					"id": "1",
+					"out": "ibc/161273089ABE9CEA6C5D0F0FDE7D5A2AA146B398326A91D850168A2E0DBEC632"
+				}
+			]
+		}
+	},
+	"timestamp": "2022-03-21T00:00:00+00:00",
+	"version": {
+		"major": 0,
+		"minor": 1,
+		"patch": 0
+	}
 }
