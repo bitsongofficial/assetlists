@@ -44,8 +44,8 @@
 		"coinType": 639,
 		"ibc": {
 			"osmosis": {
-				"sourceChannelId": "channel-0",
-				"destChannelId": "channel-73",
+				"sourceChannelId": "channel-73",
+				"destChannelId": "channel-0",
 				"destDenom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
 				"sourceDenom": "ubtsg"
 			}
