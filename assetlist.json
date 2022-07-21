@@ -2,8 +2,7 @@
 	"bitsongToken": {
 		"chainID": "bitsong-2b",
 		"logos": {
-			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg",
-			"reverse": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg-reverse.svg"
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
 		},
 		"name": "BitSong",
 		"apiURL": "https://lcd.explorebitsong.com",
@@ -56,8 +55,7 @@
 	"osmosisToken": {
 		"chainID": "osmosis-1",
 		"logos": {
-			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg",
-			"reverse": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo-reverse.svg"
+			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/osmo.svg"
 		},
 		"name": "Osmosis",
 		"apiURL": "https://api.osmo-test.bitsong.network",
