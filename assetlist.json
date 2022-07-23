@@ -216,6 +216,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/adam-clay"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -278,6 +281,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/carolina-marquez"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -344,6 +350,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/luca-testa"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -410,6 +419,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/nicola-fasano"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -472,6 +484,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/delta9"
+			},
+			"metadata": {
+				"tags": ["label"]
 			}
 		},
 		{
@@ -534,6 +549,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/vibranium"
+			},
+			"metadata": {
+				"tags": ["label"]
 			}
 		},
 		{
@@ -596,6 +614,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/rawanne"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -654,6 +675,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/blackjack"
+			},
+			"metadata": {
+				"tags": ["label"]
 			}
 		},
 		{
@@ -716,6 +740,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/fonti"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -770,6 +797,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/puro-lobo"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -828,6 +858,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/karina"
+			},
+			"metadata": {
+				"tags": ["artist"]
 			}
 		},
 		{
@@ -886,6 +919,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/n43"
+			},
+			"metadata": {
+				"tags": ["label"]
 			}
 		},
 		{
@@ -936,6 +972,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/404-deep-records"
+			},
+			"metadata": {
+				"tags": ["label"]
 			}
 		},
 		{
@@ -990,6 +1029,9 @@
 			},
 			"whitepaper": {
 				"url": "https://bitsong.io/fantokens/enmoda"
+			},
+			"metadata": {
+				"tags": ["megazine"]
 			}
 		}
 	],
