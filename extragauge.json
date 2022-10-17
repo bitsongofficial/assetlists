@@ -43,57 +43,57 @@
   ],
   "765": [
     {
-      "gaugeId": "4666",
+      "gaugeId": "29778",
       "denom": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07"
     },
     {
-      "gaugeId": "4667",
+      "gaugeId": "29779",
       "denom": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07"
     },
     {
-      "gaugeId": "4668",
+      "gaugeId": "29780",
       "denom": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07"
     }
   ],
   "766": [
     {
-      "gaugeId": "4669",
+      "gaugeId": "29781",
       "denom": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A"
     },
     {
-      "gaugeId": "4670",
+      "gaugeId": "29782",
       "denom": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A"
     },
     {
-      "gaugeId": "4671",
+      "gaugeId": "29783",
       "denom": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A"
     }
   ],
   "767": [
     {
-      "gaugeId": "4672",
+      "gaugeId": "29784",
       "denom": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1"
     },
     {
-      "gaugeId": "4673",
+      "gaugeId": "29785",
       "denom": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1"
     },
     {
-      "gaugeId": "4674",
+      "gaugeId": "29786",
       "denom": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1"
     }
   ],
   "768": [
     {
-      "gaugeId": "4675",
+      "gaugeId": "29787",
       "denom": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853"
     },
     {
-      "gaugeId": "4676",
+      "gaugeId": "29788",
       "denom": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853"
     },
     {
-      "gaugeId": "4677",
+      "gaugeId": "29789",
       "denom": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853"
     }
   ],
