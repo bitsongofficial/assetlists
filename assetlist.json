@@ -50,7 +50,7 @@
 				"sourceDenom": "ubtsg"
 			}
 		},
-		"ibcEnabled": true
+		"ibcEnabled": false
 	},
 	"osmosisToken": {
 		"chainID": "osmosis-1",
@@ -148,7 +148,7 @@
 					"sourceDenom": "uatom"
 				}
 			},
-			"ibcEnabled": true
+			"ibcEnabled": false
 		}
 	],
 	"fantokens": [
@@ -177,7 +177,7 @@
 			"routes": {
 				"poolID": "751"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -246,7 +246,7 @@
 			"routes": {
 				"poolID": "764"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -311,7 +311,7 @@
 			"routes": {
 				"poolID": "763"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -380,7 +380,7 @@
 			"routes": {
 				"poolID": "765"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -449,7 +449,7 @@
 			"routes": {
 				"poolID": "766"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -514,7 +514,7 @@
 			"routes": {
 				"poolID": "761"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -579,7 +579,7 @@
 			"routes": {
 				"poolID": "756"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -644,7 +644,7 @@
 			"routes": {
 				"poolID": "768"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -705,7 +705,7 @@
 			"routes": {
 				"poolID": "767"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -770,7 +770,7 @@
 			"routes": {
 				"poolID": "760"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -827,7 +827,7 @@
 			"routes": {
 				"poolID": "762"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -888,7 +888,7 @@
 			"routes": {
 				"poolID": "759"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -949,7 +949,7 @@
 			"routes": {
 				"poolID": "758"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
@@ -1002,7 +1002,7 @@
 			"routes": {
 				"poolID": "757"
 			},
-			"ibcEnabled": true,
+			"ibcEnabled": false,
 			"fantoken": true,
 			"socials": {
 				"mailchimpID": "deaadbfbd5",
