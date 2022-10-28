@@ -5,8 +5,8 @@
 			"svg": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/btsg.svg"
 		},
 		"name": "BitSong",
-		"apiURL": "https://lcd.explorebitsong.com",
-		"rpcURL": "https://rpc.explorebitsong.com",
+		"apiURL": "https://api.bwasmnet-1.bitsong.network",
+		"rpcURL": "https://rpc.bwasmnet-1.bitsong.network",
 		"explorerURL": "https://www.mintscan.io/bitsong/",
 		"minBlockHeight": 1,
 		"symbol": "BTSG",
