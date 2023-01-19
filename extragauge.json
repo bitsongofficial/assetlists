@@ -29,15 +29,7 @@
   ],
   "751": [
     {
-      "gaugeId": "29775",
-      "denom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B"
-    },
-    {
-      "gaugeId": "29776",
-      "denom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B"
-    },
-    {
-      "gaugeId": "29777",
+      "gaugeId": "30467",
       "denom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B"
     }
   ],
