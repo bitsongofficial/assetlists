@@ -26,7 +26,7 @@
   ],
   "767": [
     {
-      "gaugeId": "31451",
+      "gaugeId": "32640",
       "denom": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1"
     }
   ],
@@ -44,13 +44,13 @@
   ],
   "757": [
     {
-      "gaugeId": "31453",
+      "gaugeId": "32642",
       "denom": "ibc/051A38BBEF92B9D8293AFBE1FA293E704359E9CB28297A0FD5DBA3E9CCEE9AB1"
     }
   ],
   "758": [
     {
-      "gaugeId": "31456",
+      "gaugeId": "32645",
       "denom": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202"
     }
   ],
@@ -62,19 +62,19 @@
   ],
   "760": [
     {
-      "gaugeId": "31452",
+      "gaugeId": "32641",
       "denom": "ibc/C9864D1B9623F703C75BBF72B7FF8A7317E1535C96538D21467A4311246DC3B5"
     }
   ],
   "761": [
     {
-      "gaugeId": "31454",
+      "gaugeId": "32643",
       "denom": "ibc/8A07D4BD40E0F44ECFDF360F7EA7008B288926FB87C54489FE54DB81A5340E0C"
     }
   ],
   "762": [
     {
-      "gaugeId": "31455",
+      "gaugeId": "32644",
       "denom": "ibc/6A6174468758D207DD2D880363BF699C6568A29E87651337AEDAFD9E69EA7E58"
     }
   ],
