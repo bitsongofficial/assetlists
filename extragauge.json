@@ -14,7 +14,7 @@
   ],
   "765": [
     {
-      "gaugeId": "32362",
+      "gaugeId": "34565",
       "denom": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07"
     }
   ],
@@ -80,13 +80,13 @@
   ],
   "763": [
     {
-      "gaugeId": "32361",
+      "gaugeId": "34566",
       "denom": "ibc/022A879A5301CBCACF96216C967805F15C33C615B74DC7236027C1BA1BF664FF"
     }
   ],
   "764": [
     {
-      "gaugeId": "32367",
+      "gaugeId": "34567",
       "denom": "ibc/C1CEF00F016FE89EA6E5B07DA895AACD91B0AAD69A991033D846B988AD4FB69D"
     }
   ],
