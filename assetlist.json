@@ -72,7 +72,7 @@
     ],
     "fees": {
       "default": {
-        "gasEstimate": 250000,
+        "gasEstimate": 350000,
         "feeOptions": [
           {
             "denom": "OSMO",
@@ -152,75 +152,6 @@
     }
   ],
   "fantokens": [
-    {
-      "logos": {
-        "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/ldon.jpeg"
-      },
-      "name": "L DON (discontinued)",
-      "symbol": "LDON",
-      "coinLookup": [
-        {
-          "viewDenom": "LDON",
-          "chainDenom": "ldon",
-          "fantokenDenom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00",
-          "chainToViewConversionFactor": 1e-6
-        }
-      ],
-      "ibc": {
-        "osmosis": {
-          "sourceChannelId": "channel-73",
-          "destChannelId": "channel-0",
-          "destDenom": "ibc/BE95D1E09F5A44FC5409F4E0F52750DF2A868D865BC91F3C3EE3C83235789D18",
-          "sourceDenom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00"
-        }
-      },
-      "routes": {
-        "poolID": "904"
-      },
-      "ibcEnabled": true,
-      "fantoken": true,
-      "socials": {
-        "mailchimpID": "deaadbfbd5",
-        "links": [
-          {
-            "type": "facebook",
-            "url": "https://facebook.com/iamldon"
-          },
-          {
-            "type": "instagram",
-            "url": "https://instagram.com/iamldon"
-          },
-          {
-            "type": "twitter",
-            "url": "https://twitter.com/iamldon"
-          },
-          {
-            "type": "spotify",
-            "url": "https://open.spotify.com/artist/23UH3EzuUxYYY8ffovT7i1?si=YrexP6c7QIWru9fe4Zr6mQ"
-          },
-          {
-            "type": "website",
-            "url": "https://iamldon.com"
-          },
-          {
-            "type": "youtube",
-            "url": "https://www.youtube.com/channel/UCW3Xq0sEkHzUKhwdI9y8T4w"
-          }
-        ]
-      },
-      "media": {
-        "hero": ""
-      },
-      "airdrop": {
-        "url": ""
-      },
-      "whitepaper": {
-        "url": "https://bitsong.io/fantokens/ldon"
-      },
-      "metadata": {
-        "tags": ["discontinued"]
-      }
-    },
     {
       "logos": {
         "png": "https://raw.githubusercontent.com/bitsongofficial/assetlists/main/logos/adam.jpeg"
