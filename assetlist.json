@@ -72,7 +72,7 @@
     ],
     "fees": {
       "default": {
-        "gasEstimate": 475000,
+        "gasEstimate": 1900000,
         "feeOptions": [
           {
             "denom": "OSMO",
