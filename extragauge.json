@@ -8,7 +8,7 @@
   "574": [],
   "751": [
     {
-      "gaugeId": "37809",
+      "gaugeId": "38446",
       "denom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B"
     }
   ],
@@ -50,13 +50,13 @@
   ],
   "758": [
     {
-      "gaugeId": "37812",
+      "gaugeId": "38448",
       "denom": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202"
     }
   ],
   "759": [
     {
-      "gaugeId": "37822",
+      "gaugeId": "38447",
       "denom": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58"
     }
   ],
